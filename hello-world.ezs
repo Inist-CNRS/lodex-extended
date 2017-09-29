@@ -1,0 +1,19 @@
+# Hello world in each doc
+
+extension = js
+mimeType = application/json
+
+[use]
+plugin = basics
+
+[replace]
+path = word1
+value = Hello
+
+[assign]
+path = word2
+value = World
+
+[JSONString]
+indent = true
+
