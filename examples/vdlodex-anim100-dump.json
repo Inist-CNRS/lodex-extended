@@ -1,0 +1,7 @@
+[{
+	"instance": "graphiquef2-anim100",
+	"server": "192.168.31.175:49173",
+	"routine": "/api/run/all-documents",
+	"maxSize": 200,
+	"orderBy": "id/desc"
+}]
