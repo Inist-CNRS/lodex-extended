@@ -2,6 +2,6 @@
 	"instance": "lodex",
 	"server": "localhost",
 	"routine": "/api/run/tree-by-2/FYbD",
-	"maxSize": 500,
+	"maxSize": 5,
 	"orderBy": "target/desc"
 }]
