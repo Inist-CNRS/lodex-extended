@@ -159,5 +159,11 @@
 		"maxSize": 200,
 		"minValue": 100,
 		"orderBy": "value/desc"
+	},
+
+	{
+		"instance": "lodex",
+		"server": "localhost",
+		"routine": "/api/run/tree-by/FYbD"
 	}
 ]
