@@ -13,5 +13,7 @@ npm install
 2. Run it
 
 ```
-npx ezs init.ini run.ini < examples/localhost-lodex-dump.json |jq .
+ezs init.ini run.ini < examples/localhost-lodex-dump.json |jq .
+
+jq '.[15:]' examples/localhost-lodex-anim100.json|ezs init.ini run.ini|jq .
 ```
