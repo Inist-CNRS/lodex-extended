@@ -16,4 +16,5 @@ npm install
 ezs init.ini run.ini < examples/localhost-lodex-dump.json |jq .
 
 jq '.[15:]' examples/localhost-lodex-anim100.json|ezs init.ini run.ini|jq .
+jq '.[2:]' examples/vdlodex-graphiquef2-anim100.json |ezs init.ini run.ini|jq .
 ```

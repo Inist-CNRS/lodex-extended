@@ -1,6 +1,6 @@
 [{
 	"instance": "graphiquef2-anim100",
-	"server": "192.168.31.175:49173",
+	"server": "lodex-workers.lodex-dev.inist.fr:80",
 	"routine": "/api/run/tree-by/FYbD",
 	"maxSize": 500,
 	"orderBy": "target/desc"
