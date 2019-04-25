@@ -8,7 +8,13 @@
     "test": "tests"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "ezs": "9.1.0",
+    "ezs-basics": "3.8.1",
+    "ezs-istex": "6.1.0",
+    "ezs-lodex": "3.0.0",
+    "jest": "24.7.1"
+  },
   "scripts": {
     "test": "jest"
   },
