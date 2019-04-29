@@ -1,7 +1,7 @@
 const ezs = require('ezs');
 const from = require('from');
 
-const config = {
+const localConfig = {
     cleanHost: '',
     schemeForDatasetLink: '',
 };
@@ -34,7 +34,7 @@ const fields = [
 test('export a single data property', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: 'Terminator' }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { config, fields: fields.slice(0, 1) }))
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { localConfig, fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -53,7 +53,7 @@ test('export an object property (with a class)', done => {
         propa: 'label a',
         propb: 'value 2',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { config, fields: fields.slice(1, 3) }))
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { localConfig, fields: fields.slice(1, 3) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -79,7 +79,7 @@ test('export a composed object property (with a class)', done => {
         propc: 'value 2',
     }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            config,
+            localConfig,
             fields: [
                 {
                     cover: 'collection',
@@ -122,7 +122,7 @@ test('export a composed object property (with a class)', done => {
 test('don\'t export a single data property without value', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: null }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { config, fields: fields.slice(0, 1) }))
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { localConfig, fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -142,7 +142,7 @@ test('export a composed object property (with a class) without number in sub-dom
         propc: 'value 2',
     }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            config,
+            localConfig,
             fields: [
                 {
                     cover: 'collection',
@@ -192,7 +192,7 @@ test('export an annotating property without number in sub-domain', done => {
         ],
     }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            config,
+            localConfig,
             fields: [
                 {
                     cover: 'collection',
@@ -221,6 +221,34 @@ test('export an annotating property without number in sub-domain', done => {
                 `<http://a-b.c.d.e/1#complete/${completing}> <http://www.w3.org/2000/01/rdf-schema#label> "La chimie minérale (= inorganique) étudie ..." .`,
                 `<http://a-b.c.d.e/1> <http://purl.org/dc/terms/description> <http://a-b.c.d.e/1#complete/${completing}> .`,
                 '',
+            ]);
+            done();
+        })
+        .on('error', done);
+});
+
+test('export a single data property with dataset', done => {
+    let outputString = '';
+    from([{ uri: 'http://data.istex.fr', Q98n: 'Terminator' }])
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
+            localConfig: {
+                cleanHost: 'http://dataset.uri',
+                exportDataset: true,
+                schemeForDatasetLink: 'http://www.w3.org/2004/02/skos/core#inScheme',
+                datasetClass: 'http://test.fr/datasetClass'
+            },
+            fields: fields.slice(0, 1),
+        }))
+        .on('data', data => {
+            if (data) outputString += data;
+        })
+        .on('end', () => {
+            const res = outputString.split('\n');
+            expect(res).toEqual([
+                '<http://data.istex.fr> <http://purl.org/dc/terms/title> "Terminator" .',
+                '<http://data.istex.fr> <http://www.w3.org/2004/02/skos/core#inScheme> <http://dataset.uri> .',
+                '<http://dataset.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.fr/datasetClass> .',
+                ''
             ]);
             done();
         })
