@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 describe('rdf.ini', () => {
     it('should parse a RDF XML', done => {

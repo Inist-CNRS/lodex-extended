@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 // This test queries the ISTEX API, I don't know if I let it here
 // Two choices:

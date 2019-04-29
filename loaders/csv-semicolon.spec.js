@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 describe('csv-semicolon.ini', () => {
     it('should parse a CSV with a semicolon as separator', done => {

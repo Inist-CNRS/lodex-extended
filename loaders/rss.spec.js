@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 describe('rss.ini', () => {
     it('should parse a RSS XML', done => {
