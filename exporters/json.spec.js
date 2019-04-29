@@ -61,9 +61,6 @@ const fields = [
 
 test('export single resource', done => {
     let outputString = '';
-    const localConfig = {
-        cleanHost: 'http://project-study-1',
-    };
     from([{
         uri: 'http://data.istex.fr',
         Q98n: 'Terminator',
