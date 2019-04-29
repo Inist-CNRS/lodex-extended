@@ -1,7 +1,7 @@
 const ezs = require('ezs');
 const from = require('from');
 
-test('export a feed', done => {
+test.skip('export a feed', done => {
     let outputString = '';
     const localConfig = {
         cleanHost: 'http://project-study-1',
@@ -19,7 +19,7 @@ test('export a feed', done => {
         .on('error', done);
 });
 
-test('export a feed containing the last data', done => {
+test.skip('export a feed containing the last data', done => {
     let outputString = '';
     const localConfig = {
         cleanHost: 'http://project-study-1',
