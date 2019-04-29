@@ -40,8 +40,7 @@ test('export a single data property', done => {
         })
         .on('end', () => {
             const res = outputString.split('\n');
-            expect(res).toHaveLength(2);
-            expect(res[0]).toEqual('<http://data.istex.fr> <http://purl.org/dc/terms/title> "Terminator" .');
+            expect(res).toEqual(['<http://data.istex.fr> <http://purl.org/dc/terms/title> "Terminator" .', '']);
             done();
         })
         .on('error', done);
@@ -60,7 +59,6 @@ test('export an object property (with a class)', done => {
         })
         .on('end', () => {
             const res = outputString.split('\n');
-            expect(res).toHaveLength(4);
             expect(res).toEqual([
                 '<http://uri/1#compose/propa> <http://property/b> "value 2" .',
                 '<http://uri/1#compose/propa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://class/2> .',
@@ -109,7 +107,6 @@ test('export a composed object property (with a class)', done => {
         })
         .on('end', () => {
             const res = outputString.split('\n');
-            expect(res).toHaveLength(5);
             expect(res).toEqual([
                 '<http://uri/1#compose/propcomposed> <http://property/b> "value 1" .',
                 '<http://uri/1#compose/propcomposed> <http://property/c> "value 2" .',
@@ -229,4 +226,3 @@ test('export an annotating property without number in sub-domain', done => {
         })
         .on('error', done);
 });
-
