@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 describe('csv-comma.ini', () => {
     it('should parse a CSV', done => {

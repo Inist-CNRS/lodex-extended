@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 describe('json-lodex.ini', () => {
     it('should parse a JSON', done => {

@@ -1,5 +1,5 @@
-import ezs from 'ezs';
-import from from 'from';
+const ezs = require('ezs');
+const from = require('from');
 
 describe('atom.ini', () => {
     it('should parse an ATOM XML feed', done => {
