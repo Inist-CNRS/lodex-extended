@@ -50,7 +50,7 @@ test('export dataset characteristics too', done => {
         schemeForDatasetLink: 'http://scheme.for.dataset/link',
         datasetClass: 'http://dataset.class',
         collectionClass: 'http://collection.class',
-        exportDataset: true,
+        exportDataset: 'true',
     };
     const characteristics = [{
         qW6w: 'Dataset Title',
