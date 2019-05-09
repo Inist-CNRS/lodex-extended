@@ -240,7 +240,18 @@ test('export a single data property with dataset', done => {
                 datasetClass: 'http://test.fr/datasetClass',
                 collectionClass: 'http://collection.class',
             },
-            fields: fields.slice(0, 1),
+            fields: [
+                {
+                    cover: 'collection',
+                    scheme: 'http://purl.org/dc/terms/title',
+                    name: 'Q98n',
+                },
+                {
+                    cover: 'dataset',
+                    scheme: 'http://purl.org/dc/terms/title',
+                    name: 'qW6w',
+                },
+            ],
             characteristics: [{
                 qW6w: 'Dataset Title',
             }]
@@ -251,8 +262,8 @@ test('export a single data property with dataset', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '<http://dataset.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.fr/datasetClass> .',
                 '<http://dataset.uri> <http://purl.org/dc/terms/title> "Dataset Title" .',
+                '<http://dataset.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.fr/datasetClass> .',
                 '<http://resource.uri> <http://purl.org/dc/terms/title> "Terminator" .',
                 '<http://resource.uri> <http://scheme.for.dataset/link> <http://dataset.uri> .',
                 '<http://resource.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://collection.class> .',
