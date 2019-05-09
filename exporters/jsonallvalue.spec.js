@@ -66,7 +66,7 @@ test('export single resource', done => {
         Q98n: 'Terminator',
         JDGh: 'Description',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/json.ini' }, { localConfig: {}, fields }))
+        .pipe(ezs('delegate', { file: __dirname + '/jsonallvalue.ini' }, { localConfig: {}, fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
