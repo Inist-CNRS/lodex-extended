@@ -4,20 +4,12 @@ const from = require('from');
 const fields = [
     {
         cover: 'collection',
-        label: 'title',
         scheme: 'http://purl.org/dc/terms/title',
-        format: {
-            name: 'None',
-        },
         name: 'Q98n',
     },
     {
         cover: 'dataset',
-        label: 'datasetTitle',
         scheme: 'http://purl.org/dc/terms/title',
-        format: {
-            name: 'None',
-        },
         name: 'qW6w',
     },
 ];
