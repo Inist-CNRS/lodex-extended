@@ -10,9 +10,6 @@ const fields = [
     {
         cover: 'collection',
         scheme: 'http://purl.org/dc/terms/title',
-        format: {
-            name: 'None',
-        },
         name: 'Q98n',
     },
     {
@@ -28,6 +25,11 @@ const fields = [
         cover: 'collection',
         scheme: 'http://property/b',
         name: 'propb',
+    },
+    {
+        cover: 'dataset',
+        scheme: 'http://purl.org/dc/terms/title',
+        name: 'qW6w',
     },
 ];
 
@@ -229,15 +231,19 @@ test('export an annotating property without number in sub-domain', done => {
 
 test('export a single data property with dataset', done => {
     let outputString = '';
-    from([{ uri: 'http://data.istex.fr', Q98n: 'Terminator' }])
+    from([{ uri: 'http://resource.uri', Q98n: 'Terminator', qW6w: 'Dataset Title' }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
             localConfig: {
                 cleanHost: 'http://dataset.uri',
-                exportDataset: true,
-                schemeForDatasetLink: 'http://www.w3.org/2004/02/skos/core#inScheme',
-                datasetClass: 'http://test.fr/datasetClass'
+                exportDataset: 'true',
+                schemeForDatasetLink: 'http://scheme.for.dataset/link',
+                datasetClass: 'http://test.fr/datasetClass',
+                collectionClass: 'http://collection.class',
             },
             fields: fields.slice(0, 1),
+            characteristics: [{
+                qW6w: 'Dataset Title',
+            }]
         }))
         .on('data', data => {
             if (data) outputString += data;
@@ -245,9 +251,11 @@ test('export a single data property with dataset', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '<http://data.istex.fr> <http://purl.org/dc/terms/title> "Terminator" .',
-                '<http://data.istex.fr> <http://www.w3.org/2004/02/skos/core#inScheme> <http://dataset.uri> .',
                 '<http://dataset.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.fr/datasetClass> .',
+                '<http://dataset.uri> <http://purl.org/dc/terms/title> "Dataset Title" .',
+                '<http://resource.uri> <http://purl.org/dc/terms/title> "Terminator" .',
+                '<http://resource.uri> <http://scheme.for.dataset/link> <http://dataset.uri> .',
+                '<http://resource.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://collection.class> .',
                 ''
             ]);
             done();
