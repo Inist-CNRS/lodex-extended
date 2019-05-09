@@ -7,7 +7,7 @@ They are aimed to be served by a static web server, that an ezs server can also 
 ## Install
 
 ```bash
-git checkout https://github.com/Inist-CNRS/lodex-extented
+git checkout https://github.com/Inist-CNRS/lodex-extended
 npm install ezs ezs-basics
 ```
 
@@ -56,3 +56,19 @@ ezs init.ini run.ini < config.json
 ```
 
 from the root of this repository.
+
+## Contribute
+
+First install:
+
+```bash
+npm install
+```
+
+Write your scripts.
+
+Then, write and use tests:
+
+```bash
+npm test
+```

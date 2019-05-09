@@ -1,5 +1,5 @@
 {
-  "name": "lodex-extented",
+  "name": "lodex-extended",
   "version": "1.0.0",
   "description": "LODEX EZS scripts",
   "main": "index.js",
@@ -9,19 +9,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ezs": "9.1.0",
+    "ezs": "9.3.0",
     "ezs-basics": "3.8.1",
     "ezs-istex": "6.1.0",
     "ezs-lodex": "3.0.0",
     "from": "0.1.7",
-    "jest": "24.7.1"
+    "jest": "24.8.0"
   },
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Inist-CNRS/lodex-extented.git"
+    "url": "git+https://github.com/Inist-CNRS/lodex-extended.git"
   },
   "keywords": [
     "lodex",
@@ -31,7 +31,7 @@
   "author": "François PARMENTIER <francois.parmentier@gmail.com>",
   "license": "CECILL-2.1",
   "bugs": {
-    "url": "https://github.com/Inist-CNRS/lodex-extented/issues"
+    "url": "https://github.com/Inist-CNRS/lodex-extended/issues"
   },
-  "homepage": "https://github.com/Inist-CNRS/lodex-extented#readme"
+  "homepage": "https://github.com/Inist-CNRS/lodex-extended#readme"
 }
