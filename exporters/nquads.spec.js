@@ -36,7 +36,7 @@ const fields = [
 test('export a single data property', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: 'Terminator' }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { localConfig, fields: fields.slice(0, 1) }))
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -55,7 +55,7 @@ test('export an object property (with a class)', done => {
         propa: 'label a',
         propb: 'value 2',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { localConfig, fields: fields.slice(1, 3) }))
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { fields: fields.slice(1, 3) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -81,7 +81,6 @@ test('export a composed object property (with a class)', done => {
         propc: 'value 2',
     }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            localConfig,
             fields: [
                 {
                     cover: 'collection',
@@ -124,7 +123,7 @@ test('export a composed object property (with a class)', done => {
 test('don\'t export a single data property without value', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: null }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { localConfig, fields: fields.slice(0, 1) }))
+        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -144,7 +143,6 @@ test('export a composed object property (with a class) without number in sub-dom
         propc: 'value 2',
     }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            localConfig,
             fields: [
                 {
                     cover: 'collection',
@@ -194,7 +192,6 @@ test('export an annotating property without number in sub-domain', done => {
         ],
     }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            localConfig,
             fields: [
                 {
                     cover: 'collection',
@@ -233,13 +230,11 @@ test('export a single data property with dataset', done => {
     let outputString = '';
     from([{ uri: 'http://resource.uri', Q98n: 'Terminator', qW6w: 'Dataset Title' }])
         .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
-            localConfig: {
-                cleanHost: 'http://dataset.uri',
-                exportDataset: 'true',
-                schemeForDatasetLink: 'http://scheme.for.dataset/link',
-                datasetClass: 'http://test.fr/datasetClass',
-                collectionClass: 'http://collection.class',
-            },
+            cleanHost: 'http://dataset.uri',
+            exportDataset: 'true',
+            schemeForDatasetLink: 'http://scheme.for.dataset/link',
+            datasetClass: 'http://test.fr/datasetClass',
+            collectionClass: 'http://collection.class',
             fields: [
                 {
                     cover: 'collection',
