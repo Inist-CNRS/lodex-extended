@@ -16,15 +16,11 @@ const fields = [
 
 test('export single property', done => {
     let outputString = '';
-    const localConfig = {
-        cleanHost: '',
-        schemeForDatasetLink: '',
-    };
     from([{
         uri: 'http://data.istex.fr',
         Q98n: 'Terminator',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/jsonld.ini' }, { localConfig, fields }))
+        .pipe(ezs('delegate', { file: __dirname + '/jsonld.ini' }, { fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -37,13 +33,6 @@ test('export single property', done => {
 
 test('export dataset characteristics too', done => {
     let outputString = '';
-    const localConfig = {
-        cleanHost: 'http://data.istex.fr',
-        schemeForDatasetLink: 'http://scheme.for.dataset/link',
-        datasetClass: 'http://dataset.class',
-        collectionClass: 'http://collection.class',
-        exportDataset: 'true',
-    };
     const characteristics = [{
         qW6w: 'Dataset Title',
     }];
@@ -52,7 +41,14 @@ test('export dataset characteristics too', done => {
         Q98n: 'Terminator',
         qW6w: 'Dataset Title',
     }])
-    .pipe(ezs('delegate', { file: __dirname + '/jsonld.ini' }, { localConfig, fields, characteristics }))
+    .pipe(ezs('delegate', { file: __dirname + '/jsonld.ini' }, {
+        cleanHost: 'http://data.istex.fr',
+        schemeForDatasetLink: 'http://scheme.for.dataset/link',
+        datasetClass: 'http://dataset.class',
+        collectionClass: 'http://collection.class',
+        exportDataset: 'true',
+        fields,
+        characteristics }))
     .on('data', data => {
         if (data) outputString += data;
     })
