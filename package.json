@@ -12,7 +12,7 @@
     "ezs": "9.3.0",
     "ezs-basics": "3.8.1",
     "ezs-istex": "6.1.0",
-    "ezs-lodex": "3.0.0",
+    "ezs-lodex": "5.0.0",
     "from": "0.1.7",
     "jest": "24.8.0"
   },

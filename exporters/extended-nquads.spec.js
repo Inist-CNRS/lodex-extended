@@ -5,15 +5,11 @@ ezs.use(require('ezs-basics'));
 ezs.use(require('ezs-lodex'));
 ezs.use(require('ezs-istex'));
 
-const config = {
-    istexQuery: {
-        labels: 'query',
-        linked: 'language',
-        context: {
-            language: 'http://uri/language',
-            title:'http://uri/title',
-        }
-    }
+const labels = 'query';
+const linked = 'language';
+const context = {
+    language: 'http://uri/language',
+    title:'http://uri/title',
 };
 const fields = [{
     name: 'istexQuery',
@@ -32,7 +28,7 @@ test('export single resource', done => {
         title: 'First title',
         istexQuery: 'language.raw:rum',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads.ini' }, { localConfig: config, fields }))
+        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads.ini' }, { labels, linked, context, fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -56,7 +52,7 @@ test('export two resources', done => {
         title: 'Second title',
         istexQuery: 'language.raw:san',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads.ini' }, { localConfig: config, fields }))
+        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads.ini' }, { labels, linked, context, fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -77,7 +73,7 @@ test('export single resource with more documents', done => {
         title: 'First title',
         istexQuery: 'language.raw:cat',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads.ini' }, { localConfig: config, fields }))
+        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads.ini' }, { labels, linked, context, fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
