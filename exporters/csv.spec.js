@@ -87,3 +87,33 @@ test('export in CSV resources containing quotes', done => {
         })
         .on('error', done);
 });
+
+test('export in CSV resources containing semicolon', done => {
+    let outputString = '';
+    from([
+        {
+            uri: 'http://resource.uri/1',
+            title: 'first;resource',
+        },
+        {
+            uri: 'http://resource.uri/2',
+            title: 'second resource',
+        },
+    ])
+        .pipe(ezs('delegate', { file: __dirname + '/csv.ini' }))
+        .on('data', data => {
+            if (data) outputString += data;
+        })
+        .on('end', () => {
+            const res = outputString.split('\r\n');
+            expect(res).toHaveLength(4);
+            expect(res).toEqual([
+                'uri;title',
+                'http://resource.uri/1;"first;resource"',
+                'http://resource.uri/2;second resource',
+                '',
+            ]);
+            done();
+        })
+        .on('error', done);
+});
