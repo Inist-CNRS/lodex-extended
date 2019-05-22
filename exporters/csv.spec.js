@@ -117,3 +117,39 @@ test('export in CSV resources containing semicolon', done => {
         })
         .on('error', done);
 });
+
+test('export CSV with labels in header', done => {
+    let outputString = '';
+    from([
+        {
+            uri: 'http://resource.uri/1',
+            AbCd: 'first;resource',
+        },
+        {
+            uri: 'http://resource.uri/2',
+            AbCd: 'second resource',
+        },
+    ])
+        .pipe(
+            ezs(
+                'delegate',
+                { file: __dirname + '/csv.ini' },
+                { fields: [{ name: 'AbCd', label: 'Title' }] },
+            ),
+        )
+        .on('data', data => {
+            if (data) outputString += data;
+        })
+        .on('end', () => {
+            const res = outputString.split('\r\n');
+            expect(res).toHaveLength(4);
+            expect(res).toEqual([
+                'uri;Title',
+                'http://resource.uri/1;"first;resource"',
+                'http://resource.uri/2;second resource',
+                '',
+            ]);
+            done();
+        })
+        .on('error', done);
+});
