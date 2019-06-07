@@ -79,7 +79,7 @@ test('export single resource with more documents', done => {
         })
         .on('end', () => {
             const res = outputString.split('\n');
-            expect(res).toHaveLength(9);
+            expect(res).toHaveLength(10);
             expect(res[0]).toEqual('<https://api.istex.fr/ark:/67375/8QZ-ZD0W8F1F-N> <http://uri/language> <http://uri/cat> .');
             expect(res[1]).toEqual('<https://api.istex.fr/ark:/67375/8QZ-D0VV05V0-2> <http://uri/language> <http://uri/cat> .');
             expect(res[2]).toEqual('<https://api.istex.fr/ark:/67375/8QZ-G1FHMTKW-9> <http://uri/language> <http://uri/cat> .');
