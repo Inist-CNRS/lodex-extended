@@ -1,3 +1,4 @@
+const zlib = require('zlib');
 const from = require('from');
 const ezs = require('ezs');
 
@@ -28,7 +29,7 @@ test('export single resource', done => {
             'delegate',
             { file: __dirname + '/extended-nquads-compressed.ini' },
             { labels, linked, context, fields }))
-        .pipe(ezs.uncompress())
+        .pipe(zlib.createGunzip())
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -53,7 +54,7 @@ test('export two resources', done => {
         istexQuery: 'language.raw:san',
     }])
         .pipe(ezs('delegate', { file: __dirname + '/extended-nquads-compressed.ini' }, { labels, linked, context, fields }))
-        .pipe(ezs.uncompress())
+        .pipe(zlib.createGunzip())
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -75,7 +76,7 @@ test('export single resource with more documents', done => {
         istexQuery: 'language.raw:cat',
     }])
         .pipe(ezs('delegate', { file: __dirname + '/extended-nquads-compressed.ini' }, { labels, linked, context, fields }))
-        .pipe(ezs.uncompress())
+        .pipe(zlib.createGunzip())
         .on('data', data => {
             if (data) outputString += data;
         })
