@@ -15,9 +15,9 @@ Donne, pour tout le corpus, le contenu de tous les documents en JSON.
 ## count-all.ini
 Compte le nombre de documents du corpus.
 
-Elle peut être utilisée, par exemple, avec le format Text - Emphased Number (Texte - Chiffre en gras) pour afficher le nombre de documents sur la page d'accueil de l'instance.
+Elle peut être utilisée, par exemple, avec le format [Text - Emphased Number](https://lodex.gitbook.io/lodex-user-documentation/administration/modele/format/emphasednumber) (Texte - Chiffre en gras) pour afficher le nombre de documents sur la page d'accueil de l'instance.
 
-Elle doit alors être déclarée dans Value (Valeur) selon : /api/run/count-all/
+Elle doit alors être déclarée dans `Value` (Valeur) selon : /api/run/count-all/
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/count-all/)
 
@@ -26,8 +26,9 @@ Compte le nombre de documents du corpus pour chacun des identifiants des champs 
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/count-by-fields/)
 
-
 ## cross-by.ini
+
+## distinct-by.ini
 Compte, pour chaque élément du champ représenté (identifiant), le nombre de fois où cet élément apparaît selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
