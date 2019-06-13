@@ -3,7 +3,7 @@
 Ce répertoire contient les routines pour [ezs](https://github.com/touv/node-ezs).
 Elles sont destinées à fonctionner sur un serveur web statique et un serveur ezs peut les exécuter aussi.
 
-## all-documents.ini 
+## all-documents.ini
 Donne, pour tout le corpus, le contenu de tous les documents en JSON.
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/all-documents/)
@@ -118,6 +118,49 @@ Transforme les codes ISO 3 des pays du champ représenté en leurs codes ISO 2 e
 ## distribute-by-decadal.ini
 
 ## distribute-by-interval.ini
+
+## get-fields.ini
+
+pour utiliser des nombres affectés à des champs des ressources (pas de comptage,
+utilise la valeur numérique du champ), il faut pouvoir générér des paires `_id`
+/ `value` contenant les valeurs de deux champs (en général, un libellé et un
+nombre, par exemple pour un camembert).
+
+Pour sélectionner le libellé, on donne l'identifiant du champ contenant le
+libellé comme `identifiant1`, puis on ajoute l'identifiant du champ contenant la
+valeur numérique comme `identifiant2`.
+
+/api/run/get-fields/**identifiant1/identifiant2**/
+
+Exemples de ressources:
+
+```tsv
+nom de fichier	Unitex-anglais	Unitex-français
+wiley	4460007	12832
+elsevier	5879095	82652
+springer-journals	1424762	20131
+```
+
+résultat de la routine:
+
+```json
+{
+  "data": [
+    {
+      "_id": "wiley",
+      "value": 4460007
+    },
+    {
+      "_id": "elsevier",
+      "value": 5879095
+    },
+    {
+      "_id": "springer-journals",
+      "value": 1424762
+    }
+  ]
+}
+```
 
 ## [graph-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/graphby.html)
 
