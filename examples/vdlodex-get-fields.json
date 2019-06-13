@@ -1,0 +1,6 @@
+[{
+	"instance": "essai-enrichissements",
+	"server": "192.168.31.175:49190",
+	"routine": "/api/run/get-fields/I9Of/gSqF",
+    "maxSize": 5
+}]
