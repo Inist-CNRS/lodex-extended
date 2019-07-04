@@ -5,7 +5,7 @@ describe('zip.ini', () => {
     it('should unzip a zip file containing JSON files', done => {
         const res = [];
         fs.createReadStream(__dirname + '/fixture-10.zip')
-            .pipe(ezs('delegate', { file: __dirname + '/zip.ini' }))
+            .pipe(ezs('delegate', { file: __dirname + '/zip-raw.ini' }))
             .on('data', chunk => {
                 res.push(chunk);
             })
