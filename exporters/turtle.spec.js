@@ -43,9 +43,9 @@ test('export a single data property', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '@prefix dc: <http://purl.org/dc/terms/> .',
+                '@prefix dcterms: <http://purl.org/dc/terms/>.',
                 '',
-                '<http://data.istex.fr> dc:title "Terminator" .',
+                '<http://data.istex.fr> dcterms:title "Terminator".',
                 ''
             ]);
             done();
@@ -67,13 +67,11 @@ test('export an object property (with a class)', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '@prefix ns0: <http://property/> .',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
                 '',
-                '<http://uri/1#compose/propa>',
-                '  ns0:b "value 2" ;',
-                '  a <http://class/2> .',
-                '',
-                '<http://uri/1> ns0:a <http://uri/1#compose/propa> .',
+                '<http://uri/1#compose/propa> <http://property/b> "value 2";',
+                '    a <http://class/2>.',
+                '<http://uri/1> <http://property/a> <http://uri/1#compose/propa>.',
                 ''
             ]);
             done();
@@ -118,14 +116,12 @@ test('export a composed object property (with a class)', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '@prefix ns0: <http://property/> .',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
                 '',
-                '<http://uri/1#compose/propcomposed>',
-                '  ns0:b "value 1" ;',
-                '  ns0:c "value 2" ;',
-                '  a <http://class/composed> .',
-                '',
-                '<http://uri/1> ns0:composed <http://uri/1#compose/propcomposed> .',
+                '<http://uri/1#compose/propcomposed> <http://property/b> "value 1";',
+                '    <http://property/c> "value 2";',
+                '    a <http://class/composed>.',
+                '<http://uri/1> <http://property/composed> <http://uri/1#compose/propcomposed>.',
                 '',
             ]);
             done();
@@ -184,14 +180,12 @@ test('export a composed object property (with a class) without number in sub-dom
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '@prefix ns0: <http://property/> .',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
                 '',
-                '<http://a-b.c.d.e/1#compose/propcomposed>',
-                '  ns0:b "value 1" ;',
-                '  ns0:c "value 2" ;',
-                '  a <http://class/composed> .',
-                '',
-                '<http://a-b.c.d.e/1> ns0:composed <http://a-b.c.d.e/1#compose/propcomposed> .',
+                '<http://a-b.c.d.e/1#compose/propcomposed> <http://property/b> "value 1";',
+                '    <http://property/c> "value 2";',
+                '    a <http://class/composed>.',
+                '<http://a-b.c.d.e/1> <http://property/composed> <http://a-b.c.d.e/1#compose/propcomposed>.',
                 '',
             ]);
             done();
@@ -233,14 +227,12 @@ test('export an annotating property without number in sub-domain', done => {
                 outputString,
             )[1];
             expect(res).toEqual([
-                '@prefix dc: <http://purl.org/dc/terms/> .',
-                '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .',
+                '@prefix dcterms: <http://purl.org/dc/terms/>.',
+                '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.',
                 '',
-                '<http://a-b.c.d.e/1#complete/${completing}>',
-                '  dc:source <https://fr.wikipedia.org/wiki/Chimie_inorganique> ;',
-                '  rdfs:label "La chimie minérale (= inorganique) étudie ..." .',
-                '',
-                '<http://a-b.c.d.e/1> dc:description <http://a-b.c.d.e/1#complete/${completing}> .',
+                `<http://a-b.c.d.e/1#complete/${completing}> dcterms:source <https://fr.wikipedia.org/wiki/Chimie_inorganique>;`,
+                '    rdfs:label "La chimie minérale (= inorganique) étudie ...".',
+                `<http://a-b.c.d.e/1> dcterms:description <http://a-b.c.d.e/1#complete/${completing}>.`,
                 '',
             ]);
             done();
@@ -279,17 +271,14 @@ test('export a single data property with dataset', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '@prefix dc: <http://purl.org/dc/terms/> .',
-                '@prefix ns0: <http://scheme.for.dataset/> .',
+                '@prefix dcterms: <http://purl.org/dc/terms/>.',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
                 '',
-                '<http://dataset.uri>',
-                '  dc:title "Dataset Title" ;',
-                '  a <http://test.fr/datasetClass> .',
-                '',
-                '<http://resource.uri>',
-                '  dc:title "Terminator" ;',
-                '  ns0:link <http://dataset.uri> ;',
-                '  a <http://collection.class> .',
+                '<http://dataset.uri> dcterms:title "Dataset Title";',
+                '    a <http://test.fr/datasetClass>.',
+                '<http://resource.uri> dcterms:title "Terminator";',
+                '    a <http://collection.class>;',
+                '    <http://scheme.for.dataset/link> <http://dataset.uri>.',
                 '',
             ]);
             done();
