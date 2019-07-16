@@ -1,3 +1,4 @@
+// @ts-nocheck
 const ezs = require('ezs');
 const from = require('from');
 
