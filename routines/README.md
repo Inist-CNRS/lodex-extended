@@ -126,8 +126,6 @@ Elle est, en particulier, utilisée avec le format [Cartography](https://user-do
 **Attention** : avant d’utiliser cette routine, il peut être utile de vérifier que les codes ISO 2 des pays du corpus correspondent bien aux **codes ISO 2** dans la [table de correspondance](https://raw.githubusercontent.com/Inist-CNRS/lodex-use-cases/master/country/data.json).
 
 
-
-
 ## distinct-alpha-3-ISO3166-1-from.ini
 Transforme les intitulés verbalisés (Anglais ou Français) des pays du champ représenté en leurs codes ISO 3 et compte le nombre de fois où ces pays apparaissent selon leur :
 
@@ -342,8 +340,6 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 Utilisé pour des tests prestataire.
 
 
-## nquads.ini
-
 ## pairing-with.ini
 Croise les éléments pour un champ ou plusieurs champs et compte le nombre d’occurences de chaque croisement.
 
@@ -363,6 +359,8 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 
 [exemple](https://lodex9310-changclim.dboard.inist.fr/api/run/pairing-with/jpw2/jpw2/)
 
+
+## sparql-query.ini
 
 
 ## syndication-from.ini
