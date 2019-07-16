@@ -364,7 +364,7 @@ Elle doit alors être déclarée dans `Value` (Valeur) selon :
 ## [total-of.ini](https://user-doc.lodex.inist.fr/configuration/routines/totalof.html)
 Utilisé pour des tests prestataire.
 
-## tree-by.ini
+## [tree-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/treeby.html)
 Permet de créer des graphiques en forme d’arbres représentant des données hiérarchisées (classification, taxonomies ...) et d’afficher le nombre de documents concernés.
 
 Format d’entrée obligatoire : JSON
