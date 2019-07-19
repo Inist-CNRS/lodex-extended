@@ -3,6 +3,8 @@ const ezs = require('ezs');
 const from = require('from');
 const { removeQueryAndFilters } = require('../utils');
 
+const script = removeQueryAndFilters(__dirname + '/nquads.ini');
+
 const localConfig = {
     cleanHost: '',
     schemeForDatasetLink: '',
@@ -39,7 +41,7 @@ test('export a single data property', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: 'Terminator' }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             { fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
@@ -60,7 +62,7 @@ test('export an object property (with a class)', done => {
         propb: 'value 2',
     }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             { fields: fields.slice(1, 3) }))
         .on('data', data => {
             if (data) outputString += data;
@@ -87,7 +89,7 @@ test('export a composed object property (with a class)', done => {
         propc: 'value 2',
     }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             {
                 fields: [
                     {
@@ -132,7 +134,7 @@ test('don\'t export a single data property without value', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: null }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             { fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
@@ -153,7 +155,7 @@ test('export a composed object property (with a class) without number in sub-dom
         propc: 'value 2',
     }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             {
                 fields: [
                     {
@@ -204,7 +206,7 @@ test('export an annotating property without number in sub-domain', done => {
         ],
     }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             {
                 fields: [
                     {
@@ -244,7 +246,7 @@ test('export a single data property with dataset', done => {
     let outputString = '';
     from([{ uri: 'http://resource.uri', Q98n: 'Terminator', qW6w: 'Dataset Title' }])
         .pipe(ezs('delegate',
-            { script: removeQueryAndFilters(__dirname + '/nquads.ini') },
+            { script },
             {
                 cleanHost: 'http://dataset.uri',
                 exportDataset: 'true',
