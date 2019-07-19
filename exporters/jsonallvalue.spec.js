@@ -1,5 +1,9 @@
+// @ts-nocheck
 const ezs = require('ezs');
 const from = require('from');
+const { removeQueryAndFilters } = require('../utils');
+
+const script = removeQueryAndFilters(__dirname + '/jsonallvalue.ini');
 
 const fields = [
     {
@@ -66,7 +70,7 @@ test('export single resource', done => {
         Q98n: 'Terminator',
         JDGh: 'Description',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/jsonallvalue.ini' }, { localConfig: {}, fields }))
+        .pipe(ezs('delegate', { script }, { localConfig: {}, fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
