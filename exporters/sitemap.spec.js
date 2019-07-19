@@ -1,5 +1,9 @@
+// @ts-nocheck
 const ezs = require('ezs');
 const from = require('from');
+const { removeQueryAndFilters } = require('../utils');
+
+const script = removeQueryAndFilters(__dirname + '/sitemap.ini');
 
 test('export an xml', done => {
     let outputString = '';
@@ -7,7 +11,7 @@ test('export an xml', done => {
         uri: 'http://exemple.com',
         publicationDate: Date.now(),
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/sitemap.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
