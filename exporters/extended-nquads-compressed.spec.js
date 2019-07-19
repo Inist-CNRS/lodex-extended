@@ -1,6 +1,10 @@
+// @ts-nocheck
 const zlib = require('zlib');
 const from = require('from');
 const ezs = require('ezs');
+const { removeQueryAndFilters } = require('../utils');
+
+const script = removeQueryAndFilters(__dirname + '/extended-nquads-compressed.ini');
 
 const labels = 'query';
 const linked = 'language';
@@ -10,10 +14,7 @@ const context = {
 };
 const fields = [{
     name: 'istexQuery',
-    label: 'query',
-    format: {
-        name: 'istex',
-    },
+    scheme: 'istex:query',
 }, {
     name: 'title'
 }];
@@ -27,7 +28,7 @@ test('export single resource', done => {
     }])
         .pipe(ezs(
             'delegate',
-            { file: __dirname + '/extended-nquads-compressed.ini' },
+            { script },
             { labels, linked, context, fields }))
         .pipe(zlib.createGunzip())
         .on('data', data => {
@@ -53,7 +54,7 @@ test('export two resources', done => {
         title: 'Second title',
         istexQuery: 'language.raw:san',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads-compressed.ini' }, { labels, linked, context, fields }))
+        .pipe(ezs('delegate', { script }, { labels, linked, context, fields }))
         .pipe(zlib.createGunzip())
         .on('data', data => {
             if (data) outputString += data;
@@ -75,7 +76,7 @@ test('export single resource with more documents', done => {
         title: 'First title',
         istexQuery: 'language.raw:cat',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/extended-nquads-compressed.ini' }, { labels, linked, context, fields }))
+        .pipe(ezs('delegate', { script }, { labels, linked, context, fields }))
         .pipe(zlib.createGunzip())
         .on('data', data => {
             if (data) outputString += data;
