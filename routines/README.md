@@ -332,6 +332,35 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 
 ## [sparql-query.ini](https://user-doc.lodex.inist.fr/configuration/routines/sparqlquery.html)
 
+Elle sert à faire des graphiques de distribution en prenant ses données dans un tripleStore et non dans Lodex.
+
+Elle est cohérence avec les graphiques pouvant utiliser [distinct-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinct-by.html):
+
+- [Bubble Chart](https://user-doc.lodex.inist.fr/administration/modele/format/bubblechart.html)(Graphe à bulles)
+- [Bar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/barchart.html)(Diagramme à barres et histogramme)
+- [Pie Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/piechart.html)(Camembert)
+- [Radar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/radarchart.html)(Diagramme Radar)
+
+ Ses résultats doivent ressembler à ceux de [distinct-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinct-by.html).
+
+**Version minimale de lodex : 9.8.1**
+
+Ce type de graphique nécessite la structure suivante :
+un champ `total` correspondant au nombre d'éléments
+un champ `data` qui est la liste des éléments à afficher dans le graphique. Chaque élément possède 2 champs également. Un champ `_id` qui correspond au nom de l'élément et un champ `value` qui correspond à la valeur numérique qui lui est associée.
+
+**Attention** : créer directement sa requête dans le tripleStore de data.istex.fr via YASGUI
+
+`Copier le lien de partage` --> ce lien sera la valeur à reporter dans un champ LODEX préalablement configuré.
+
+`Insérer ce lien` dans un nouveau champ `DATASET lodex` et récupérer son `identifiant` (ici Kl67 )
+
+`Créer un autre champ` type graphique au niveau du `DATASET` pour récupérer les informations de ce champ.
+
+Cette routine doit être déclarée dans `Value` (Valeur) selon :                     
+                           /api/run/sparql-query/**identifiant**/
+où **identifiant** représente le champ contenant la requête copier depuis le yasgui de data.istex.fr
+
 
 ## [syndication-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/syndicationfrom.html)
 Fait référence à une autre ressource **du même jeu de données** en liant les valeurs entre elles et non leurs arks. Il affiche ainsi les informations que l'on souhaite via les identifiants de la ressource.
