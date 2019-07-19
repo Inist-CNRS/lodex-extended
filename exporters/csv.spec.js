@@ -1,7 +1,11 @@
+// @ts-nocheck
 const from = require('from');
 const ezs = require('ezs');
+const { removeQueryAndFilters } = require('../utils');
 
 ezs.use(require('ezs-basics'));
+
+const script = removeQueryAndFilters(__dirname + '/csv.ini');
 
 test('export one resource in a two-lines CSV', done => {
     let outputString = '';
@@ -11,7 +15,7 @@ test('export one resource in a two-lines CSV', done => {
             title: 'first resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/csv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -40,7 +44,7 @@ test('export two resources in a three-lines CSV', done => {
             title: 'second resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/csv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -70,7 +74,7 @@ test('export in CSV resources containing quotes', done => {
             title: 'second resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/csv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -100,7 +104,7 @@ test('export in CSV resources containing semicolon', done => {
             title: 'second resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/csv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -133,7 +137,7 @@ test('export CSV with labels in header', done => {
         .pipe(
             ezs(
                 'delegate',
-                { file: __dirname + '/csv.ini' },
+                { script },
                 { fields: [{ name: 'AbCd', label: 'Title' }] },
             ),
         )
