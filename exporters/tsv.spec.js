@@ -1,5 +1,9 @@
+// @ts-nocheck
 const from = require('from');
 const ezs = require('ezs');
+const { removeQueryAndFilters } = require('../utils');
+
+const script = removeQueryAndFilters(__dirname + '/tsv.ini');
 
 ezs.use(require('ezs-basics'));
 
@@ -11,7 +15,7 @@ test('export one resource in a two-lines TSV', done => {
             title: 'first resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/tsv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -40,7 +44,7 @@ test('export two resources in a three-lines TSV', done => {
             title: 'second resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/tsv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -70,7 +74,7 @@ test('export in TSV resources containing quotes', done => {
             title: 'second resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/tsv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -100,7 +104,7 @@ test('export in TSV resources containing tabulation', done => {
             title: 'second resource',
         },
     ])
-        .pipe(ezs('delegate', { file: __dirname + '/tsv.ini' }))
+        .pipe(ezs('delegate', { script }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -133,7 +137,7 @@ test('export TSV with labels in header', done => {
         .pipe(
             ezs(
                 'delegate',
-                { file: __dirname + '/tsv.ini' },
+                { script },
                 { fields: [{ name: 'AbCd', label: 'Title' }] },
             ),
         )
