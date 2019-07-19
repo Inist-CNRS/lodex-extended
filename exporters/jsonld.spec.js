@@ -1,5 +1,9 @@
+// @ts-nocheck
 const ezs = require('ezs');
 const from = require('from');
+const { removeQueryAndFilters } = require('../utils');
+
+const script = removeQueryAndFilters(__dirname + '/jsonld.ini');
 
 const fields = [
     {
@@ -20,7 +24,7 @@ test('export single property', done => {
         uri: 'http://data.istex.fr',
         Q98n: 'Terminator',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/jsonld.ini' }, { fields }))
+        .pipe(ezs('delegate', { script }, { fields }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -41,7 +45,7 @@ test('export dataset characteristics too', done => {
         Q98n: 'Terminator',
         qW6w: 'Dataset Title',
     }])
-    .pipe(ezs('delegate', { file: __dirname + '/jsonld.ini' }, {
+    .pipe(ezs('delegate', { script }, {
         cleanHost: 'http://data.istex.fr',
         schemeForDatasetLink: 'http://scheme.for.dataset/link',
         datasetClass: 'http://dataset.class',
