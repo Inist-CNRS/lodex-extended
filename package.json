@@ -12,7 +12,7 @@
     "ezs": "9.3.1",
     "ezs-basics": "3.11.1",
     "ezs-istex": "6.2.0",
-    "ezs-lodex": "7.0.0",
+    "ezs-lodex": "7.0.1",
     "ezs-sparql": "1.0.0",
     "from": "0.1.7",
     "jest": "24.8.0"
