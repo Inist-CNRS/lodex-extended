@@ -249,7 +249,6 @@ test('export a single data property with dataset', done => {
             { script },
             {
                 cleanHost: 'http://dataset.uri',
-                exportDataset: 'true',
                 schemeForDatasetLink: 'http://scheme.for.dataset/link',
                 datasetClass: 'http://test.fr/datasetClass',
                 collectionClass: 'http://collection.class',

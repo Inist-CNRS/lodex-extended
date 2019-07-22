@@ -35,7 +35,9 @@ test('export single property', done => {
         .on('error', done);
 });
 
-test('export dataset characteristics too', done => {
+// This test should used on the jsonld-dataset.ini version of the exporter
+// When (if?) it will be written.
+test.skip('export dataset characteristics too', done => {
     let outputString = '';
     const characteristics = [{
         qW6w: 'Dataset Title',
@@ -50,7 +52,7 @@ test('export dataset characteristics too', done => {
         schemeForDatasetLink: 'http://scheme.for.dataset/link',
         datasetClass: 'http://dataset.class',
         collectionClass: 'http://collection.class',
-        exportDataset: 'true',
+        exportDataset: true,
         fields,
         characteristics }))
     .on('data', data => {
