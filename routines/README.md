@@ -4,12 +4,12 @@ Ce répertoire contient les routines pour [ezs](https://github.com/touv/node-ezs
 Elles sont destinées à fonctionner sur un serveur web statique et un serveur ezs peut les exécuter aussi.
 Elles permettent de préparer les données pour le type de représentation choisi, graphiques notamment.
 
-## all-documents.ini
+## [all-documents.ini](https://user-doc.lodex.inist.fr/configuration/routines/alldocuments.html)
 Donne, pour tout le corpus, le contenu de tous les documents en JSON.
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/all-documents/)
 
-## classif-by.ini
+## [classif-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/classifby.html)
 
 Elle est destinée à un type de graphique permettant de visualiser les évolutions diachroniques du poids de thématiques contenues dans les documents d’un corpus. 
 
@@ -22,7 +22,7 @@ Cette routine est destinée à être utilisée avec le format graphique :
 
 [exemple](https://xxxxxxxxxxxx/api/run/classif-by/)
 
-## count-all.ini
+## [count-all.ini](https://user-doc.lodex.inist.fr/configuration/routines/countall.html)
 Compte le nombre de documents du corpus.
 
 Elle peut être utilisée, par exemple, avec le format [Text - Emphased Number](https://lodex.gitbook.io/lodex-user-documentation/administration/modele/format/emphasednumber) (Texte - Chiffre en gras) pour afficher le nombre de documents sur la page d'accueil de l'instance.
@@ -31,12 +31,12 @@ Elle doit alors être déclarée dans `Value` (Valeur) selon : /api/run/count-al
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/count-all/)
 
-## count-by-fields.ini
+## [count-by-fields.ini](https://user-doc.lodex.inist.fr/configuration/routines/countbyfields.html)
 Compte le nombre de documents du corpus pour chacun des champs déclarés dans le modèle.
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/count-by-fields/)
 
-## cross-by.ini
+## [cross-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/crossby.html)
 
 Croise les éléments pour un champ ou plusieurs champs et compte le nombre d’occurences de chaque croisement.
 
@@ -62,7 +62,7 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 [exemple](https://lodex9310-changclim.dboard.inist.fr/api/run/cross-by/jpw2/jpw2?maxSize=100&minValue=2&orderBy=value/desc)
 
 
-## decompose-by.ini
+## [decompose-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/decomposeby.html)
 Croise les éléments pour un champ ou plusieurs champs et compte le nombre d’occurences de chaque croisement.
 
 Crée les paires (`source et target`) entre les valeurs de 1 champ ou plusieurs champs (champs identiques ou différents) selon :
@@ -87,7 +87,7 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 [exemple](https://lodex9310-changclim.dboard.inist.fr/api/run/decompose-by/jpw2/jpw2?maxSize=100&minValue=2&orderBy=value/desc)
 
 
-## distinct-ISO3166-1-alpha2-from.ini
+## [distinct-ISO3166-1-alpha2-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctiso31661alpha2from.html)
 Fournit le nombre de fois où un pays apparaît selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -101,7 +101,7 @@ Elle est, en particulier, utilisée avec le format [Cartography](https://user-do
 où `g61g` = PaysENGRSansFrance (pays verbalisé en anglais: Algeria, Argentina, Australia, etc.)
 
 
-## distinct-ISO3166-1-alpha3-from.ini
+## [distinct-ISO3166-1-alpha3-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctiso31661alpha3from.html)
 Transforme les valeurs verbalisées du champ pays en leurs **codes ISO 3** et compte le nombre de fois où ce pays apparaît (code ISO 3), selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -115,7 +115,7 @@ Elle est, en particulier, utilisée avec le format [Cartography](https://user-do
 
 
 
-## distinct-alpha-2-alpha3-from.ini
+## [distinct-alpha-2-alpha3-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctalpha2alpha3from.html)
 Transforme les **codes ISO 2** du champ pays en leurs codes ISO 3 et compte le nombre de fois où ce pays apparaît (identifiant),  selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -126,9 +126,7 @@ Elle est, en particulier, utilisée avec le format [Cartography](https://user-do
 **Attention** : avant d’utiliser cette routine, il peut être utile de vérifier que les codes ISO 2 des pays du corpus correspondent bien aux **codes ISO 2** dans la [table de correspondance](https://raw.githubusercontent.com/Inist-CNRS/lodex-use-cases/master/country/data.json).
 
 
-
-
-## distinct-alpha-3-ISO3166-1-from.ini
+## [distinct-alpha-3-ISO3166-1-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctalpha3iso31661from.html)
 Transforme les intitulés verbalisés (Anglais ou Français) des pays du champ représenté en leurs codes ISO 3 et compte le nombre de fois où ces pays apparaissent selon leur :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -138,7 +136,7 @@ Transforme les intitulés verbalisés (Anglais ou Français) des pays du champ r
 
 
 
-## distinct-alpha-3-alpha2-from.ini
+## [distinct-alpha-3-alpha2-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctalpha2alpha3from.html)
 Transforme les codes ISO 3 des pays du champ représenté en leurs codes ISO 2 et compte le nombre de fois où ce pays (identifiant) apparaît selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -146,7 +144,7 @@ Transforme les codes ISO 3 des pays du champ représenté en leurs codes ISO 2 e
 
 **Attention** : avant d’utiliser cette routine, il peut être utile de vérifier que les codes **ISO 3** des pays du corpus correspondent bien aux codes ISO 3 dans la [table de correspondance](https://raw.githubusercontent.com/Inist-CNRS/lodex-use-cases/master/country/data.json).
 
-## distinct-by.ini
+## [distinct-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctby.html)
 Compte, pour chaque élément du champ représenté (identifiant), le nombre de fois où cet élément apparaît selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -170,7 +168,7 @@ où `identifiant` est le code attribué par LODEX au champ représenté.
 [exemple](https://lodex9310-changclim.dboard.inist.fr/api/run/distinct-by/jpw2/)
 
 
-## distinct-by-field.ini
+## [distinct-by-field.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinctbyfield.html)
 Compte, pour chaque élément du champ représenté (identifiant), le nombre de fois où cet élément apparaît selon son :
 
     - nombre d'occurrences si le champ n'est pas dédoublonné
@@ -199,7 +197,7 @@ où `identifiant` est le code attribué par LODEX au champ représenté.
 [exemple](https://lodex9310-changclim.dboard.inist.fr/api/run/distinct-by-field/jpw2?maxSize=100&minValue=2&orderBy=value/desc)
 
 
-## distribute-by-date.ini
+## [distribute-by-date.ini](https://user-doc.lodex.inist.fr/configuration/routines/distributebydate.html)
 Sert à créer des chronologies qui conservent les années sans document/de valeur nulle. 
 
 Cette routine est utilisée de manière optimale avec le format graphique :
@@ -212,7 +210,7 @@ Elle doit alors être déclarée dans Value (Valeur) selon :
 [exemple](https://astrophysique-astroconcepts.corpus.istex.fr/api/run/distribute-by-date/TwkU) où TwkU représente les années de publication
 
 
-## distribute-by-decadal.ini
+## [distribute-by-decadal.ini](https://user-doc.lodex.inist.fr/configuration/routines/distributebydecadal.html)
 
 Sert à créer des chronologies en regroupant les valeurs par décennie (utile pour des années dispersées sur plusieurs siècles).
 
@@ -226,7 +224,7 @@ Elle doit alors être déclarée dans Value (Valeur) selon :
 [exemple](https://astrophysique-astroconcepts.corpus.istex.fr/api/run/distribute-by-decadal/TwkU) où TwkU représente les années de publication 
 
 
-## distribute-by-interval.ini
+## [distribute-by-interval.ini](https://user-doc.lodex.inist.fr/configuration/routines/distributebyinterval.html)
 
 Routine destinée à des graphiques pour lesquels on souhaite regrouper des valeurs (nombres entiers ou décimaux) dans des intervalles de pas “1”.
 
@@ -241,37 +239,7 @@ Elle doit alors être déclarée dans Value (Valeur) selon :
 
 [exemple](https://astrophysique-astroconcepts.corpus.istex.fr//api/run/distribute-by-interval/GeKM/ ) où GeKM représente les scores de qualité, valeurs décimales uniques pour chaque document du corpus
 
-
-## distribute-by-decadal.ini
-
-Sert à créer des chronologies en regroupant les valeurs par décennie (utile pour des années dispersées sur plusieurs siècles).
-
-Cette routine est utilisée de manière optimale avec le format graphique :
-- [Bar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/barchart.html)(Diagramme à barres et histogramme)
-
-Elle doit alors être déclarée dans Value (Valeur) selon :
-
-/api/run/distribute-by-decadal/**identifiant**/
-
-[exemple](https://astrophysique-astroconcepts.corpus.istex.fr/api/run/distribute-by-decadal/TwkU) où TwkU représente les années de publication 
-
-
-## distribute-by-interval.ini
-
-Routine destinée à des graphiques pour lesquels on souhaite regrouper des valeurs (nombres entiers ou décimaux) dans des intervalles de pas “1”.
-
-Cette routine peut être utilisée avec les formats graphiques :
-- [Bar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/barchart.html)(Diagramme à barres et histogramme)
-- [Pie Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/piechart.html)(Camembert)
-- [Radar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/radarchart.html)(Diagramme Radar)
-
-Elle doit alors être déclarée dans Value (Valeur) selon :
-
-/api/run/distribute-by-interval/**identifiant**/
-
-[exemple](https://astrophysique-astroconcepts.corpus.istex.fr//api/run/distribute-by-interval/GeKM/ ) où GeKM représente les scores de qualité, valeurs décimales uniques pour chaque document du corpus
-
-## get-fields.ini
+## [get-fields.ini](https://user-doc.lodex.inist.fr/configuration/routines/getfields.html)
 
 pour utiliser des nombres affectés à des champs des ressources (pas de comptage,
 utilise la valeur numérique du champ), il faut pouvoir générér des paires `_id`
@@ -338,13 +306,11 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 
 
 
-## hello-world.ini
+## [hello-world.ini](https://user-doc.lodex.inist.fr/configuration/routines/helloworld.html)
 Utilisé pour des tests prestataire.
 
 
-## nquads.ini
-
-## pairing-with.ini
+## [pairing-with.ini](https://user-doc.lodex.inist.fr/configuration/routines/pairingwith.html)
 Croise les éléments pour un champ ou plusieurs champs et compte le nombre d’occurences de chaque croisement.
 
 Crée les paires (`source` et `target`) entre les éléments de 2 champs (champs identiques ou différents) déclarés selon :
@@ -364,9 +330,54 @@ Elle peut, en particulier, être utilisée avec les formats [Network](https://us
 [exemple](https://lodex9310-changclim.dboard.inist.fr/api/run/pairing-with/jpw2/jpw2/)
 
 
-## syndication-from.ini
+## [sparql-query.ini](https://user-doc.lodex.inist.fr/configuration/routines/sparqlquery.html)
 
-## syndication.ini
+Elle sert à faire des graphiques de distribution en prenant ses données dans un tripleStore et non dans Lodex.
+
+Elle est cohérence avec les graphiques pouvant utiliser [distinct-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinct-by.html):
+
+- [Bubble Chart](https://user-doc.lodex.inist.fr/administration/modele/format/bubblechart.html)(Graphe à bulles)
+- [Bar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/barchart.html)(Diagramme à barres et histogramme)
+- [Pie Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/piechart.html)(Camembert)
+- [Radar Chart](https://user-doc.lodex.inist.fr/administration/modele/format/distribution-charts/radarchart.html)(Diagramme Radar)
+
+ Ses résultats doivent ressembler à ceux de [distinct-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/distinct-by.html).
+
+**Version minimale de lodex : 9.8.1**
+
+Ce type de graphique nécessite la structure suivante :
+un champ `total` correspondant au nombre d'éléments
+un champ `data` qui est la liste des éléments à afficher dans le graphique. Chaque élément possède 2 champs également. Un champ `_id` qui correspond au nom de l'élément et un champ `value` qui correspond à la valeur numérique qui lui est associée.
+
+**Attention** : créer directement sa requête dans le tripleStore de data.istex.fr via YASGUI
+
+`Copier le lien de partage` --> ce lien sera la valeur à reporter dans un champ LODEX préalablement configuré.
+
+`Insérer ce lien` dans un nouveau champ `DATASET lodex` et récupérer son `identifiant` (ici Kl67 )
+
+`Créer un autre champ` type graphique au niveau du `DATASET` pour récupérer les informations de ce champ.
+
+Cette routine doit être déclarée dans `Value` (Valeur) selon :                     
+                           /api/run/sparql-query/**identifiant**/
+où **identifiant** représente le champ contenant la requête copier depuis le yasgui de data.istex.fr
+
+
+## [syndication-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/syndicationfrom.html)
+Fait référence à une autre ressource **du même jeu de données** en liant les valeurs entre elles et non leurs arks. Il affiche ainsi les informations que l'on souhaite via les identifiants de la ressource.
+
+Elle est, en particulier, utilisée avec le format [Resources Grid]https://user-doc.lodex.inist.fr/administration/modele/format/resourcesgrid.htmlpour représenter sur la page d'accueil les champs paramétrés dans [syndication-from]https://user-doc.lodex.inist.fr/administration/modele/format/syndicationfrom.html.
+
+Elle doit alors être déclarée dans `Value` (Valeur) selon :
+/api/run/syndication-from/nC6e/… nC6e représente l’identifiant du champ de la valeur que nous souhaitons voir liée.
+
+[exemple] l'instance revue de sommaire(https://revue-sommaire.data.istex.fr/ark:/67375/8Q1-WFCZK0TX-L)
+
+Cette ressource récupére les informations d'une autre ressource via son identifiant ISSN déclaré dans une colonne bien spécifique portant l'identifiant **nC6e**. On reporte donc la valeur à la fin:
+
+`/api/run/syndication-from/**nC6e**/0300-4910`
+
+
+## [syndication.ini](https://user-doc.lodex.inist.fr/configuration/routines/syndication.html)
 
 Récupère les champs paramétrés dans `Syndication` dans la configuration du modèle.
 
@@ -379,10 +390,10 @@ Elle doit alors être déclarée dans `Value` (Valeur) selon :
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/syndication/)
 
 
-## total-of.ini
+## [total-of.ini](https://user-doc.lodex.inist.fr/configuration/routines/totalof.html)
 Utilisé pour des tests prestataire.
 
-## tree-by.ini
+## [tree-by.ini](https://user-doc.lodex.inist.fr/configuration/routines/treeby.html)
 Permet de créer des graphiques en forme d’arbres représentant des données hiérarchisées (classification, taxonomies ...) et d’afficher le nombre de documents concernés.
 
 Format d’entrée obligatoire : JSON

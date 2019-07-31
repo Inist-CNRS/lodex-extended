@@ -1,4 +1,3 @@
-// @ts-nocheck
 const ezs = require('ezs');
 const from = require('from');
 
@@ -37,13 +36,18 @@ const fields = [
 test('export a single data property', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: 'Terminator' }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { fields: fields.slice(0, 1) }))
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, { fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
         })
         .on('end', () => {
             const res = outputString.split('\n');
-            expect(res).toEqual(['<http://data.istex.fr> <http://purl.org/dc/terms/title> "Terminator" .', '']);
+            expect(res).toEqual([
+                '@prefix dcterms: <http://purl.org/dc/terms/>.',
+                '',
+                '<http://data.istex.fr> dcterms:title "Terminator".',
+                ''
+            ]);
             done();
         })
         .on('error', done);
@@ -56,17 +60,19 @@ test('export an object property (with a class)', done => {
         propa: 'label a',
         propb: 'value 2',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { fields: fields.slice(1, 3) }))
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, { fields: fields.slice(1, 3) }))
         .on('data', data => {
             if (data) outputString += data;
         })
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '<http://uri/1#compose/propa> <http://property/b> "value 2" .',
-                '<http://uri/1#compose/propa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://class/2> .',
-                '<http://uri/1> <http://property/a> <http://uri/1#compose/propa> .',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
                 '',
+                '<http://uri/1#compose/propa> <http://property/b> "value 2";',
+                '    a <http://class/2>.',
+                '<http://uri/1> <http://property/a> <http://uri/1#compose/propa>.',
+                ''
             ]);
             done();
         })
@@ -81,7 +87,7 @@ test('export a composed object property (with a class)', done => {
         propb: 'value 1',
         propc: 'value 2',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, {
             fields: [
                 {
                     cover: 'collection',
@@ -110,10 +116,12 @@ test('export a composed object property (with a class)', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '<http://uri/1#compose/propcomposed> <http://property/b> "value 1" .',
-                '<http://uri/1#compose/propcomposed> <http://property/c> "value 2" .',
-                '<http://uri/1#compose/propcomposed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://class/composed> .',
-                '<http://uri/1> <http://property/composed> <http://uri/1#compose/propcomposed> .',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
+                '',
+                '<http://uri/1#compose/propcomposed> <http://property/b> "value 1";',
+                '    <http://property/c> "value 2";',
+                '    a <http://class/composed>.',
+                '<http://uri/1> <http://property/composed> <http://uri/1#compose/propcomposed>.',
                 '',
             ]);
             done();
@@ -124,7 +132,7 @@ test('export a composed object property (with a class)', done => {
 test('don\'t export a single data property without value', done => {
     let outputString = '';
     from([{ uri: 'http://data.istex.fr', Q98n: null }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, { fields: fields.slice(0, 1) }))
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, { fields: fields.slice(0, 1) }))
         .on('data', data => {
             if (data) outputString += data;
         })
@@ -143,7 +151,7 @@ test('export a composed object property (with a class) without number in sub-dom
         propb: 'value 1',
         propc: 'value 2',
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, {
             fields: [
                 {
                     cover: 'collection',
@@ -172,10 +180,12 @@ test('export a composed object property (with a class) without number in sub-dom
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '<http://a-b.c.d.e/1#compose/propcomposed> <http://property/b> "value 1" .',
-                '<http://a-b.c.d.e/1#compose/propcomposed> <http://property/c> "value 2" .',
-                '<http://a-b.c.d.e/1#compose/propcomposed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://class/composed> .',
-                '<http://a-b.c.d.e/1> <http://property/composed> <http://a-b.c.d.e/1#compose/propcomposed> .',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
+                '',
+                '<http://a-b.c.d.e/1#compose/propcomposed> <http://property/b> "value 1";',
+                '    <http://property/c> "value 2";',
+                '    a <http://class/composed>.',
+                '<http://a-b.c.d.e/1> <http://property/composed> <http://a-b.c.d.e/1#compose/propcomposed>.',
                 '',
             ]);
             done();
@@ -192,7 +202,7 @@ test('export an annotating property without number in sub-domain', done => {
             'https://fr.wikipedia.org/wiki/Chimie_inorganique',
         ],
     }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, {
             fields: [
                 {
                     cover: 'collection',
@@ -217,9 +227,12 @@ test('export an annotating property without number in sub-domain', done => {
                 outputString,
             )[1];
             expect(res).toEqual([
-                `<http://a-b.c.d.e/1#complete/${completing}> <http://purl.org/dc/terms/source> <https://fr.wikipedia.org/wiki/Chimie_inorganique> .`,
-                `<http://a-b.c.d.e/1#complete/${completing}> <http://www.w3.org/2000/01/rdf-schema#label> "La chimie minérale (= inorganique) étudie ..." .`,
-                `<http://a-b.c.d.e/1> <http://purl.org/dc/terms/description> <http://a-b.c.d.e/1#complete/${completing}> .`,
+                '@prefix dcterms: <http://purl.org/dc/terms/>.',
+                '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.',
+                '',
+                `<http://a-b.c.d.e/1#complete/${completing}> dcterms:source <https://fr.wikipedia.org/wiki/Chimie_inorganique>;`,
+                '    rdfs:label "La chimie minérale (= inorganique) étudie ...".',
+                `<http://a-b.c.d.e/1> dcterms:description <http://a-b.c.d.e/1#complete/${completing}>.`,
                 '',
             ]);
             done();
@@ -230,7 +243,7 @@ test('export an annotating property without number in sub-domain', done => {
 test('export a single data property with dataset', done => {
     let outputString = '';
     from([{ uri: 'http://resource.uri', Q98n: 'Terminator', qW6w: 'Dataset Title' }])
-        .pipe(ezs('delegate', { file: __dirname + '/nquads.ini' }, {
+        .pipe(ezs('delegate', { file: __dirname + '/turtle.ini' }, {
             cleanHost: 'http://dataset.uri',
             exportDataset: 'true',
             schemeForDatasetLink: 'http://scheme.for.dataset/link',
@@ -258,12 +271,15 @@ test('export a single data property with dataset', done => {
         .on('end', () => {
             const res = outputString.split('\n');
             expect(res).toEqual([
-                '<http://dataset.uri> <http://purl.org/dc/terms/title> "Dataset Title" .',
-                '<http://dataset.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://test.fr/datasetClass> .',
-                '<http://resource.uri> <http://purl.org/dc/terms/title> "Terminator" .',
-                '<http://resource.uri> <http://scheme.for.dataset/link> <http://dataset.uri> .',
-                '<http://resource.uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://collection.class> .',
-                ''
+                '@prefix dcterms: <http://purl.org/dc/terms/>.',
+                '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.',
+                '',
+                '<http://dataset.uri> dcterms:title "Dataset Title";',
+                '    a <http://test.fr/datasetClass>.',
+                '<http://resource.uri> dcterms:title "Terminator";',
+                '    a <http://collection.class>;',
+                '    <http://scheme.for.dataset/link> <http://dataset.uri>.',
+                '',
             ]);
             done();
         })
