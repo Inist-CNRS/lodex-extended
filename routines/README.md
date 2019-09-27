@@ -371,6 +371,51 @@ Résultat de la routine graph-by avec deux paramètres
 
 Utilisé pour des tests prestataire.
 
+## labeled-resources
+
+Récupère les ressources, mais en enlevant les champs `_id`, `publicationDate`, `uri`, et `total`.
+Tous les autres champs sont fournis.
+
+De plus, les chaînes numériques (comme `"123"`) sont converties en nombres (comme `123`).
+
+C'est utile pour des formats comme Vega Lite.
+
+Comme elle retourne tous les champs, aucun champ n'est fourni en paramètre.
+
+> **Attention**: ce sont les identifiants des champs qui sont fournis, pas leurs libellés.
+
+Exemple de résultat:
+
+```json
+[
+  {
+    "z5Yi": "May 14, 2019",
+    "uNp0": "multicat",
+    "cniQ": 11350203
+  },
+  {
+    "z5Yi": "May 14, 2019",
+    "uNp0": "unitex",
+    "cniQ": 2743607
+  },
+  {
+    "z5Yi": "May 14, 2019",
+    "uNp0": "teeft",
+    "cniQ": 2148348
+  },
+  {
+    "z5Yi": "May 14, 2019",
+    "uNp0": "nb",
+    "cniQ": 3180498
+  },
+  {
+    "z5Yi": "May 14, 2019",
+    "uNp0": "refbibs",
+    "cniQ": 5655020
+  }
+]
+```
+
 ## [pairing-with.ini](https://user-doc.lodex.inist.fr/configuration/routines/pairingwith.html)
 
 Croise les éléments pour un champ ou plusieurs champs et compte le nombre
