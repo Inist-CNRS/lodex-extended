@@ -1,0 +1,7 @@
+[{
+	"instance": "lodex",
+	"server": "localhost",
+	"routine": "/api/run/all-documents",
+	"maxSize": 500,
+	"orderBy": "target/desc"
+}]

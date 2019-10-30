@@ -1,0 +1,7 @@
+[{
+	"instance": "lodex",
+	"server": "localhost",
+	"routine": "/api/run/tree-by-2/FYbD",
+	"maxSize": 5,
+	"orderBy": "target/desc"
+}]

@@ -1,0 +1,7 @@
+[{
+	"instance": "graphiquef2-anim100",
+	"server": "workers-lodex.lodex-dev.inist.fr:80",
+	"routine": "/api/run/tree-by/FYbD",
+	"maxSize": 500,
+	"orderBy": "target/desc"
+}]
