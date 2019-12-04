@@ -18,7 +18,7 @@ const fields = [{
     name: 'title'
 }];
 
-test('export single resource', done => {
+test.skip('export single resource', done => {
     let outputString = '';
     from([{
         uri: 'http://uri',
@@ -42,7 +42,7 @@ test('export single resource', done => {
         .on('error', done);
 });
 
-test('export two resources', done => {
+test.skip('export two resources', done => {
     let outputString = '';
     from([{
         uri: 'http://uri/1',
@@ -68,7 +68,7 @@ test('export two resources', done => {
         .on('error', done);
 });
 
-test('export single resource with more documents', done => {
+test.skip('export single resource with more documents', done => {
     let outputString = '';
     from([{
         uri: 'http://uri/cat',
