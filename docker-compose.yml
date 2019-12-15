@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+    lodex:
+        container_name: lodex-extended
+        build:
+            context: .
+        image: lodex-extended:1.0.2
+        user: '${UID}:${GID}'
+        environment:
+            http_proxy: ${http_proxy}
+            https_proxy: ${https_proxy}
+            EZMASTER_MONGODB_HOST_PORT: 'mongo:27017'
+            EZMASTER_TECHNICAL_NAME: 'lodex'
+            no_proxy: 'localhost,127.0.0.1,'
+        links:
+            - mongo
+        ports:
+            - 3000:3000
+
+    mongo:
+        image: mongo:3.4.1
+        command: '--smallfiles'
+        ports:
+            - 27017:27017
