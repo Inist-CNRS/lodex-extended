@@ -1,4 +1,4 @@
-const ezs = require('ezs');
+const ezs = require('@ezs/core');
 const from = require('from');
 
 // This test queries the ISTEX API, I don't know if I let it here

@@ -1,5 +1,5 @@
 // @ts-nocheck
-const ezs = require('ezs');
+const ezs = require('@ezs/core');
 const from = require('from');
 
 const localConfig = {

@@ -1,6 +1,6 @@
 const zlib = require('zlib');
 const from = require('from');
-const ezs = require('ezs');
+const ezs = require('@ezs/core');
 
 const labels = 'query';
 const linked = 'language';

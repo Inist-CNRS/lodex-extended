@@ -1,5 +1,5 @@
 const fs = require('fs');
-const ezs = require('ezs');
+const ezs = require('@ezs/core');
 
 describe('zip.ini', () => {
     it('should unzip a zip file containing JSON files', done => {
