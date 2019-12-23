@@ -1,5 +1,5 @@
 const from = require('from');
-const ezs = require('ezs');
+const ezs = require('@ezs/core');
 
 // ezs.use(require('ezs-basics'));
 // ezs.use(require('ezs-lodex'));

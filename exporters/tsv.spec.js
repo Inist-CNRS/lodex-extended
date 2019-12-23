@@ -1,7 +1,7 @@
 const from = require('from');
-const ezs = require('ezs');
+const ezs = require('@ezs/core');
 
-ezs.use(require('ezs-basics'));
+ezs.use(require('@ezs/basics'));
 
 test('export one resource in a two-lines TSV', done => {
     let outputString = '';
