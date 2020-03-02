@@ -5,7 +5,7 @@ services:
         container_name: lodex-extended
         build:
             context: .
-        image: lodex-extended:2.6.3
+        image: lodex-extended:3.0.0
         user: '${UID}:${GID}'
         environment:
             http_proxy: ${http_proxy}
