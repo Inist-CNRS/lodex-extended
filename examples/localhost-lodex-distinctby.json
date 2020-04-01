@@ -1,7 +1,0 @@
-[{
-	"instance": "lodex",
-	"server": "localhost",
-	"routine": "/api/run/distinct-by/cSRT",
-	"maxSize": 500,
-	"orderBy": "target/desc"
-}]

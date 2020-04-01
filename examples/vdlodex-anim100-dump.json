@@ -1,7 +1,0 @@
-[{
-	"instance": "graphiquef2-anim100",
-	"server": "lodex-workers.lodex-dev.inist.fr:80",
-	"routine": "/api/run/all-documents",
-	"maxSize": 200,
-	"orderBy": "id/desc"
-}]
