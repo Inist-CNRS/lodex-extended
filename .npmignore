@@ -1,0 +1,5 @@
+.env
+coverage/
+bench/
+examples/
+test/

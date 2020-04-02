@@ -1,0 +1,15 @@
+version: '3'
+services:
+    lodex-extended:
+        container_name: lodex-extended
+        build:
+            context: .
+            args:
+                - http_proxy
+                - https_proxy
+        image: lodex-extended:4.0.0
+        environment:
+            - http_proxy
+            - https_proxy
+        ports:
+            - "31976:31976"
