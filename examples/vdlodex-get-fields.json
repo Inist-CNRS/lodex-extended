@@ -1,7 +1,0 @@
-[{
-	"instance": "essai2-enrichissemts",
-	"server": "192.168.31.175:49190",
-	"routine": "/api/run/get-fields/t4sH/AQ4O",
-	"maxSize": 5,
-	"orderBy": "value/desc"
-}]
