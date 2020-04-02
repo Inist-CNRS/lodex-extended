@@ -22,23 +22,41 @@ Dans la configuration Lodex, il suffit de choisir la version :
 
 Exemple dans le fichier config.json
 ```json
-...
   "pluginsURL": "https://raw.githubusercontent.com/Inist-CNRS/lodex-extended/v4.0.0/public/",
-...
 ```
 
 ### indirectement dans lodex
 
-Il est possible de transformer toutes les configurations en API autonome.
-Dans ce cas, les programmes iront checrher les données directement dans la base MongDB
+Lodex peut déporter le traitement des données dans un serveur autonome.
+Une fois le serveur lancé, il suffit de préciser dans Lodex l'URL d'accès
+
+Exemple dans le fichier config.json
+```json
+  "pluginsAPI": "https://178.123.34.02:31976",
+```
+
+### sans lodex
+
+Le serveur peut être également utilisé directement sans Lodex.
+En modifiant très légérement les paramètres des URL Lodex.
+Dans ce cas, les programmes iront checrher les données directement dans la base MongoDB
+
+ATTENTION: la base MongoDB doit être accessible !
+NOTE : Il est possible de présiser la chaine de connexion à mongo dans les parametres URL.
+
+## Démarage du serveur
+
+### Natif
 
 ```bash
 npm install
 npm start
 ```
+### Docker
 
-ATTENTION: la base MongoDB doit être accessible !
-NOTE : Il est possible de présiser la chaine de connexion à mongo dans les parametres URL.
+```bash
+make run-debug
+```
 
 ## Contribute
 
