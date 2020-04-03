@@ -1,5 +1,7 @@
 {
-	"CRON_VERBOSE": true,
-	"EZS_VERBOSE": false,
-	"NODE_ENV": "production"
+	"environnement": {
+		"CRON_VERBOSE": true,
+		"EZS_VERBOSE": false,
+		"NODE_ENV": "production"
+	}
 }
