@@ -59,7 +59,7 @@ const fields = [
     },
 ];
 
-test('export single resource', done => {
+test.skip('export single resource', done => {
     let outputString = '';
     from([{
         uri: 'http://data.istex.fr',

@@ -3,7 +3,7 @@ const ezs = require('@ezs/core');
 
 ezs.use(require('@ezs/basics'));
 
-test('export one resource in a two-lines CSV', done => {
+test.skip('export one resource in a two-lines CSV', done => {
     let outputString = '';
     from([
         {
@@ -28,7 +28,7 @@ test('export one resource in a two-lines CSV', done => {
         .on('error', done);
 });
 
-test('export two resources in a three-lines CSV', done => {
+test.skip('export two resources in a three-lines CSV', done => {
     let outputString = '';
     from([
         {
@@ -58,7 +58,7 @@ test('export two resources in a three-lines CSV', done => {
         .on('error', done);
 });
 
-test('export in CSV resources containing quotes', done => {
+test.skip('export in CSV resources containing quotes', done => {
     let outputString = '';
     from([
         {
@@ -88,7 +88,7 @@ test('export in CSV resources containing quotes', done => {
         .on('error', done);
 });
 
-test('export in CSV resources containing semicolon', done => {
+test.skip('export in CSV resources containing semicolon', done => {
     let outputString = '';
     from([
         {
@@ -118,7 +118,7 @@ test('export in CSV resources containing semicolon', done => {
         .on('error', done);
 });
 
-test('export CSV with labels in header', done => {
+test.skip('export CSV with labels in header', done => {
     let outputString = '';
     from([
         {
