@@ -1,41 +1,50 @@
 {
- "name": "lodex-extended",
- "version": "4.0.0",
- "description": "LODEX EZS scripts",
- "directories": {
-  "example": "examples",
-  "test": "tests"
- },
- "dependencies": {},
- "devDependencies": {
-  "@ezs/analytics": "1.2.2",
-  "@ezs/basics": "1.1.1",
-  "@ezs/booster": "1.1.7",
-  "@ezs/conditor": "1.9.1",
-  "@ezs/core": "1.3.1",
-  "@ezs/istex": "1.0.9",
-  "@ezs/lodex": "1.3.4",
-  "@ezs/sparql": "1.0.6",
-  "from": "0.1.7",
-  "jest": "24.9.0"
- },
- "scripts": {
-  "test": "jest",
-  "postversion": "git push && git push --tags"
- },
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/Inist-CNRS/lodex-extended.git"
- },
- "keywords": [
-  "lodex",
-  "ezs",
-  "scripts"
- ],
- "author": "François PARMENTIER <francois.parmentier@gmail.com>",
- "license": "CECILL-2.1",
- "bugs": {
-  "url": "https://github.com/Inist-CNRS/lodex-extended/issues"
- },
- "homepage": "https://github.com/Inist-CNRS/lodex-extended#readme"
+	"name": "lodex-extended",
+	"version": "4.0.0",
+	"description": "LODEX EZS scripts",
+	"directories": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Inist-CNRS/lodex-extended.git"
+	},
+	"keywords": [
+		"lodex",
+		"ezs"
+	],
+	"contributors": [
+		"François PARMENTIER <francois.parmentier@gmail.com>",
+		"Nicolas Thouvenin <nthouvenin@gmail.com>"
+	],
+	"license": "CECILL-2.1",
+	"bugs": {
+		"url": "https://github.com/Inist-CNRS/lodex-extended/issues"
+	},
+	"homepage": "https://github.com/Inist-CNRS/lodex-extended#readme",
+	"dependencies": {
+		"@ezs/core": "1.8.0",
+		"@ezs/analytics": "1.3.3",
+		"@ezs/basics": "1.2.3",
+		"@ezs/booster": "1.1.12",
+		"@ezs/istex": "1.0.14",
+		"@ezs/lodex": "1.4.0",
+		"@ezs/transformers": "1.2.2",
+		"@ezs/storage": "0.1.6",
+		"@ezs/sparql": "1.0.11",
+		"dotenv-cli": "3.1.0"
+	},
+	"devDependencies": {
+		"from": "0.1.7",
+		"jest": "24.9.0"
+	},
+	"peerDependencies": {},
+	"scripts": {
+		"test": "jest",
+		"prestart": "node ./generate-dotenv.js",
+		"start": "dotenv -- ezs --daemon ./public",
+		"insertversion:readme": "sed -i \"s#\\(lodex-extended:\\)\\([\\.a-z0-9]\\+\\)#\\1${npm_package_version}#g\" README.md",
+		"insertversion:makefile": "sed -i \"s#\\(lodex-extended:\\)\\([\\.a-z0-9]\\+\\)#\\1${npm_package_version}#g\" Makefile",
+		"insertversion:docker": "sed -i \"s#\\(lodex-extended:\\)\\([\\.a-z0-9]\\+\\)#\\1${npm_package_version}#g\" docker-compose*.yml",
+		"version": "npm run insertversion:readme && npm run insertversion:makefile && npm run insertversion:docker && git add README.md Makefile docker-compose.debug.yml",
+		"postversion": "git push && git push --tags"
+	}
 }
