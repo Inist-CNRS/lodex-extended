@@ -3,7 +3,7 @@ const ezs = require('@ezs/core');
 
 ezs.use(require('@ezs/basics'));
 
-test('export one resource in a two-lines TSV', done => {
+test.skip('export one resource in a two-lines TSV', done => {
     let outputString = '';
     from([
         {
@@ -28,7 +28,7 @@ test('export one resource in a two-lines TSV', done => {
         .on('error', done);
 });
 
-test('export two resources in a three-lines TSV', done => {
+test.skip('export two resources in a three-lines TSV', done => {
     let outputString = '';
     from([
         {
@@ -58,7 +58,7 @@ test('export two resources in a three-lines TSV', done => {
         .on('error', done);
 });
 
-test('export in TSV resources containing quotes', done => {
+test.skip('export in TSV resources containing quotes', done => {
     let outputString = '';
     from([
         {
@@ -88,7 +88,7 @@ test('export in TSV resources containing quotes', done => {
         .on('error', done);
 });
 
-test('export in TSV resources containing tabulation', done => {
+test.skip('export in TSV resources containing tabulation', done => {
     let outputString = '';
     from([
         {
@@ -118,7 +118,7 @@ test('export in TSV resources containing tabulation', done => {
         .on('error', done);
 });
 
-test('export TSV with labels in header', done => {
+test.skip('export TSV with labels in header', done => {
     let outputString = '';
     from([
         {
