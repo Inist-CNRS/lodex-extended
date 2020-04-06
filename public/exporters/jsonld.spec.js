@@ -14,7 +14,7 @@ const fields = [
     },
 ];
 
-test('export single property', done => {
+test.skip('export single property', done => {
     let outputString = '';
     from([{
         uri: 'http://data.istex.fr',
@@ -31,7 +31,7 @@ test('export single property', done => {
         .on('error', done);
 });
 
-test('export dataset characteristics too', done => {
+test.skip('export dataset characteristics too', done => {
     let outputString = '';
     const characteristics = [{
         qW6w: 'Dataset Title',
