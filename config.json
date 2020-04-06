@@ -1,7 +1,10 @@
 {
 	"environnement": {
-		"CRON_VERBOSE": true,
-		"EZS_VERBOSE": false,
+		"#EZS_VERBOSE": true,
+		"#EZS_CONCURRENCY": 4,
+		"#EZS_ENCODING": "gzip",
+		"#EZS_NSHARDS": 4,
+		"#EZS_DELEGATE": "delegate",
 		"NODE_ENV": "production"
 	}
 }
