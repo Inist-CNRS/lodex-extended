@@ -22,7 +22,7 @@
 	"homepage": "https://github.com/Inist-CNRS/lodex-extended#readme",
 	"dependencies": {
 		"@ezs/core": "1.8.2",
-		"@ezs/analytics": "1.4.1",
+		"@ezs/analytics": "1.4.2",
 		"@ezs/basics": "1.2.4",
 		"@ezs/booster": "1.1.14",
 		"@ezs/istex": "1.0.15",
