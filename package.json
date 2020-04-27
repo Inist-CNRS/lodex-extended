@@ -21,20 +21,20 @@
 	},
 	"homepage": "https://github.com/Inist-CNRS/lodex-extended#readme",
 	"dependencies": {
-		"@ezs/core": "1.8.2",
-		"@ezs/analytics": "1.4.2",
-		"@ezs/basics": "1.2.4",
-		"@ezs/booster": "1.1.14",
-		"@ezs/istex": "1.0.15",
-		"@ezs/lodex": "1.5.0",
+		"@ezs/core": "1.8.3",
+		"@ezs/analytics": "1.4.3",
+		"@ezs/basics": "1.2.5",
+		"@ezs/booster": "1.1.15",
+		"@ezs/istex": "1.0.16",
+		"@ezs/lodex": "1.5.1",
 		"@ezs/transformers": "1.2.2",
-		"@ezs/storage": "1.1.9",
+		"@ezs/storage": "1.1.10",
 		"@ezs/sparql": "1.0.11",
 		"dotenv-cli": "3.1.0"
 	},
 	"devDependencies": {
 		"from": "0.1.7",
-		"jest": "25.3.0"
+		"jest": "25.4.0"
 	},
 	"peerDependencies": {},
 	"scripts": {
