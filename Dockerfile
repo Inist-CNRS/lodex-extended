@@ -6,6 +6,7 @@ WORKDIR /app
 RUN npm install --production && npm cache clean --force
 
 FROM node:12-alpine AS release
+RUN apk add --no-cache su-exec
 COPY --from=build /app /app
 # see https://github.com/Inist-CNRS/ezmaster
 RUN echo '{ \
@@ -16,13 +17,14 @@ RUN echo '{ \
 WORKDIR /app
 COPY config.json /app
 COPY generate-dotenv.js /app
+COPY docker-entrypoint.sh /app
 COPY public/ /app/public
 # To be compilant with Debian/Ubuntu container (and so with ezmaster-webdav)
 RUN sed -i -e "s/daemon:x:2:2/daemon:x:1:1/" /etc/passwd && \
     sed -i -e "s/daemon:x:2:/daemon:x:1:/" /etc/group && \
     sed -i -e "s/bin:x:1:1/bin:x:2:2/" /etc/passwd && \
     sed -i -e "s/bin:x:1:/bin:x:2:/" /etc/group
-RUN mkdir -p /sbin/.npm && mkdir -p /sbin/.config
+RUN mkdir -p /sbin/.npm /sbin/.config
 RUN chown -R daemon:daemon /app /sbin/.npm /sbin/.config
-USER daemon
+ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
 CMD [ "npm", "start" ]
