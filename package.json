@@ -25,7 +25,7 @@
 		"@ezs/analytics": "1.5.1",
 		"@ezs/basics": "1.2.6",
 		"@ezs/booster": "1.2.0",
-		"@ezs/istex": "1.0.17",
+		"@ezs/istex": "git+https://github.com/Inist-CNRS/ezs.git#istex-exchange",
 		"@ezs/lodex": "1.5.1",
 		"@ezs/transformers": "1.2.2",
 		"@ezs/storage": "1.2.0",
