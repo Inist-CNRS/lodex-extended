@@ -15,7 +15,10 @@ describe('enrich.ini', () => {
       { id: 5, value: 'Zinc' },
     ];
     from(data)
+      .pipe(ezs('dump'))
+      .pipe(ezs.toBuffer())
       .pipe(ezs('delegate', { file }))
+      .pipe(ezs('basics:JSONParse', { separator: '*' }))
       .pipe(ezs.catch())
       .on('error', done)
       .on('data', chunk => {
