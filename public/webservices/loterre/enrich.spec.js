@@ -5,7 +5,7 @@ const from = require('from');
 describe('enrich.ini', () => {
   it('should enrich key/value object', done => {
     const res = [];
-    const file = resolve(__dirname, 'sample/enrich.ini');
+    const file = resolve(__dirname, 'example/enrich.ini');
     const data = [
       { id: 0, value: 'non metal' },
       { id: 1, value: 'non métal' },
