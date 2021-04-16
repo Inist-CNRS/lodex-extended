@@ -6,7 +6,7 @@ Exemple d'utilisation :
 
 ```bash
  
-cat <<EOF |jq .|curl -N --proxy "" -X POST --data-binary @- "http://localhost:31976/structure?indent=true"
+cat <<EOF |jq .|curl -N --proxy "" -X POST --data-binary @- "http://localhost:31976/expand?indent=true"
 [
     { "value": "Baran, N (reprint author), Univ Zagreb, Dept Phys, Bijenieka Cesta 32, Zagreb 10000, Croatia."},
      { "value": "Harikane, Y (reprint author), Univ Tokyo, Inst Cosm Ray Res, 5-1-5 Kashiwanoha, Kashiwa, Chiba 2778582, Japan.; Harikane, Y (reprint author), Univ Tokyo, Grad Sch Sci, Dept Phys, Bunkyo Ku, 7-3-1 Hongo, Tokyo 1130033, Japan."},
