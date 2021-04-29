@@ -518,6 +518,18 @@ Elle doit alors être déclarée dans `Value` (Valeur) selon :
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/syndication/)
 
+## [syndication-relationship.ini]()
+
+Récupère les champs paramétrés dans les sous-resource permettent de récupérais les relation avec les resource principale.
+
+Elle est, en particulier, utilisée avec le format
+[Resources Grid](https://user-doc.lodex.inist.fr/administration/modele/format/resourcesgrid.html)
+pour représenter sur la page de sous resource, ça prensence dans d'autre resource.
+
+Elle doit alors être déclarée dans une `Tranformation` selon :
+
+- Prefix : `/api/run/syndication-relationship/aHOZ/`, `aHOZ` étant l'element de la resource principal a mettre en relation avec l'element courant.
+
 ## [total-of.ini](https://user-doc.lodex.inist.fr/configuration/routines/totalof.html)
 
 Utilisé pour des tests prestataire.
