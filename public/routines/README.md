@@ -518,7 +518,7 @@ Elle doit alors être déclarée dans `Value` (Valeur) selon :
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/syndication/)
 
-## [syndication-relationship.ini]()
+## [filter.ini]()
 
 Récupère les champs paramétrés dans les sous-resource permettent de récupérais les relation avec les resource principale.
 
@@ -528,7 +528,7 @@ pour représenter sur la page de sous resource, ça prensence dans d'autre resou
 
 Elle doit alors être déclarée dans une `Tranformation` selon :
 
-- Prefix : `/api/run/syndication-relationship/aHOZ/`, `aHOZ` étant l'element de la resource principal a mettre en relation avec l'element courant.
+- Prefix : `/api/run/filter/aHOZ/`, `aHOZ` étant l'element de la resource principal a mettre en relation avec l'element courant.
 
 ## [total-of.ini](https://user-doc.lodex.inist.fr/configuration/routines/totalof.html)
 
