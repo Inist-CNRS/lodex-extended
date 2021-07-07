@@ -7,7 +7,7 @@ services:
             args:
                 - http_proxy
                 - https_proxy
-        image: inistcnrs/lodex-extended:6.20.1
+        image: inistcnrs/lodex-extended:6.20.2
         environment:
             - http_proxy
             - https_proxy
