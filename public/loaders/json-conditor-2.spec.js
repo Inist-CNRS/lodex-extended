@@ -6,8 +6,8 @@ describe('json-conditor-2.ini', () => {
         const res = [];
         const expected = [
             {
-                // "abstract en": "",
-                // "abstract fr": "",
+                // "abstract en": "", +
+                // "abstract fr": "", +
                 // "articleNumber": "",
                 // "arxiv": "",
                 "authors affiliations address": [["Some Laboratory of science", "Some University"]],
@@ -26,101 +26,101 @@ describe('json-conditor-2.ini', () => {
                 "authors orcId": ["0000-1111-2222-3333"],
                 "authors researcherId": [],
                 "authors viaf": [],
-                // "bibCode": "",
-                // "cern": "",
+                // "bibCode": "", +
+                // "cern": "", +
                 // "classification dewey": "",
-                // "classification hal": "",
+                // "classification hal": {},
                 // "classification tef": "",
                 // "classification thesisDomain": "",
-                // "creationDate": "",
-                // "defenseOrganisms associatedLaboratory": [],
-                // "defenseOrganisms associatedLaboratoryIdRef": [],
-                // "defenseOrganisms degreeGrantor": [],
-                // "defenseOrganisms degreeGrantorIdRef": [],
-                // "defenseOrganisms doctoralSchool": [],
-                // "defenseOrganisms doctoralSchoolIdRef": [],
+                // "creationDate": "", -
+                // "defenseOrganisms associatedLaboratory": [], // À réorganiser
+                // "defenseOrganisms associatedLaboratoryIdRef": [], // À réorganiser
+                // "defenseOrganisms degreeGrantor": [], // À réorganiser
+                // "defenseOrganisms degreeGrantorIdRef": [], // À réorganiser
+                // "defenseOrganisms doctoralSchool": [], // À réorganiser
+                // "defenseOrganisms doctoralSchoolIdRef": [], // À réorganiser
                 "documentType": "",
-                "doi": ["10.5555/9876543210"],
-                "duplicateRules": [],
+                "doi": "10.5555/9876543210",
                 "duplicates source": ["database1", "database2"],
                 "duplicates sourceUid": ["sourceId1$database1", "sourceId2$database2"],
-                // "eisbn": "",
+                "eisbn": "",
                 "eissn": "",
-                // "electronicPublicationDate": "",
-                // "enrichments classifications bso": [],
-                // "enrichments classifications scienceMetrix": [],
-                // "enrichments classifications scopus": [],
-                // "enrichments oa core": [],
-                // "enrichments oa unpaywall": [],
-                // "ensam": "",
-                // "fulltextPath": "",
+                // "electronicPublicationDate": "", // dans host
+                // "enrichments classifications bso": [], // +
+                "enrichments classifications hal": {}, // À exploser en trois: * code, en, fr
+                // "enrichments classifications scienceMetrix": [], // +
+                // "enrichments classifications scopus": [], // +
+                // "enrichments oa core": [], // -
+                "enrichments oa unpaywall": {}, // À exploser: is_oa, oa_status, has_repository_copy, oa_locations.host_type
+                // "ensam": "", // + (à la racine)
+                // "fulltextPath": "", // + (à la racine)
                 // "funders grantNumber": [],
                 // "funders name": [],
-                // "halId": "",
-                // "hasDoi": true,
-                // "hasFulltext": "",
-                // "hasTransDuplicate": "",
-                // "idChain": "",
-                // "idConditor": "",
-                // "idProdinra": "",
-                // "ineris": "",
-                // "inspire": "",
-                // "ird": "",
-                // "irstea": "",
-                // "isDeduplicable": "",
-                // "isDuplicate": "",
-                // "isNearDuplicate": "",
-                // "isbn": "",
+                // "halId": "", // + (à la racine)
+                // "hasDoi": true, // + (à déduire de doi ?)
+                // "hasFulltext": "", // + (lié à fulltextPath ?)
+                // "hasTransDuplicate": "", // -
+                // "idChain": "", // + (business.sourceUidChain)
+                // "idConditor": "", // -
+                // "idProdinra": "", // + (à la racine)
+                // "ineris": "", // +
+                // "inspire": "", // +
+                // "ird": "", // +
+                // "irstea": "", // +
+                // "isDeduplicable": "", // -
+                // "isDuplicate": "", // + (déduit de la taille de duplicates sourceUid)
+                // "isNearDuplicate": "", // -
+                // "isbn": "", // +
                 "issn": "1234-1234",
                 "issue": "",
-                // "keywords en author": [],
+                // "keywords en author": [], // +
                 "keywords en mesh": [],
-                // "keywords fr author": [],
-                // "keywords fr mesh": [],
-                // "keywords fr rameau": [],
-                // "keywords undetermined author": [],
-                "language": [],
-                // "localRef": "",
-                // "meetingAbstractNumber": "",
-                // "nearDuplicates source": [],
-                // "nearDuplicates sourceUid": [],
-                // "nearDuplicatesDetectedBySimilarity source": [],
-                // "nearDuplicatesDetectedBySimilarity sourceUid": [],
-                // "nnt": "",
-                // "oatao": "",
-                // "okina": "",
-                // "otherNumber": "",
+                // "keywords fr author": [], // +
+                // "keywords fr mesh": [], // +
+                // "keywords fr rameau": [], // +
+                // "keywords undetermined author": [], // +
+                "language": [], // Par défaut dans host, mais dans le futur: à la racine (donc à la racine d'abord)
+                // "localRef": "", // -
+                // "meetingAbstractNumber": "", // +
+                // "nearDuplicates source": [], // -
+                // "nearDuplicates sourceUid": [], // -
+                // "nearDuplicatesDetectedBySimilarity source": [], // -
+                // "nearDuplicatesDetectedBySimilarity sourceUid": [], // -
+                // "nnt": "", // +
+                // "oatao": "", // +
+                // "okina": "", // +
+                // "otherNumber": "", // + (où ?)
                 "pageRange": [],
-                // "part": "",
-                // "patentNumber": "",
-                // "path": "",
+                // "part": "", // + racine
+                // "patentNumber": "", // + racine
+                // "path": "", // -
                 "pii": "",
                 "pmId": "",
-                // "pmc": "",
-                // "ppn": "",
+                // "pmc": "", // +
+                // "ppn": "", // +
                 // "provider": "", // ?
                 "publicationDate": "",
-                // "publisher": "",
-                // "reportNumber": "",
-                // "sciencespo": "",
-                // "sessionName": "",
-                // "source": "",
-                // "sourceId": "", //?
-                // "sourceUid": "",//?
-                // "specialIssue": "",
-                // "supplement": "",
-                // "thesisAdvisor forename": [],
-                // "thesisAdvisor idRef": [],
-                // "thesisAdvisor surname": [],
+                // "publisher": "", // + (host)
+                // "reportNumber": "", // + racine
+                // "sciencespo": "", // + racine
+                // "sessionName": "", // -
+                // "source": "", // -
+                // "sourceId": "", // -
+                // "sourceUid": "",// -
+                // "specialIssue": "", // + host
+                // "supplement": "", // + host
+                // "thesisAdvisor forename": [], // ?
+                // "thesisAdvisor idRef": [], // ?
+                // "thesisAdvisor surname": [], // ?
                 "title default": "french title of the doc",
                 "title en": "english title",
                 "title fr": "french title of the doc",
                 "title journal": "My favourite journal",
-                // "title meeting": "",
-                // "title monography": "",
-                // "typeConditor": "",
+                // "title meeting": "", // + (host)
+                // "title monography": "", // + (hosy)
+                // "typeConditor": "", // + (business.duplicateGenre)
                 "uri": "uid:/RJWprpeBG",
-                // "utKey": "",
+                // "utKey": "", //+ racine
                 "volume": ""
             },
             {
@@ -147,7 +147,7 @@ describe('json-conditor-2.ini', () => {
                 //     "bibCode": "",
                 //     "cern": "",
                 //     "classification dewey": "",
-                //     "classification hal": "",
+                // "classification hal": {},
                 //     "classification tef": "",
                 //     "classification thesisDomain": "",
                 //     "creationDate": "",
@@ -158,18 +158,18 @@ describe('json-conditor-2.ini', () => {
                 //     "defenseOrganisms doctoralSchool": [],
                 //     "defenseOrganisms doctoralSchoolIdRef": [],
                 "documentType": "",
-                "doi": ["10.5555/9876543212"],
-                "duplicateRules": [],
+                "doi": "10.5555/9876543212",
                 "duplicates source": ["database3", "database4"],
                 "duplicates sourceUid": ["sourceId1$database3", "sourceId2$database4"],
-                //     "eisbn": "",
+                "eisbn": "",
                 "eissn": "",
                 //     "electronicPublicationDate": "",
                 //     "enrichments classifications bso": "",
+                "enrichments classifications hal": {},
                 //     "enrichments classifications scienceMetrix": "",
                 //     "enrichments classifications scopus": "",
                 //     "enrichments oa core": "",
-                //     "enrichments oa unpaywall": "",
+                "enrichments oa unpaywall": {},
                 //     "ensam": "",
                 //     "fulltextPath": "",
                 //     "funders grantNumber": [],
@@ -265,14 +265,9 @@ describe('json-conditor-2.ini', () => {
                 "authors orcId": [],
                 "authors researcherId": [],
                 "authors viaf": [],
-                "documentType": "Article",
-                "doi": ["10.1001/jama.2014.10498"],
-                "duplicateRules": [
-                    "Article : 1ID:doi+TiC",
-                    "Article : 1ID:doi+TiC_ENG",
-                    "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee",
-                    "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee"
-                ],
+                // "classification hal": {},
+                "documentType": "Journal Article",
+                "doi": "10.1001/jama.2014.10498",
                 "duplicates source": [
                     "pubmed",
                     "crossref"
@@ -281,7 +276,14 @@ describe('json-conditor-2.ini', () => {
                     "pubmed$25247512",
                     "crossref$10.1001/jama.2014.10498"
                 ],
+                "eisbn": "",
                 "eissn": "1538-3598",
+                "enrichments classifications hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                },
+                "enrichments oa unpaywall": {},
                 "keywords en mesh": [
                     "Health Policy",
                     "Helicobacter Infections",
