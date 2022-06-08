@@ -78,8 +78,8 @@ describe('json-conditor-2.ini', () => {
                 "enrichments oa unpaywall": {}, // À exploser: is_oa, oa_status, has_repository_copy, oa_locations.host_type
                 // "ensam": "", // + (à la racine)
                 "fulltextUrl": "",
-                // "funders grantNumber": [],
-                // "funders name": [],
+                "funders grantNumber": [],
+                "funders name": [],
                 // "halId": "", // + (à la racine)
                 // "hasDoi": true, // + (à déduire de doi ?)
                 // "hasFulltext": "", // + (lié à fulltextPath ?)
@@ -97,7 +97,7 @@ describe('json-conditor-2.ini', () => {
                 // "isbn": "", // +
                 "issn": "1234-1234",
                 "issue": "",
-                // "keywords en author": [], // +
+                "keywords en author": [],
                 "keywords en mesh": [],
                 // "keywords fr author": [], // +
                 // "keywords fr mesh": [], // +
@@ -195,8 +195,8 @@ describe('json-conditor-2.ini', () => {
                 "enrichments oa unpaywall": {},
                 //     "ensam": "",
                 "fulltextUrl": "",
-                //     "funders grantNumber": [],
-                //     "funders name": [],
+                "funders grantNumber": [],
+                "funders name": [],
                 //     "halId": "",
                 //     "hasDoi": "",
                 //     "hasFulltext": "",
@@ -214,7 +214,7 @@ describe('json-conditor-2.ini', () => {
                 //     "isbn": "",
                 "issn": "4321-1234",
                 "issue": "",
-                //     "keywords en author": "",
+                "keywords en author": [],
                 "keywords en mesh": [],
                 //     "keywords fr author": "",
                 //     "keywords fr mesh": "",
@@ -316,6 +316,9 @@ describe('json-conditor-2.ini', () => {
                 },
                 "enrichments oa unpaywall": {},
                 "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
+                "funders grantNumber": [],
+                "funders name": [],
+                "keywords en author": [],
                 "keywords en mesh": [
                     "Health Policy",
                     "Helicobacter Infections",
@@ -419,8 +422,11 @@ describe('json-conditor-2.ini', () => {
                     "has_repository_copy": true
                 },
                 "fulltextUrl": "",
+                "funders grantNumber": ["ANR-16-CE34-0012-001"],
+                "funders name": ["Agence Nationale de la Recherche"],
                 "issn": "0273-1223",
                 "issue": "12",
+                "keywords en author": [],
                 "keywords en mesh": [],
                 "language": ["English"],
                 "pageRange": ["2813-2822"],
@@ -930,7 +936,11 @@ describe('json-conditor-2.ini', () => {
 
     it('should parse mergedDocuments4', testMerged(4));
 
-    it('should get arxiv', testMerged(5));
+    // WARNING: identifiers are not associated with authors
+    // (not always as many identifiers as authors)
+    it('arxiv, authors enrichments identifiers, authors identifiers, classifications, keywords en author', testMerged(5));
 
     it('authors affiliations ref', testMerged(6));
+
+    it('funders grantNumber / name', testMerged(7));
 });
