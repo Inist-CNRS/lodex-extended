@@ -931,4 +931,6 @@ describe('json-conditor-2.ini', () => {
     it('should parse mergedDocuments4', testMerged(4));
 
     it('should get arxiv', testMerged(5));
+
+    it('authors affiliations ref', testMerged(6));
 });
