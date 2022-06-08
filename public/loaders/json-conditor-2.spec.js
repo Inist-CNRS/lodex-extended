@@ -33,7 +33,7 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "English abstract",
                 "abstract fr": "French abstract",
-                // "articleNumber": "",
+                "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [["Some Laboratory of science", "Some University"]],
                 "authors affiliations idRef": [[]],
@@ -150,7 +150,7 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "2. abstract.en",
                 "abstract fr": "",
-                //     "articleNumber": "",
+                "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [["Un labo scientifique", "Une université"]],
                 "authors affiliations idRef": [[]],
@@ -267,6 +267,7 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "",
                 "abstract fr": "",
+                "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [
                     ["Section of Early Detection and Prevention, International Agency for Research on Cancer, Lyon, France."],
@@ -343,6 +344,7 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas...",
                 "abstract fr": "",
+                "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [
                     [
