@@ -6,14 +6,14 @@ describe('json-conditor-2.ini', () => {
         const res = [];
         const expected = [
             {
-                // "abstract en": "", +
-                // "abstract fr": "", +
+                "abstract en": "English abstract",
+                "abstract fr": "French abstract",
                 // "articleNumber": "",
-                // "arxiv": "",
+                "arxiv": "",
                 "authors affiliations address": [["Some Laboratory of science", "Some University"]],
                 "authors affiliations idRef": [[]],
                 "authors affiliations isni": [["0000000123456789"]],
-                // "authors affiliations ref": [[]],
+                "authors affiliations ref": [[]],
                 "authors affiliations rnsr": [["1234321"]],
                 "authors enrichments idHal": [],
                 "authors enrichments idRef": [],
@@ -26,13 +26,12 @@ describe('json-conditor-2.ini', () => {
                 "authors orcId": ["0000-1111-2222-3333"],
                 "authors researcherId": [],
                 "authors viaf": [],
-                // "bibCode": "", +
-                // "cern": "", +
+                "bibCode": "",
+                "cern": "",
                 // "classification dewey": "",
                 // "classification hal": {},
                 // "classification tef": "",
                 // "classification thesisDomain": "",
-                // "creationDate": "", -
                 // "defenseOrganisms associatedLaboratory": [], // À réorganiser
                 // "defenseOrganisms associatedLaboratoryIdRef": [], // À réorganiser
                 // "defenseOrganisms degreeGrantor": [], // À réorganiser
@@ -45,7 +44,7 @@ describe('json-conditor-2.ini', () => {
                 "duplicates sourceUid": ["sourceId1$database1", "sourceId2$database2"],
                 "eisbn": "",
                 "eissn": "",
-                // "electronicPublicationDate": "", // dans host
+                "electronicPublicationDate": "",
                 // "enrichments classifications bso": [], // +
                 "enrichments classifications hal": {}, // À exploser en trois: * code, en, fr
                 // "enrichments classifications scienceMetrix": [], // +
@@ -53,7 +52,7 @@ describe('json-conditor-2.ini', () => {
                 // "enrichments oa core": [], // -
                 "enrichments oa unpaywall": {}, // À exploser: is_oa, oa_status, has_repository_copy, oa_locations.host_type
                 // "ensam": "", // + (à la racine)
-                // "fulltextPath": "", // + (à la racine)
+                "fulltextUrl": "",
                 // "funders grantNumber": [],
                 // "funders name": [],
                 // "halId": "", // + (à la racine)
@@ -124,14 +123,14 @@ describe('json-conditor-2.ini', () => {
                 "volume": ""
             },
             {
-                //     "abstract en": "2. abstract.en",
-                //     "abstract fr": "",
+                "abstract en": "2. abstract.en",
+                "abstract fr": "",
                 //     "articleNumber": "",
-                //     "arxiv": "",
+                "arxiv": "",
                 "authors affiliations address": [["Un labo scientifique", "Une université"]],
                 "authors affiliations idRef": [[]],
                 "authors affiliations isni": [["0000000987654321"]],
-                //     "authors affiliations ref": [[null], [null, null]],
+                "authors affiliations ref": [[]],
                 "authors affiliations rnsr": [["200612816J"]],
                 "authors enrichments idHal": [],
                 "authors enrichments idRef": [],
@@ -144,13 +143,12 @@ describe('json-conditor-2.ini', () => {
                 "authors orcId": ["3333-2222-1111-0000"],
                 "authors researcherId": [],
                 "authors viaf": [],
-                //     "bibCode": "",
-                //     "cern": "",
+                "bibCode": "",
+                "cern": "",
                 //     "classification dewey": "",
                 // "classification hal": {},
                 //     "classification tef": "",
                 //     "classification thesisDomain": "",
-                //     "creationDate": "",
                 //     "defenseOrganisms associatedLaboratory": [],
                 //     "defenseOrganisms associatedLaboratoryIdRef": [],
                 //     "defenseOrganisms degreeGrantor": [],
@@ -163,7 +161,7 @@ describe('json-conditor-2.ini', () => {
                 "duplicates sourceUid": ["sourceId1$database3", "sourceId2$database4"],
                 "eisbn": "",
                 "eissn": "",
-                //     "electronicPublicationDate": "",
+                "electronicPublicationDate": "",
                 //     "enrichments classifications bso": "",
                 "enrichments classifications hal": {},
                 //     "enrichments classifications scienceMetrix": "",
@@ -171,7 +169,7 @@ describe('json-conditor-2.ini', () => {
                 //     "enrichments oa core": "",
                 "enrichments oa unpaywall": {},
                 //     "ensam": "",
-                //     "fulltextPath": "",
+                "fulltextUrl": "",
                 //     "funders grantNumber": [],
                 //     "funders name": [],
                 //     "halId": "",
@@ -242,6 +240,9 @@ describe('json-conditor-2.ini', () => {
                 "volume": ""
             },
             {
+                "abstract en": "",
+                "abstract fr": "",
+                "arxiv": "",
                 "authors affiliations address": [
                     ["Section of Early Detection and Prevention, International Agency for Research on Cancer, Lyon, France."],
                     ["Department of Medicine, Stanford University Medical Center, Stanford, California."],
@@ -249,6 +250,7 @@ describe('json-conditor-2.ini', () => {
                 ],
                 "authors affiliations idRef": [[], [], []],
                 "authors affiliations isni": [[], [], []],
+                "authors affiliations ref": [[], [], []],
                 "authors affiliations rnsr": [[], [], []],
                 "authors enrichments idHal": [],
                 "authors enrichments idRef": [],
@@ -265,6 +267,8 @@ describe('json-conditor-2.ini', () => {
                 "authors orcId": [],
                 "authors researcherId": [],
                 "authors viaf": [],
+                "bibCode": "",
+                "cern": "",
                 // "classification hal": {},
                 "documentType": "Journal Article",
                 "doi": "10.1001/jama.2014.10498",
@@ -278,12 +282,14 @@ describe('json-conditor-2.ini', () => {
                 ],
                 "eisbn": "",
                 "eissn": "1538-3598",
+                "electronicPublicationDate": "2014-09-24",
                 "enrichments classifications hal": {
                     "code": "sdv",
                     "en": "Life Sciences [q-bio]",
                     "fr": "Sciences du Vivant [q-bio]"
                 },
                 "enrichments oa unpaywall": {},
+                "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
                 "keywords en mesh": [
                     "Health Policy",
                     "Helicobacter Infections",
@@ -308,6 +314,97 @@ describe('json-conditor-2.ini', () => {
                 "title fr": "",
                 "title journal": "JAMA",
                 "volume": "312"
+            },
+            {
+                "abstract en": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas...",
+                "abstract fr": "",
+                "arxiv": "",
+                "authors affiliations address": [
+                    [
+                        "Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+                        "Laboratoire Réactions et Génie des Procédés, LTSER-Zone Atelier du Bassin de la Moselle, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France"
+                    ],
+                    ["Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France"],
+                    ["Laboratoire Interdisciplinaire des Environnements Continentaux, Université de Lorraine, CNRS, Campus Bridoux, Rue du Général Delestraint, Metz F-57070, France"]
+                ],
+                "authors affiliations idRef": [[], [], []],
+                "authors affiliations isni": [[], [], []],
+                "authors affiliations ref": [[], [], []],
+                "authors affiliations rnsr": [[[], []], [[]], [[]]], // TODO: to be flattened
+                "authors enrichments idHal": [],
+                "authors enrichments idRef": [],
+                "authors enrichments orcId": [],
+                "authors forename & authors surname": [
+                    "Marie-Noëlle Pons",
+                    "Pauline Louis",
+                    "Davide Vignati"
+                ],
+                "authors halAuthorId": [],
+                "authors idHal": [],
+                "authors idRef": [],
+                "authors isni": [],
+                "authors orcId": [],
+                "authors researcherId": [],
+                "authors viaf": [],
+                "bibCode": "",
+                "cern": "",
+                "documentType": "Journal article",
+                "doi": "10.2166/wst.2020.520",
+                "duplicates source": ["crossref"],
+                "duplicates sourceUid": ["crossref$10.2166/wst.2020.520"],
+                "eisbn": "",
+                "eissn": "1996-9732",
+                "electronicPublicationDate": "2020-11-2",
+                "enrichments classifications hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                },
+                "enrichments oa unpaywall": {
+                    "oa_locations": [
+                        {
+                            "license": null,
+                            "url_for_landing_page": "https://doi.org/10.2166/wst.2020.520",
+                            "is_best": true,
+                            "url_for_pdf": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf",
+                            "host_type": "publisher",
+                            "url": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf"
+                        },
+                        {
+                            "license": null,
+                            "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+                            "is_best": false,
+                            "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+                            "host_type": "repository",
+                            "url": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf"
+                        },
+                        {
+                            "license": null,
+                            "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964",
+                            "is_best": false,
+                            "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/document",
+                            "host_type": "repository",
+                            "url": "https://hal.univ-lorraine.fr/hal-03083964/document"
+                        }
+                    ],
+                    "oa_status": "bronze",
+                    "is_oa": true,
+                    "has_repository_copy": true
+                },
+                "fulltextUrl": "",
+                "issn": "0273-1223",
+                "issue": "12",
+                "keywords en mesh": [],
+                "language": ["English"],
+                "pageRange": ["2813-2822"],
+                "pii": "",
+                "pmId": "",
+                "publicationDate": "2020-12-15",
+                "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
+                "title en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
+                "title fr": "",
+                "title journal": "Water Science and Technology",
+                "volume": "82"
             }
         ].map((notice, i) => ({ ...notice, uri: i }));
         const input = [
@@ -349,6 +446,11 @@ describe('json-conditor-2.ini', () => {
                         "database1",
                         "database2"
                     ]
+                },
+                "abstract": {
+                    "default": "French abstract",
+                    "en": "English abstract",
+                    "fr": "French abstract"
                 }
             },
             {
@@ -389,6 +491,11 @@ describe('json-conditor-2.ini', () => {
                         "database3",
                         "database4"
                     ]
+                },
+                "abstract": {
+                    "default": "2. abstract.en",
+                    "en": "2. abstract.en",
+                    "fr": ""
                 }
             },
             {
@@ -434,8 +541,10 @@ describe('json-conditor-2.ini', () => {
                     }
                 },
                 "doi": "10.1001/jama.2014.10498",
+                "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
                 "host": {
                     "title": "JAMA",
+                    "electronicPublicationDate": "2014-09-24",
                     "eissn": "1538-3598",
                     "publicationDate": "2014-09-24",
                     "issue": "12",
@@ -542,6 +651,231 @@ describe('json-conditor-2.ini', () => {
                     "originalGenre": "pubmed",
                     "sources": [
                         "pubmed",
+                        "crossref"
+                    ]
+                }
+            },
+            {
+                "abstract": {
+                    "default": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas...",
+                    "en": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas...",
+                    "fr": ""
+                },
+                "authors": [
+                    {
+                        "forename": "Marie-Noëlle",
+                        "isni": [],
+                        "researcherId": [],
+                        "surname": "Pons",
+                        "affiliations": [
+                            {
+                                "ref": "",
+                                "address": "Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+                                "isni": "",
+                                "idRef": "",
+                                "rnsr": [],
+                                "enrichments": {
+                                    "rnsr": [
+                                        "201019324R",
+                                        "201320573K"
+                                    ]
+                                }
+                            },
+                            {
+                                "ref": "",
+                                "address": "Laboratoire Réactions et Génie des Procédés, LTSER-Zone Atelier du Bassin de la Moselle, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+                                "isni": "",
+                                "idRef": "",
+                                "rnsr": []
+                            }
+                        ],
+                        "halAuthorId": [],
+                        "orcId": [],
+                        "fullname": "Marie-Noëlle Pons",
+                        "idHal": [],
+                        "idRef": [],
+                        "viaf": [],
+                        "rnsr": [
+                            "201019324R",
+                            "201320573K"
+                        ]
+                    },
+                    {
+                        "forename": "Pauline",
+                        "isni": [],
+                        "researcherId": [],
+                        "surname": "Louis",
+                        "affiliations": [
+                            {
+                                "ref": "",
+                                "address": "Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+                                "isni": "",
+                                "idRef": "",
+                                "rnsr": [],
+                                "enrichments": {
+                                    "rnsr": [
+                                        "201019324R",
+                                        "201320573K"
+                                    ]
+                                }
+                            }
+                        ],
+                        "halAuthorId": [],
+                        "orcId": [],
+                        "fullname": "Pauline Louis",
+                        "idHal": [],
+                        "idRef": [],
+                        "viaf": [],
+                        "rnsr": [
+                            "201019324R",
+                            "201320573K"
+                        ]
+                    },
+                    {
+                        "forename": "Davide",
+                        "isni": [],
+                        "researcherId": [],
+                        "surname": "Vignati",
+                        "affiliations": [
+                            {
+                                "ref": "",
+                                "address": "Laboratoire Interdisciplinaire des Environnements Continentaux, Université de Lorraine, CNRS, Campus Bridoux, Rue du Général Delestraint, Metz F-57070, France",
+                                "isni": "",
+                                "idRef": "",
+                                "rnsr": []
+                            }
+                        ],
+                        "halAuthorId": [],
+                        "orcId": [],
+                        "fullname": "Davide Vignati",
+                        "idHal": [],
+                        "idRef": [],
+                        "viaf": []
+                    }
+                ],
+                "classifications": {
+                    "enrichments": {
+                        "hal": {
+                            "code": "sdv",
+                            "en": "Life Sciences [q-bio]",
+                            "fr": "Sciences du Vivant [q-bio]"
+                        }
+                    }
+                },
+                "doi": "10.2166/wst.2020.520",
+                "host": {
+                    "electronicPublicationDate": "2020-11-2",
+                    "editor": [],
+                    "otherNumber": "",
+                    "conference": {
+                        "date": "",
+                        "country": "",
+                        "name": "",
+                        "place": ""
+                    },
+                    "issue": "12",
+                    "isbn": "",
+                    "part": "",
+                    "eissn": "1996-9732",
+                    "language": [
+                        "English"
+                    ],
+                    "specialIssue": "",
+                    "title": "Water Science and Technology",
+                    "volume": "82",
+                    "pages": {
+                        "range": "2813-2822"
+                    },
+                    "issn": "0273-1223",
+                    "supplement": "",
+                    "publisher": "IWA Publishing",
+                    "eisbn": "",
+                    "publicationDate": "2020-12-15"
+                },
+                "enrichments": {
+                    "openAccess": {
+                        "unpaywall": {
+                            "oa_locations": [
+                                {
+                                    "license": null,
+                                    "url_for_landing_page": "https://doi.org/10.2166/wst.2020.520",
+                                    "is_best": true,
+                                    "url_for_pdf": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf",
+                                    "host_type": "publisher",
+                                    "url": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf"
+                                },
+                                {
+                                    "license": null,
+                                    "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+                                    "is_best": false,
+                                    "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+                                    "host_type": "repository",
+                                    "url": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf"
+                                },
+                                {
+                                    "license": null,
+                                    "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964",
+                                    "is_best": false,
+                                    "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/document",
+                                    "host_type": "repository",
+                                    "url": "https://hal.univ-lorraine.fr/hal-03083964/document"
+                                }
+                            ],
+                            "oa_status": "bronze",
+                            "is_oa": true,
+                            "has_repository_copy": true
+                        }
+                    }
+                },
+                "funders": [
+                    {
+                        "name": "Agence Nationale de la Recherche",
+                        "grantNumber": "ANR-16-CE34-0012-001",
+                        "doi": ""
+                    }
+                ],
+                "business": {
+                    "duplicateGenre": "Article",
+                    "sourceUidChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
+                    "duplicates": [
+                        {
+                            "sourceUid": "pubmed$33341772",
+                            "internalId": "13952F9BE480B1618B1C91E52174700C12304EC7",
+                            "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+                            "source": "pubmed"
+                        }
+                    ]
+                },
+                "title": {
+                    "default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
+                    "en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas"
+                },
+                "sourceUids": [
+                    "crossref$10.2166/wst.2020.520"
+                ],
+                "originalGenre": "Journal article",
+                "origins": {
+                    "abstract": "crossref",
+                    "abstract.en": "crossref",
+                    "abstract.default": "crossref",
+                    "authors": "crossref",
+                    "classifications.enrichments": "crossref",
+                    "doi": "crossref",
+                    "host": "crossref",
+                    "enrichments": "crossref",
+                    "funders": "crossref",
+                    "business.duplicateGenre": "crossref",
+                    "business.sourceUidChain": "crossref",
+                    "business.duplicates": [
+                        "crossref"
+                    ],
+                    "title.default": "crossref",
+                    "title.en": "crossref",
+                    "sourceUid": [
+                        "crossref"
+                    ],
+                    "originalGenre": "crossref",
+                    "sources": [
                         "crossref"
                     ]
                 }
