@@ -1,0 +1,2519 @@
+[
+    {
+        "authors": [
+            {
+                "forename": "Richard J.",
+                "surname": "McManus",
+                "affiliations": [
+                    {
+                        "address": "National Institute for Health Research (NIHR) School for Primary Care Research, Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, United Kingdom"
+                    }
+                ],
+                "fullname": "McManus Richard J."
+            },
+            {
+                "forename": "Jonathan",
+                "surname": "Mant",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Unit, Strangeways Research Laboratory, Department of Public Health and Primary Care, University of Cambridge, Cambridge, United Kingdom"
+                    }
+                ],
+                "fullname": "Mant Jonathan"
+            },
+            {
+                "forename": "M. Sayeed",
+                "surname": "Haque",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Clinical Sciences, NIHR School for Primary Care Research, University of Birmingham, Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Haque M. Sayeed"
+            },
+            {
+                "forename": "Emma P.",
+                "surname": "Bray",
+                "affiliations": [
+                    {
+                        "address": "School of Psychology, University of Central Lancashire, Preston, Lancashire, United Kingdom"
+                    }
+                ],
+                "fullname": "Bray Emma P."
+            },
+            {
+                "forename": "Stirling",
+                "surname": "Bryan",
+                "affiliations": [
+                    {
+                        "address": "Centre for Clinical Epidemiology and Evaluation, Vancouver Coastal Health Research Institute, Vancouver, British Columbia, Canada6School of Population and Public Health, University of British Columbia, Vancouver, British Columbia, Canada"
+                    }
+                ],
+                "fullname": "Bryan Stirling"
+            },
+            {
+                "forename": "Sheila M.",
+                "surname": "Greenfield",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Clinical Sciences, NIHR School for Primary Care Research, University of Birmingham, Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Greenfield Sheila M."
+            },
+            {
+                "forename": "Miren I.",
+                "surname": "Jones",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Clinical Sciences, NIHR School for Primary Care Research, University of Birmingham, Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Jones Miren I."
+            },
+            {
+                "forename": "Sue",
+                "surname": "Jowett",
+                "affiliations": [
+                    {
+                        "address": "Health Economics Unit, School of Health and Population Sciences, University of Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Jowett Sue"
+            },
+            {
+                "forename": "Paul",
+                "surname": "Little",
+                "affiliations": [
+                    {
+                        "address": "School of Medicine, University of Southampton, Southampton, United Kingdom"
+                    }
+                ],
+                "fullname": "Little Paul"
+            },
+            {
+                "forename": "Cristina",
+                "surname": "Penaloza",
+                "affiliations": [
+                    {
+                        "address": "Health Economics Unit, School of Health and Population Sciences, University of Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Penaloza Cristina"
+            },
+            {
+                "forename": "Claire",
+                "surname": "Schwartz",
+                "affiliations": [
+                    {
+                        "address": "National Institute for Health Research (NIHR) School for Primary Care Research, Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, United Kingdom"
+                    }
+                ],
+                "fullname": "Schwartz Claire"
+            },
+            {
+                "forename": "Helen",
+                "surname": "Shackleford",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Clinical Sciences, NIHR School for Primary Care Research, University of Birmingham, Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Shackleford Helen"
+            },
+            {
+                "forename": "Claire",
+                "surname": "Shovelton",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Clinical Sciences, NIHR School for Primary Care Research, University of Birmingham, Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Shovelton Claire"
+            },
+            {
+                "forename": "Jinu",
+                "surname": "Varghese",
+                "affiliations": [
+                    {
+                        "address": "Primary Care Clinical Sciences, NIHR School for Primary Care Research, University of Birmingham, Birmingham, Edgbaston, Birmingham, United Kingdom"
+                    }
+                ],
+                "fullname": "Varghese Jinu"
+            },
+            {
+                "forename": "Bryan",
+                "surname": "Williams",
+                "affiliations": [
+                    {
+                        "address": "Institute of Cardiovascular Sciences, NIHR University College London Hospitals Biomedical Research Centre, University College London, London, United Kingdom"
+                    }
+                ],
+                "fullname": "Williams Bryan"
+            },
+            {
+                "forename": "F.D. Richard",
+                "surname": "Hobbs",
+                "affiliations": [
+                    {
+                        "address": "National Institute for Health Research (NIHR) School for Primary Care Research, Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, United Kingdom"
+                    }
+                ],
+                "fullname": "Hobbs F.D. Richard"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.10057",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-08-27",
+            "issue": "8",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "799"
+                }
+            ],
+            "volume": "312"
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.10057!"
+        },
+        "title": {
+            "default": "Effect of Self-monitoring and Medication Self-titration on Systolic Blood Pressure in Hypertensive Patients at High Risk of Cardiovascular Disease",
+            "en": "Effect of Self-monitoring and Medication Self-titration on Systolic Blood Pressure in Hypertensive Patients at High Risk of Cardiovascular Disease"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.10057"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Rolando",
+                "surname": "Herrero",
+                "affiliations": [
+                    {
+                        "address": "Section of Early Detection and Prevention, International Agency for Research on Cancer, Lyon, France."
+                    }
+                ],
+                "fullname": "Herrero Rolando"
+            },
+            {
+                "forename": "Julie",
+                "surname": "Parsonnet",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, Stanford University Medical Center, Stanford, California."
+                    }
+                ],
+                "fullname": "Parsonnet Julie"
+            },
+            {
+                "forename": "Edwin Robert",
+                "surname": "Greenberg",
+                "affiliations": [
+                    {
+                        "address": "Division of Public Health Sciences, Fred Hutchinson Cancer Research Center, Seattle, Washington."
+                    }
+                ],
+                "fullname": "Greenberg Edwin Robert"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.10498",
+        "host": {
+            "title": "JAMA",
+            "eissn": "1538-3598",
+            "publicationDate": "2014-09-24",
+            "issue": "12",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "1197-8"
+                }
+            ],
+            "volume": "312"
+        },
+        "keywords": {
+            "en": {
+                "mesh": [
+                    "Health Policy",
+                    "Helicobacter Infections",
+                    "diagnosis",
+                    "drug therapy",
+                    "Humans",
+                    "Randomized Controlled Trials as Topic",
+                    "Stomach Neoplasms",
+                    "microbiology",
+                    "prevention & control",
+                    "United States"
+                ]
+            }
+        },
+        "language": [
+            "English"
+        ],
+        "pii": "1906623",
+        "pmId": "25247512",
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.10498!pubmed$25247512!",
+            "duplicates": [
+                {
+                    "sourceUid": "crossref$10.1001/jama.2014.10498",
+                    "sessionName": "CROSSREF_2021-01-05_2014_1",
+                    "rules": [
+                        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+                        "Article : 1ID:doi+TiC_ENG",
+                        "Article : 1ID:doi+TiC",
+                        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+                    ],
+                    "source": "crossref"
+                },
+                {
+                    "sourceUid": "pubmed$25247512",
+                    "sessionName": "PUBMED_2020-12-18_2014",
+                    "rules": [
+                        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+                        "Article : 1ID:doi+TiC_ENG",
+                        "Article : 1ID:doi+TiC",
+                        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+                    ],
+                    "source": "pubmed"
+                }
+            ],
+            "duplicateRules": [
+                "Article : 1ID:doi+TiC",
+                "Article : 1ID:doi+TiC_ENG",
+                "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee",
+                "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee"
+            ]
+        },
+        "title": {
+            "default": "Prevention of Gastric Cancer",
+            "en": "Prevention of Gastric Cancer"
+        },
+        "sourceUids": [
+            "pubmed$25247512",
+            "crossref$10.1001/jama.2014.10498"
+        ],
+        "originalGenre": "Journal Article",
+        "origins": {
+            "authors": "pubmed",
+            "classifications.enrichments": "pubmed",
+            "doi": "pubmed",
+            "host": "pubmed",
+            "keywords.en.mesh": [
+                "pubmed",
+                "crossref"
+            ],
+            "language": "pubmed",
+            "pii": "pubmed",
+            "pmId": "pubmed",
+            "business.duplicateGenre": "pubmed",
+            "business.sourceUidChain": "pubmed",
+            "business.duplicates": [
+                "pubmed",
+                "crossref"
+            ],
+            "business.duplicateRules": "pubmed",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "pubmed",
+                "crossref"
+            ],
+            "originalGenre": "pubmed",
+            "sources": [
+                "pubmed",
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Michelle L.",
+                "surname": "O’Donoghue",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "O’Donoghue Michelle L."
+            },
+            {
+                "forename": "Eugene",
+                "surname": "Braunwald",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Braunwald Eugene"
+            },
+            {
+                "forename": "Harvey D.",
+                "surname": "White",
+                "affiliations": [
+                    {
+                        "address": "Green Lane Cardiovascular Service, Auckland City Hospital, Auckland University, Auckland, New Zealand"
+                    }
+                ],
+                "fullname": "White Harvey D."
+            },
+            {
+                "forename": "Dylan P.",
+                "surname": "Steen",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Steen Dylan P."
+            },
+            {
+                "forename": "Mary Ann",
+                "surname": "Lukas",
+                "affiliations": [
+                    {
+                        "address": "Metabolic Pathways and Cardiovascular Therapeutic Area, GlaxoSmithKline, Philadelphia, Pennsylvania"
+                    }
+                ],
+                "fullname": "Lukas Mary Ann"
+            },
+            {
+                "forename": "Elizabeth",
+                "surname": "Tarka",
+                "affiliations": [
+                    {
+                        "address": "Metabolic Pathways and Cardiovascular Therapeutic Area, GlaxoSmithKline, King of Prussia, Pennsylvania"
+                    }
+                ],
+                "fullname": "Tarka Elizabeth"
+            },
+            {
+                "forename": "P. Gabriel",
+                "surname": "Steg",
+                "affiliations": [
+                    {
+                        "address": "Département Hospitalo-Universitaire FIRE, Hôpital Bichat, Assistance Publique-Hôpitaux de Paris, and Université Paris-Diderot, Paris, France6NHLI Imperial College, ICMS Royal Brompton Hospital, United Kingdom"
+                    }
+                ],
+                "fullname": "Steg P. Gabriel"
+            },
+            {
+                "forename": "Judith S.",
+                "surname": "Hochman",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, NYU Langone Medical Center, New York"
+                    }
+                ],
+                "fullname": "Hochman Judith S."
+            },
+            {
+                "forename": "Christoph",
+                "surname": "Bode",
+                "affiliations": [
+                    {
+                        "address": "Heart Center, Department for Cardiology and Angiology I, University of Freiburg, Freiburg, Germany"
+                    }
+                ],
+                "fullname": "Bode Christoph"
+            },
+            {
+                "forename": "Aldo P.",
+                "surname": "Maggioni",
+                "affiliations": [
+                    {
+                        "address": "ANMCO Research Center, Florence, Italy"
+                    }
+                ],
+                "fullname": "Maggioni Aldo P."
+            },
+            {
+                "forename": "KyungAh",
+                "surname": "Im",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Im KyungAh"
+            },
+            {
+                "forename": "Jennifer B.",
+                "surname": "Shannon",
+                "affiliations": [
+                    {
+                        "address": "Metabolic Pathways and Cardiovascular Therapeutic Area, GlaxoSmithKline, Research Triangle Park, North Carolina"
+                    }
+                ],
+                "fullname": "Shannon Jennifer B."
+            },
+            {
+                "forename": "Richard Y.",
+                "surname": "Davies",
+                "affiliations": [
+                    {
+                        "address": "Metabolic Pathways and Cardiovascular Therapeutic Area, GlaxoSmithKline, King of Prussia, Pennsylvania"
+                    }
+                ],
+                "fullname": "Davies Richard Y."
+            },
+            {
+                "forename": "Sabina A.",
+                "surname": "Murphy",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Murphy Sabina A."
+            },
+            {
+                "forename": "Sharon E.",
+                "surname": "Crugnale",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Crugnale Sharon E."
+            },
+            {
+                "forename": "Stephen D.",
+                "surname": "Wiviott",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Wiviott Stephen D."
+            },
+            {
+                "forename": "Marc P.",
+                "surname": "Bonaca",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Bonaca Marc P."
+            },
+            {
+                "forename": "David F.",
+                "surname": "Watson",
+                "affiliations": [
+                    {
+                        "address": "Metabolic Pathways and Cardiovascular Therapeutic Area, GlaxoSmithKline, Research Triangle Park, North Carolina"
+                    }
+                ],
+                "fullname": "Watson David F."
+            },
+            {
+                "forename": "W. Douglas",
+                "surname": "Weaver",
+                "affiliations": [
+                    {
+                        "address": "Henry Ford Heart and Vascular Institute, Detroit, Michigan"
+                    }
+                ],
+                "fullname": "Weaver W. Douglas"
+            },
+            {
+                "forename": "Patrick W.",
+                "surname": "Serruys",
+                "affiliations": [
+                    {
+                        "address": "Erasmus University, Thoraxcentrum, Rotterdam, the Netherlands13International Center for Circulatory Health, Imperial College, London, United Kingdom"
+                    }
+                ],
+                "fullname": "Serruys Patrick W."
+            },
+            {
+                "forename": "Christopher P.",
+                "surname": "Cannon",
+                "affiliations": [
+                    {
+                        "address": "TIMI Study Group, Cardiovascular Division, Brigham and Women’s Hospital, Boston, Massachusetts"
+                    }
+                ],
+                "fullname": "Cannon Christopher P."
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.11061",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-09-10",
+            "issue": "10",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "1006"
+                }
+            ],
+            "volume": "312"
+        },
+        "enrichments": {
+            "openAcces": {
+                "unpaywall": {
+                    "is_oa": true,
+                    "oa_status": "n/a",
+                    "has_repository_copy": true,
+                    "oa_locations": [
+                        {
+                            "url_for_landing_page": "https://jamanetwork.com/journals/jama/articlepdf/1900827/joi140114.pdf",
+                            "url_for_pdf": "https://jamanetwork.com/journals/jama/articlepdf/1900827/joi140114.pdf",
+                            "host_type": "repository",
+                            "url": "https://jamanetwork.com/journals/jama/articlepdf/1900827/joi140114.pdf"
+                        },
+                        {
+                            "url_for_landing_page": "http://jama.jamanetwork.com/data/Journals/JAMA/930764/joi140114.pdf",
+                            "url_for_pdf": "http://jama.jamanetwork.com/data/Journals/JAMA/930764/joi140114.pdf",
+                            "host_type": "repository",
+                            "url": "http://jama.jamanetwork.com/data/Journals/JAMA/930764/joi140114.pdf"
+                        }
+                    ]
+                }
+            }
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.11061!"
+        },
+        "title": {
+            "default": "Effect of Darapladib on Major Coronary Events After an Acute Coronary Syndrome",
+            "en": "Effect of Darapladib on Major Coronary Events After an Acute Coronary Syndrome"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.11061"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "enrichments": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Mahlon R.",
+                "surname": "DeLong",
+                "affiliations": [
+                    {
+                        "address": "Department of Neurology, Emory University School of Medicine, Atlanta, Georgia"
+                    }
+                ],
+                "fullname": "DeLong Mahlon R."
+            },
+            {
+                "forename": "Alim-Louis",
+                "surname": "Benabid",
+                "affiliations": [
+                    {
+                        "address": "Department of Neurology and Neurosurgery, Grenoble University Hospital and INSERM U318, Joseph Fourier University, Grenoble, France"
+                    }
+                ],
+                "fullname": "Benabid Alim-Louis"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.11132",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-09-17",
+            "issue": "11",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "1093"
+                }
+            ],
+            "volume": "312"
+        },
+        "enrichments": {
+            "openAcces": {
+                "unpaywall": {
+                    "is_oa": true,
+                    "oa_status": "n/a",
+                    "has_repository_copy": true,
+                    "oa_locations": [
+                        {
+                            "url_for_landing_page": "https://jamanetwork.com/journals/jama/articlepdf/1902782/jvp140115.pdf",
+                            "url_for_pdf": "https://jamanetwork.com/journals/jama/articlepdf/1902782/jvp140115.pdf",
+                            "host_type": "repository",
+                            "url": "https://jamanetwork.com/journals/jama/articlepdf/1902782/jvp140115.pdf"
+                        }
+                    ]
+                }
+            }
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.11132!"
+        },
+        "title": {
+            "default": "Discovery of High-Frequency Deep Brain Stimulation for Treatment of Parkinson Disease",
+            "en": "Discovery of High-Frequency Deep Brain Stimulation for Treatment of Parkinson Disease"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.11132"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "enrichments": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Thomas R.",
+                "surname": "Frieden",
+                "affiliations": [
+                    {
+                        "address": "Centers for Disease Control and Prevention, Atlanta, Georgia"
+                    }
+                ],
+                "fullname": "Frieden Thomas R."
+            },
+            {
+                "forename": "Karen F.",
+                "surname": "Brudney",
+                "affiliations": [
+                    {
+                        "address": "Columbia University, New York, New York"
+                    }
+                ],
+                "fullname": "Brudney Karen F."
+            },
+            {
+                "forename": "Anthony D.",
+                "surname": "Harries",
+                "affiliations": [
+                    {
+                        "address": "International Union Against Tuberculosis and Lung Disease, Paris, France4London School of Hygiene and Tropical Medicine, London, United Kingdom"
+                    }
+                ],
+                "fullname": "Harries Anthony D."
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "shs",
+                    "en": "Humanities and Social Sciences",
+                    "fr": "Sciences de l'Homme et Société"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.11450",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-10-08",
+            "issue": "14",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "1393"
+                }
+            ],
+            "volume": "312"
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.11450!"
+        },
+        "title": {
+            "default": "Global Tuberculosis",
+            "en": "Global Tuberculosis"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.11450"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Elizabeth A.",
+                "surname": "Howell",
+                "affiliations": [
+                    {
+                        "address": "Department of Population Health Science & Policy, Icahn School of Medicine at Mount Sinai, New York, New York2Department of Obstetrics, Gynecology, and Reproductive Science, Icahn School of Medicine at Mount Sinai, New York, New York"
+                    }
+                ],
+                "fullname": "Howell Elizabeth A."
+            },
+            {
+                "forename": "Jennifer",
+                "surname": "Zeitlin",
+                "affiliations": [
+                    {
+                        "address": "Department of Population Health Science & Policy, Icahn School of Medicine at Mount Sinai, New York, New York3Inserm UMR 1153, Obstetrical, Perinatal and Pediatric Epidemiology Research Team (Epopé), Center for Epidemiology and Biostatistics Sorbonne Pari"
+                    }
+                ],
+                "fullname": "Zeitlin Jennifer"
+            },
+            {
+                "forename": "Paul L.",
+                "surname": "Hebert",
+                "affiliations": [
+                    {
+                        "address": "University of Washington School of Public Health, Seattle"
+                    }
+                ],
+                "fullname": "Hebert Paul L."
+            },
+            {
+                "forename": "Amy",
+                "surname": "Balbierz",
+                "affiliations": [
+                    {
+                        "address": "Department of Population Health Science & Policy, Icahn School of Medicine at Mount Sinai, New York, New York"
+                    }
+                ],
+                "fullname": "Balbierz Amy"
+            },
+            {
+                "forename": "Natalia",
+                "surname": "Egorova",
+                "affiliations": [
+                    {
+                        "address": "Department of Population Health Science & Policy, Icahn School of Medicine at Mount Sinai, New York, New York"
+                    }
+                ],
+                "fullname": "Egorova Natalia"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "info",
+                    "en": "Computer Science [cs]",
+                    "fr": "Informatique [cs]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.13381",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-10-15",
+            "issue": "15",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "1531"
+                }
+            ],
+            "volume": "312"
+        },
+        "enrichments": {
+            "openAcces": {
+                "unpaywall": {
+                    "is_oa": true,
+                    "oa_status": "n/a",
+                    "has_repository_copy": true,
+                    "oa_locations": [
+                        {
+                            "url_for_landing_page": "https://jamanetwork.com/journals/jama/articlepdf/1915608/joi140131.pdf",
+                            "url_for_pdf": "https://jamanetwork.com/journals/jama/articlepdf/1915608/joi140131.pdf",
+                            "host_type": "repository",
+                            "url": "https://jamanetwork.com/journals/jama/articlepdf/1915608/joi140131.pdf"
+                        },
+                        {
+                            "url_for_landing_page": "http://europepmc.org/articles/pmc4334152?pdf=render",
+                            "url_for_pdf": "http://europepmc.org/articles/pmc4334152?pdf=render",
+                            "host_type": "repository",
+                            "url": "http://europepmc.org/articles/pmc4334152?pdf=render"
+                        },
+                        {
+                            "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4334152",
+                            "url_for_pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4334152",
+                            "host_type": "repository",
+                            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4334152"
+                        }
+                    ]
+                }
+            }
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.13381!"
+        },
+        "title": {
+            "default": "Association Between Hospital-Level Obstetric Quality Indicators and Maternal and Neonatal Morbidity",
+            "en": "Association Between Hospital-Level Obstetric Quality Indicators and Maternal and Neonatal Morbidity"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.13381"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "enrichments": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Benjamin",
+                "surname": "Kasenda",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Kasenda Benjamin"
+            },
+            {
+                "forename": "Erik",
+                "surname": "von Elm",
+                "affiliations": [
+                    {
+                        "address": "Cochrane Switzerland, Institute of Social and Preventive Medicine (IUMSP), Lausanne University Hospital, Lausanne, Switzerland"
+                    }
+                ],
+                "fullname": "von Elm Erik"
+            },
+            {
+                "forename": "John",
+                "surname": "You",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada14Department of Medicine, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "You John"
+            },
+            {
+                "forename": "Anette",
+                "surname": "Blümle",
+                "affiliations": [
+                    {
+                        "address": "German Cochrane Centre, Institute of Medical Biometry and Medical Informatics, Freiburg University Medical Center, Freiburg, Germany"
+                    }
+                ],
+                "fullname": "Blümle Anette"
+            },
+            {
+                "forename": "Yuki",
+                "surname": "Tomonaga",
+                "affiliations": [
+                    {
+                        "address": "Institute of Social and Preventive Medicine, University of Zurich, Zurich, Switzerland"
+                    }
+                ],
+                "fullname": "Tomonaga Yuki"
+            },
+            {
+                "forename": "Ramon",
+                "surname": "Saccilotto",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Saccilotto Ramon"
+            },
+            {
+                "forename": "Alain",
+                "surname": "Amstutz",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Amstutz Alain"
+            },
+            {
+                "forename": "Theresa",
+                "surname": "Bengough",
+                "affiliations": [
+                    {
+                        "address": "Cochrane Switzerland, Institute of Social and Preventive Medicine (IUMSP), Lausanne University Hospital, Lausanne, Switzerland"
+                    }
+                ],
+                "fullname": "Bengough Theresa"
+            },
+            {
+                "forename": "Joerg J.",
+                "surname": "Meerpohl",
+                "affiliations": [
+                    {
+                        "address": "German Cochrane Centre, Institute of Medical Biometry and Medical Informatics, Freiburg University Medical Center, Freiburg, Germany"
+                    }
+                ],
+                "fullname": "Meerpohl Joerg J."
+            },
+            {
+                "forename": "Mihaela",
+                "surname": "Stegert",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Stegert Mihaela"
+            },
+            {
+                "forename": "Kari A. O.",
+                "surname": "Tikkinen",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada15Department of Urology, Helsinki University Central Hospital, University of Helsinki, Helsinki, Finland"
+                    }
+                ],
+                "fullname": "Tikkinen Kari A. O."
+            },
+            {
+                "forename": "Ignacio",
+                "surname": "Neumann",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada16Department of Internal Medicine, Pontificia Universidad Catolica de Chile, Santiago"
+                    }
+                ],
+                "fullname": "Neumann Ignacio"
+            },
+            {
+                "forename": "Alonso",
+                "surname": "Carrasco-Labra",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada25Evidence-Based Dentistry Unit, Faculty of Dentistry, Universidad de Chile, Santiago"
+                    }
+                ],
+                "fullname": "Carrasco-Labra Alonso"
+            },
+            {
+                "forename": "Markus",
+                "surname": "Faulhaber",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada17Department of Family Medicine, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Faulhaber Markus"
+            },
+            {
+                "forename": "Sohail M.",
+                "surname": "Mulla",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Mulla Sohail M."
+            },
+            {
+                "forename": "Dominik",
+                "surname": "Mertz",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada26Michael G. DeGroote Institute for Infectious Diseases Research, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Mertz Dominik"
+            },
+            {
+                "forename": "Elie A.",
+                "surname": "Akl",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada18Department of Internal Medicine, American University of Beirut, Beirut, Lebanon19Department of Medicine, State University of New York at Buffalo, Buffal"
+                    }
+                ],
+                "fullname": "Akl Elie A."
+            },
+            {
+                "forename": "Dirk",
+                "surname": "Bassler",
+                "affiliations": [
+                    {
+                        "address": "Center for Pediatric Clinical Studies, Department of Neonatology, University Children’s Hospital, Tuebingen, Germany"
+                    }
+                ],
+                "fullname": "Bassler Dirk"
+            },
+            {
+                "forename": "Jason W.",
+                "surname": "Busse",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada20Department of Anesthesia, McMaster University, Hamilton, Ontario, Canada27Michael G. DeGroote Institute for Pain Research and Care, McMaster University,"
+                    }
+                ],
+                "fullname": "Busse Jason W."
+            },
+            {
+                "forename": "Ignacio",
+                "surname": "Ferreira-González",
+                "affiliations": [
+                    {
+                        "address": "Epidemiology Unit, Department of Cardiology, Vall d’Hebron Hospital and CIBER de Epidemiología y Salud Publica (CIBERESP), Barcelona, Spain"
+                    }
+                ],
+                "fullname": "Ferreira-González Ignacio"
+            },
+            {
+                "forename": "Francois",
+                "surname": "Lamontagne",
+                "affiliations": [
+                    {
+                        "address": "Centre de Recherche Clinique Étienne-Le Bel and Department of Medicine, Université de Sherbrooke, Sherbrooke, Canada"
+                    }
+                ],
+                "fullname": "Lamontagne Francois"
+            },
+            {
+                "forename": "Alain",
+                "surname": "Nordmann",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Nordmann Alain"
+            },
+            {
+                "forename": "Viktoria",
+                "surname": "Gloy",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland13Institute of Nuclear Medicine, University Hospital Bern, Bern, Switzerland"
+                    }
+                ],
+                "fullname": "Gloy Viktoria"
+            },
+            {
+                "forename": "Heike",
+                "surname": "Raatz",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Raatz Heike"
+            },
+            {
+                "forename": "Lorenzo",
+                "surname": "Moja",
+                "affiliations": [
+                    {
+                        "address": "IRCCS Orthopedic Institute Galeazzi, Milano, Italy"
+                    }
+                ],
+                "fullname": "Moja Lorenzo"
+            },
+            {
+                "forename": "Rachel",
+                "surname": "Rosenthal",
+                "affiliations": [
+                    {
+                        "address": "Department of Surgery, University Hospital Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Rosenthal Rachel"
+            },
+            {
+                "forename": "Shanil",
+                "surname": "Ebrahim",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada20Department of Anesthesia, McMaster University, Hamilton, Ontario, Canada21Stanford Prevention Research Center, Stanford University, Stanford, California"
+                    }
+                ],
+                "fullname": "Ebrahim Shanil"
+            },
+            {
+                "forename": "Stefan",
+                "surname": "Schandelmaier",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland22Academy of Swiss Insurance Medicine, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Schandelmaier Stefan"
+            },
+            {
+                "forename": "Sun",
+                "surname": "Xin",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada23Chinese Evidence-Based Medicine Center, West China Hospital, Sichuan University, Chengdu, China"
+                    }
+                ],
+                "fullname": "Xin Sun"
+            },
+            {
+                "forename": "Per O.",
+                "surname": "Vandvik",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, Innlandet Hospital Trust-Division Gjøvik, Oppland, Norway"
+                    }
+                ],
+                "fullname": "Vandvik Per O."
+            },
+            {
+                "forename": "Bradley C.",
+                "surname": "Johnston",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada12Department of Anesthesia and Pain Medicine, Hospital for Sick Children, Toronto, Ontario, Canada24Institute of Health Policy, Management and Evaluation,"
+                    }
+                ],
+                "fullname": "Johnston Bradley C."
+            },
+            {
+                "forename": "Martin A.",
+                "surname": "Walter",
+                "affiliations": [
+                    {
+                        "address": "Institute of Nuclear Medicine, University Hospital Bern, Bern, Switzerland"
+                    }
+                ],
+                "fullname": "Walter Martin A."
+            },
+            {
+                "forename": "Bernard",
+                "surname": "Burnand",
+                "affiliations": [
+                    {
+                        "address": "Cochrane Switzerland, Institute of Social and Preventive Medicine (IUMSP), Lausanne University Hospital, Lausanne, Switzerland"
+                    }
+                ],
+                "fullname": "Burnand Bernard"
+            },
+            {
+                "forename": "Matthias",
+                "surname": "Schwenkglenks",
+                "affiliations": [
+                    {
+                        "address": "Institute of Social and Preventive Medicine, University of Zurich, Zurich, Switzerland"
+                    }
+                ],
+                "fullname": "Schwenkglenks Matthias"
+            },
+            {
+                "forename": "Lars G.",
+                "surname": "Hemkens",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Hemkens Lars G."
+            },
+            {
+                "forename": "Heiner C.",
+                "surname": "Bucher",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland"
+                    }
+                ],
+                "fullname": "Bucher Heiner C."
+            },
+            {
+                "forename": "Gordon H.",
+                "surname": "Guyatt",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Guyatt Gordon H."
+            },
+            {
+                "forename": "Matthias",
+                "surname": "Briel",
+                "affiliations": [
+                    {
+                        "address": "Basel Institute for Clinical Epidemiology and Biostatistics, University Hospital of Basel, Basel, Switzerland3Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Briel Matthias"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.1361",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-03-12",
+            "issue": "10",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "1045"
+                }
+            ],
+            "volume": "311"
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.1361!"
+        },
+        "title": {
+            "default": "Prevalence, Characteristics, and Publication of Discontinued Randomized Trials",
+            "en": "Prevalence, Characteristics, and Publication of Discontinued Randomized Trials"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.1361"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Robert A.",
+                "surname": "Fowler",
+                "affiliations": [
+                    {
+                        "address": "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Fowler Robert A."
+            },
+            {
+                "forename": "Nicole",
+                "surname": "Mittmann",
+                "affiliations": [
+                    {
+                        "address": "Health Outcomes and PharmacoEconomic (HOPE) Research Centre, Sunnybrook Health Sciences Centre, Toronto, Ontario, Canada3Department of Pharmacology, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Mittmann Nicole"
+            },
+            {
+                "forename": "William",
+                "surname": "Geerts",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Geerts William"
+            },
+            {
+                "forename": "Diane",
+                "surname": "Heels-Ansdell",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology & Biostatistics, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Heels-Ansdell Diane"
+            },
+            {
+                "forename": "Michael K.",
+                "surname": "Gould",
+                "affiliations": [
+                    {
+                        "address": "Department of Research and Evaluation, Kaiser Permanente Southern California, Pasadena, California"
+                    }
+                ],
+                "fullname": "Gould Michael K."
+            },
+            {
+                "forename": "Gordon",
+                "surname": "Guyatt",
+                "affiliations": [
+                    {
+                        "address": "Department of Clinical Epidemiology & Biostatistics, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Guyatt Gordon"
+            },
+            {
+                "forename": "Murray",
+                "surname": "Krahn",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Krahn Murray"
+            },
+            {
+                "forename": "Simon",
+                "surname": "Finfer",
+                "affiliations": [
+                    {
+                        "address": "George Institute for Global Health, Royal North Shore Hospital, University of Sydney, St Leonards, Australia"
+                    }
+                ],
+                "fullname": "Finfer Simon"
+            },
+            {
+                "forename": "Ruxandra",
+                "surname": "Pinto",
+                "affiliations": [
+                    {
+                        "address": "Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Pinto Ruxandra"
+            },
+            {
+                "forename": "Brian",
+                "surname": "Chan",
+                "affiliations": [
+                    {
+                        "address": "Institute of Health Policy, Management and Evaluation, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Chan Brian"
+            },
+            {
+                "forename": "Orges",
+                "surname": "Ormanidhi",
+                "affiliations": [
+                    {
+                        "address": "Toronto Health Economics and Technology Assessment (THETA) Collaborative, University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Ormanidhi Orges"
+            },
+            {
+                "forename": "Yaseen",
+                "surname": "Arabi",
+                "affiliations": [
+                    {
+                        "address": "King Saud Bin Abdulaziz University for Health Sciences and King Abdullah International Medical Research Center, Riyadh, Saudi Arabia"
+                    }
+                ],
+                "fullname": "Arabi Yaseen"
+            },
+            {
+                "forename": "Ismael",
+                "surname": "Qushmaq",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, King Faisal Specialist Hospital & Research Centre-Gen. Org, Jeddah—Saudi Arabia"
+                    }
+                ],
+                "fullname": "Qushmaq Ismael"
+            },
+            {
+                "forename": "Marcelo G.",
+                "surname": "Rocha",
+                "affiliations": [
+                    {
+                        "address": "Department of Intensive Care, Hospitalar Santa Casa, Porto Alegre, Brazil"
+                    }
+                ],
+                "fullname": "Rocha Marcelo G."
+            },
+            {
+                "forename": "Peter",
+                "surname": "Dodek",
+                "affiliations": [
+                    {
+                        "address": "Center for Health Evaluation and Outcome Sciences, Division of Critical Care Medicine, St Paul's Hospital and University of British Columbia, Vancouver, British Columbia, Canada"
+                    }
+                ],
+                "fullname": "Dodek Peter"
+            },
+            {
+                "forename": "Lauralyn",
+                "surname": "McIntyre",
+                "affiliations": [
+                    {
+                        "address": "Ottawa Hospital Research Institute, Centre for Transfusion and Critical Care Research, Department of Medicine (Critical Care), Ottawa Hospital, Ottawa, Ontario, Canada"
+                    }
+                ],
+                "fullname": "McIntyre Lauralyn"
+            },
+            {
+                "forename": "Richard",
+                "surname": "Hall",
+                "affiliations": [
+                    {
+                        "address": "Department of Anesthesiology, Dalhousie University, and the Capital District Health Authority, Halifax, Nova Scotia, Canada16Department of Medicine, Dalhousie University, and the Capital District Health Authority, Halifax, Nova Scotia, Canada17Department"
+                    }
+                ],
+                "fullname": "Hall Richard"
+            },
+            {
+                "forename": "Niall D.",
+                "surname": "Ferguson",
+                "affiliations": [
+                    {
+                        "address": "Interdepartmental Division of Critical Care Medicine, Department of Medicine, University of Toronto, Toronto, Ontario, Canada20Interdepartmental Division of Critical Care Medicine, Department of Physiology, University of Toronto, Toronto, Ontario, Canada2"
+                    }
+                ],
+                "fullname": "Ferguson Niall D."
+            },
+            {
+                "forename": "Sangeeta",
+                "surname": "Mehta",
+                "affiliations": [
+                    {
+                        "address": "Interdepartmental Division of Critical Care Medicine, Department of Medicine, University of Toronto, Toronto, Ontario, Canada22Mount Sinai Hospital, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Mehta Sangeeta"
+            },
+            {
+                "forename": "John C.",
+                "surname": "Marshall",
+                "affiliations": [
+                    {
+                        "address": "Department of Surgery, University of Toronto, Toronto, Ontario, Canada24Keenan Research Centre, Li Ka Shing Knowledge Institute, St Michael's Hospital, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Marshall John C."
+            },
+            {
+                "forename": "Christopher James",
+                "surname": "Doig",
+                "affiliations": [
+                    {
+                        "address": "Department of Community Health Sciences, University of Calgary, Calgary, Alberta, Canada26Department of Critical Care Medicine, University of Calgary, Calgary, Alberta, Canada27Department of Medicine, University of Calgary, Calgary, Alberta, Canada28Footh"
+                    }
+                ],
+                "fullname": "Doig Christopher James"
+            },
+            {
+                "forename": "John",
+                "surname": "Muscedere",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, Queen's University, Kingston, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Muscedere John"
+            },
+            {
+                "forename": "Michael J",
+                "surname": "Jacka",
+                "affiliations": [
+                    {
+                        "address": "Department of Anesthesiology and Critical Care, University of Alberta Hospital, Edmonton, Alberta, Canada"
+                    }
+                ],
+                "fullname": "Jacka Michael J"
+            },
+            {
+                "forename": "James R.",
+                "surname": "Klinger",
+                "affiliations": [
+                    {
+                        "address": "Division of Pulmonary, Sleep, and Critical Care Medicine, Albert Medical School of Brown University, Rhode Island Hospital, Providence, Rhode Island"
+                    }
+                ],
+                "fullname": "Klinger James R."
+            },
+            {
+                "forename": "Nicholas",
+                "surname": "Vlahakis",
+                "affiliations": [
+                    {
+                        "address": "Department of Pulmonary and Critical Care Medicine, Mayo Clinic, Rochester, Minnesota"
+                    }
+                ],
+                "fullname": "Vlahakis Nicholas"
+            },
+            {
+                "forename": "Neil",
+                "surname": "Orford",
+                "affiliations": [
+                    {
+                        "address": "Australian and New Zealand Intensive Care Research Centre, Intensive Care Barwon Health, Monash University School of Medicine, Deakin University, Melbourne, Victoria, Australia"
+                    }
+                ],
+                "fullname": "Orford Neil"
+            },
+            {
+                "forename": "Ian",
+                "surname": "Seppelt",
+                "affiliations": [
+                    {
+                        "address": "Critical Care Medicine, Nepean Hospital, Penrith, New South Wales, Australia"
+                    }
+                ],
+                "fullname": "Seppelt Ian"
+            },
+            {
+                "forename": "Yoanna K.",
+                "surname": "Skrobik",
+                "affiliations": [
+                    {
+                        "address": "Critical Care Medicine, Hôpital Maisonneuve-Rosemont, Montreal, Quebec, Canada"
+                    }
+                ],
+                "fullname": "Skrobik Yoanna K."
+            },
+            {
+                "forename": "Sachin",
+                "surname": "Sud",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, Trillium Hospital, Mississauga, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Sud Sachin"
+            },
+            {
+                "forename": "John F.",
+                "surname": "Cade",
+                "affiliations": [
+                    {
+                        "address": "Intensive Care Unit, Royal Melbourne Hospital, Parkville, Victoria, Australia"
+                    }
+                ],
+                "fullname": "Cade John F."
+            },
+            {
+                "forename": "Jamie",
+                "surname": "Cooper",
+                "affiliations": [
+                    {
+                        "address": "ANZIC-RC Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, Victoria, Australia"
+                    }
+                ],
+                "fullname": "Cooper Jamie"
+            },
+            {
+                "forename": "Deborah",
+                "surname": "Cook",
+                "affiliations": [
+                    {
+                        "address": "Department of Medicine, McMaster University, Hamilton, Ontario, Canada40Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Cook Deborah"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.15101",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-11-26",
+            "issue": "20",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "2135"
+                }
+            ],
+            "volume": "312"
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.15101!"
+        },
+        "title": {
+            "default": "Cost-effectiveness of Dalteparin vs Unfractionated Heparin for the Prevention of Venous Thromboembolism in Critically Ill Patients",
+            "en": "Cost-effectiveness of Dalteparin vs Unfractionated Heparin for the Prevention of Venous Thromboembolism in Critically Ill Patients"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.15101"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Amit X.",
+                "surname": "Garg",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Garg Amit X."
+            },
+            {
+                "forename": "Andrea",
+                "surname": "Kurz",
+                "affiliations": [
+                    {
+                        "address": "Cleveland Clinic, Cleveland, Ohio"
+                    }
+                ],
+                "fullname": "Kurz Andrea"
+            },
+            {
+                "forename": "Daniel I.",
+                "surname": "Sessler",
+                "affiliations": [
+                    {
+                        "address": "Cleveland Clinic, Cleveland, Ohio"
+                    }
+                ],
+                "fullname": "Sessler Daniel I."
+            },
+            {
+                "forename": "Meaghan",
+                "surname": "Cuerden",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Cuerden Meaghan"
+            },
+            {
+                "forename": "Andrea",
+                "surname": "Robinson",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Robinson Andrea"
+            },
+            {
+                "forename": "Marko",
+                "surname": "Mrkobrada",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Mrkobrada Marko"
+            },
+            {
+                "forename": "Chirag R.",
+                "surname": "Parikh",
+                "affiliations": [
+                    {
+                        "address": "Yale University School of Medicine, New Haven, Connecticut"
+                    }
+                ],
+                "fullname": "Parikh Chirag R."
+            },
+            {
+                "forename": "Richard",
+                "surname": "Mizera",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Mizera Richard"
+            },
+            {
+                "forename": "Philip M.",
+                "surname": "Jones",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Jones Philip M."
+            },
+            {
+                "forename": "Maria",
+                "surname": "Tiboni",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Tiboni Maria"
+            },
+            {
+                "forename": "Adrià",
+                "surname": "Font",
+                "affiliations": [
+                    {
+                        "address": "Hospital de la Santa Creu i Sant Pau, Barcelona, Spain"
+                    }
+                ],
+                "fullname": "Font Adrià"
+            },
+            {
+                "forename": "Virginia",
+                "surname": "Cegarra",
+                "affiliations": [
+                    {
+                        "address": "Hospital de la Santa Creu i Sant Pau, Barcelona, Spain"
+                    }
+                ],
+                "fullname": "Cegarra Virginia"
+            },
+            {
+                "forename": "Maria Fernanda Rojas",
+                "surname": "Gomez",
+                "affiliations": [
+                    {
+                        "address": "Fundación Oftalmológica de Santander, Bucaramanga, Colombia"
+                    }
+                ],
+                "fullname": "Gomez Maria Fernanda Rojas"
+            },
+            {
+                "forename": "Christian S.",
+                "surname": "Meyhoff",
+                "affiliations": [
+                    {
+                        "address": "Herlev Hospital and the University of Copenhagen, Copenhagen, Denmark"
+                    }
+                ],
+                "fullname": "Meyhoff Christian S."
+            },
+            {
+                "forename": "Tomas",
+                "surname": "VanHelder",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "VanHelder Tomas"
+            },
+            {
+                "forename": "Matthew T. V.",
+                "surname": "Chan",
+                "affiliations": [
+                    {
+                        "address": "Chinese University of Hong Kong, Hong Kong Special Administrative Region, China"
+                    }
+                ],
+                "fullname": "Chan Matthew T. V."
+            },
+            {
+                "forename": "David",
+                "surname": "Torres",
+                "affiliations": [
+                    {
+                        "address": "Clinica Santa Maria, Universidad de los Andes, Santiago, Chile"
+                    }
+                ],
+                "fullname": "Torres David"
+            },
+            {
+                "forename": "Joel",
+                "surname": "Parlow",
+                "affiliations": [
+                    {
+                        "address": "Kingston General Hospital, Kingston, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Parlow Joel"
+            },
+            {
+                "forename": "Miriam de Nadal",
+                "surname": "Clanchet",
+                "affiliations": [
+                    {
+                        "address": "Hospital Vall d'Hebron, Barcelona, Spain"
+                    }
+                ],
+                "fullname": "Clanchet Miriam de Nadal"
+            },
+            {
+                "forename": "Mohammed",
+                "surname": "Amir",
+                "affiliations": [
+                    {
+                        "address": "Shifa International Hospitals Limited, Islamabad, Pakistan"
+                    }
+                ],
+                "fullname": "Amir Mohammed"
+            },
+            {
+                "forename": "Seyed Javad",
+                "surname": "Bidgoli",
+                "affiliations": [
+                    {
+                        "address": "CHU Brugmann, Brussels, Belgium"
+                    }
+                ],
+                "fullname": "Bidgoli Seyed Javad"
+            },
+            {
+                "forename": "Laura",
+                "surname": "Pasin",
+                "affiliations": [
+                    {
+                        "address": "San Raffaele Scientific Institute, Milan, Italy"
+                    }
+                ],
+                "fullname": "Pasin Laura"
+            },
+            {
+                "forename": "Kristian",
+                "surname": "Martinsen",
+                "affiliations": [
+                    {
+                        "address": "Vejle Hospital, Vejle, Denmark"
+                    }
+                ],
+                "fullname": "Martinsen Kristian"
+            },
+            {
+                "forename": "German",
+                "surname": "Malaga",
+                "affiliations": [
+                    {
+                        "address": "Hospital Nacional Cayetano Heredia, Lima, Peru"
+                    }
+                ],
+                "fullname": "Malaga German"
+            },
+            {
+                "forename": "Paul",
+                "surname": "Myles",
+                "affiliations": [
+                    {
+                        "address": "Monash University, Melbourne, Australia"
+                    }
+                ],
+                "fullname": "Myles Paul"
+            },
+            {
+                "forename": "Rey",
+                "surname": "Acedillo",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Acedillo Rey"
+            },
+            {
+                "forename": "Pavel S.",
+                "surname": "Roshanov",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Roshanov Pavel S."
+            },
+            {
+                "forename": "Michael",
+                "surname": "Walsh",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Walsh Michael"
+            },
+            {
+                "forename": "George",
+                "surname": "Dresser",
+                "affiliations": [
+                    {
+                        "address": "London Health Sciences Centre and Western University, London, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Dresser George"
+            },
+            {
+                "forename": "Priya",
+                "surname": "Kumar",
+                "affiliations": [
+                    {
+                        "address": "University of North Carolina Medical School, Chapel Hill"
+                    }
+                ],
+                "fullname": "Kumar Priya"
+            },
+            {
+                "forename": "Edith",
+                "surname": "Fleischmann",
+                "affiliations": [
+                    {
+                        "address": "Vienna General Hospital and the Medical University of Vienna, Vienna, Austria"
+                    }
+                ],
+                "fullname": "Fleischmann Edith"
+            },
+            {
+                "forename": "Juan Carlos",
+                "surname": "Villar",
+                "affiliations": [
+                    {
+                        "address": "Fundación Cardioinfantil and the Universidad Autónoma de Bucaramanga, Bogotá, Colombia"
+                    }
+                ],
+                "fullname": "Villar Juan Carlos"
+            },
+            {
+                "forename": "Thomas",
+                "surname": "Painter",
+                "affiliations": [
+                    {
+                        "address": "Royal Adelaide Hospital, Adelaide, Australia"
+                    }
+                ],
+                "fullname": "Painter Thomas"
+            },
+            {
+                "forename": "Bruce",
+                "surname": "Biccard",
+                "affiliations": [
+                    {
+                        "address": "Nelson R. Mandela School of Medicine, Durban, South Africa"
+                    }
+                ],
+                "fullname": "Biccard Bruce"
+            },
+            {
+                "forename": "Sergio",
+                "surname": "Bergese",
+                "affiliations": [
+                    {
+                        "address": "Ohio State University Medical Center, Columbus"
+                    }
+                ],
+                "fullname": "Bergese Sergio"
+            },
+            {
+                "forename": "Sadeesh",
+                "surname": "Srinathan",
+                "affiliations": [
+                    {
+                        "address": "University of Manitoba, Winnipeg, Canada"
+                    }
+                ],
+                "fullname": "Srinathan Sadeesh"
+            },
+            {
+                "forename": "Juan P.",
+                "surname": "Cata",
+                "affiliations": [
+                    {
+                        "address": "University of Texas and MD Anderson Cancer Center, Houston"
+                    }
+                ],
+                "fullname": "Cata Juan P."
+            },
+            {
+                "forename": "Vincent",
+                "surname": "Chan",
+                "affiliations": [
+                    {
+                        "address": "University Health Network and the University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Chan Vincent"
+            },
+            {
+                "forename": "Bhupendra",
+                "surname": "Mehra",
+                "affiliations": [
+                    {
+                        "address": "Mahatma Gandhi Institute of Medical Sciences, Wardha, India"
+                    }
+                ],
+                "fullname": "Mehra Bhupendra"
+            },
+            {
+                "forename": "Duminda N.",
+                "surname": "Wijeysundera",
+                "affiliations": [
+                    {
+                        "address": "University Health Network and the University of Toronto, Toronto, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Wijeysundera Duminda N."
+            },
+            {
+                "forename": "Kate",
+                "surname": "Leslie",
+                "affiliations": [
+                    {
+                        "address": "Royal Melbourne Hospital, Melbourne, Australia"
+                    }
+                ],
+                "fullname": "Leslie Kate"
+            },
+            {
+                "forename": "Patrice",
+                "surname": "Forget",
+                "affiliations": [
+                    {
+                        "address": "Cliniques Universitaires Saint-Luc and the Université Catholique de Louvain, Brussels, Belgium"
+                    }
+                ],
+                "fullname": "Forget Patrice"
+            },
+            {
+                "forename": "Richard",
+                "surname": "Whitlock",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Whitlock Richard"
+            },
+            {
+                "forename": "Salim",
+                "surname": "Yusuf",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Yusuf Salim"
+            },
+            {
+                "forename": "P. J.",
+                "surname": "Devereaux",
+                "affiliations": [
+                    {
+                        "address": "McMaster University, Hamilton Health Sciences Centre, St Joseph’s Healthcare and the Population Health Research Institute, Hamilton, Ontario, Canada"
+                    }
+                ],
+                "fullname": "Devereaux P. J."
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "sdv",
+                    "en": "Life Sciences [q-bio]",
+                    "fr": "Sciences du Vivant [q-bio]"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.15284",
+        "host": {
+            "title": "JAMA",
+            "issn": "0098-7484",
+            "publicationDate": "2014-12-03",
+            "issue": "21",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "2254"
+                }
+            ],
+            "volume": "312"
+        },
+        "language": [
+            "English"
+        ],
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.15284!"
+        },
+        "title": {
+            "default": "Perioperative Aspirin and Clonidine and Risk of Acute Kidney Injury",
+            "en": "Perioperative Aspirin and Clonidine and Risk of Acute Kidney Injury"
+        },
+        "sourceUids": [
+            "crossref$10.1001/jama.2014.15284"
+        ],
+        "originalGenre": "Journal article",
+        "origins": {
+            "authors": "crossref",
+            "classifications.enrichments": "crossref",
+            "doi": "crossref",
+            "host": "crossref",
+            "language": "crossref",
+            "business.duplicateGenre": "crossref",
+            "business.sourceUidChain": "crossref",
+            "title.default": "crossref",
+            "title.en": "crossref",
+            "sourceUid": [
+                "crossref"
+            ],
+            "originalGenre": "crossref",
+            "sources": [
+                "crossref"
+            ]
+        }
+    },
+    {
+        "authors": [
+            {
+                "forename": "Stéphane",
+                "surname": "Marret",
+                "affiliations": [
+                    {
+                        "address": "Department of Neonatal Medicine, Rouen University Hospital and Région-INSERM (ERI 28), Normandy University, Rouen, France."
+                    }
+                ],
+                "fullname": "Marret Stéphane",
+                "rnsr": [
+                    "201722543J"
+                ]
+            },
+            {
+                "forename": "Jacques",
+                "surname": "Bénichou",
+                "affiliations": [
+                    {
+                        "address": "Department of Biostatistics and INSERM UMR 657, Normandy University, Rouen, France."
+                    }
+                ],
+                "fullname": "Bénichou Jacques"
+            }
+        ],
+        "classifications": {
+            "enrichments": {
+                "hal": {
+                    "code": "shs",
+                    "en": "Humanities and Social Sciences",
+                    "fr": "Sciences de l'Homme et Société"
+                }
+            }
+        },
+        "doi": "10.1001/jama.2014.15912",
+        "host": {
+            "title": "JAMA",
+            "eissn": "1538-3598",
+            "publicationDate": "2015-01-20",
+            "issue": "3",
+            "language": [
+                "English"
+            ],
+            "pages": [
+                {
+                    "total": 0,
+                    "range": "306"
+                }
+            ],
+            "volume": "313"
+        },
+        "keywords": {
+            "en": {
+                "mesh": [
+                    "Cerebral Palsy",
+                    "prevention & control",
+                    "Cognition Disorders",
+                    "Female",
+                    "Humans",
+                    "Infant, Extremely Premature",
+                    "Magnesium Sulfate",
+                    "therapeutic use",
+                    "Male",
+                    "Motor Skills Disorders",
+                    "Neuroprotective Agents",
+                    "Pregnancy"
+                ]
+            }
+        },
+        "language": [
+            "English"
+        ],
+        "pii": "2091297",
+        "pmId": "25603006",
+        "business": {
+            "duplicateGenre": "Article",
+            "sourceUidChain": "!crossref$10.1001/jama.2014.15912!hal$hal-02462375!pubmed$25603006!",
+            "duplicates": [
+                {
+                    "sourceUid": "hal$hal-02462375",
+                    "sessionName": "HAL_2020-12-15_2015",
+                    "rules": [
+                        "Article : 1ID:doi+TiC_ENG",
+                        "Article : 1ID:doi+TiC"
+                    ],
+                    "source": "hal"
+                },
+                {
+                    "sourceUid": "crossref$10.1001/jama.2014.15912",
+                    "sessionName": "CROSSREF_2021-02-19_2015_1",
+                    "rules": [
+                        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+                        "Article : 1ID:doi+TiC_ENG",
+                        "Article : 1ID:doi+TiC",
+                        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+                    ],
+                    "source": "crossref"
+                },
+                {
+                    "sourceUid": "pubmed$25603006",
+                    "sessionName": "PUBMED_2020-12-18_2015",
+                    "rules": [
+                        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+                        "Article : 1ID:doi+TiC_ENG",
+                        "Article : 1ID:doi+TiC",
+                        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+                    ],
+                    "source": "pubmed"
+                }
+            ],
+            "duplicateRules": [
+                "Article : 1ID:doi+TiC",
+                "Article : 1ID:doi+TiC_ENG",
+                "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee",
+                "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee"
+            ]
+        },
+        "title": {
+            "default": "Antenatal magnesium sulfate and outcomes for school-aged children.",
+            "en": "Antenatal magnesium sulfate and outcomes for school-aged children."
+        },
+        "sourceUids": [
+            "pubmed$25603006",
+            "crossref$10.1001/jama.2014.15912",
+            "hal$hal-02462375"
+        ],
+        "originalGenre": "Letter,Comment",
+        "halId": "hal-02462375",
+        "origins": {
+            "authors": "pubmed",
+            "classifications.enrichments": "pubmed",
+            "doi": "pubmed",
+            "host": "pubmed",
+            "keywords.en.mesh": [
+                "pubmed",
+                "crossref",
+                "hal"
+            ],
+            "language": "pubmed",
+            "pii": "pubmed",
+            "pmId": "pubmed",
+            "business.duplicateGenre": "pubmed",
+            "business.sourceUidChain": "pubmed",
+            "business.duplicates": [
+                "pubmed",
+                "crossref",
+                "hal"
+            ],
+            "business.duplicateRules": "pubmed",
+            "title.default": "pubmed",
+            "title.en": "pubmed",
+            "sourceUid": [
+                "pubmed",
+                "crossref",
+                "hal"
+            ],
+            "originalGenre": "pubmed",
+            "sources": [
+                "pubmed",
+                "crossref",
+                "hal"
+            ],
+            "halId": "hal"
+        }
+    }
+]

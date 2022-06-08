@@ -1,0 +1,692 @@
+[
+  {
+    "abstract": {
+      "en": "DNA damage response in adult spermatogenic cells should limit the propagation of mutations to the offspring, without being detrimental to fertility. In differentiating spermatogenic cells, the genomic instability is limited in time, whereas in spermatogonial stem cells it can be maintained all along life. Spermatogonial stem cells are long-lived cells that support normal germ cell differentiation and must be preserved throughout life. However after irradiation spermatogenesis recovery can be impaired as a consequence of the radiation-induced decline in spermatogonial stem cell. In this review, we summarize the differential sensitivities to DNA damage of spermatogenic cell populations, and the DNA repair mechanisms activated in these cells that paradoxically might favour the maintenance of cells with impaired genomic integrity. We describe how the testis tissue collapses in response to irradiation and we discuss the molecular pathways involved in the control of DNA damage response and homeostasis in spermatogonial stem cells. Copyright Â© 2016 Elsevier B.V. All rights reserved.",
+      "default": "DNA damage response in adult spermatogenic cells should limit the propagation of mutations to the offspring, without being detrimental to fertility. In differentiating spermatogenic cells, the genomic instability is limited in time, whereas in spermatogonial stem cells it can be maintained all along life. Spermatogonial stem cells are long-lived cells that support normal germ cell differentiation and must be preserved throughout life. However after irradiation spermatogenesis recovery can be impaired as a consequence of the radiation-induced decline in spermatogonial stem cell. In this review, we summarize the differential sensitivities to DNA damage of spermatogenic cell populations, and the DNA repair mechanisms activated in these cells that paradoxically might favour the maintenance of cells with impaired genomic integrity. We describe how the testis tissue collapses in response to irradiation and we discuss the molecular pathways involved in the control of DNA damage response and homeostasis in spermatogonial stem cells. Copyright Â© 2016 Elsevier B.V. All rights reserved.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Henri-Baptiste",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Marjault",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Laboratory of Gametogenesis, Apoptosis and Genotoxicity, Institut de Radiobiologie Cellulaire et Moleculaire, DRF, CEA-Fontenay aux Roses, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "199918604F"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Henri-Baptiste Marjault",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199918604F"
+        ]
+      },
+      {
+        "forename": "Isabelle",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Allemand",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Laboratory of Gametogenesis, Apoptosis and Genotoxicity, Institut de Radiobiologie Cellulaire et Moleculaire, DRF, CEA-Fontenay aux Roses, France. Electronic address: isabelle.allemand@cea.fr.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "199918604F"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Isabelle Allemand",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199918604F"
+        ]
+      }
+    ],
+    "classifications": {
+      "enrichments": {
+        "hal": {
+          "code": "sdv",
+          "en": "Life Sciences [q-bio]",
+          "fr": "Sciences du Vivant [q-bio]"
+        }
+      }
+    },
+    "doi": "10.1016/j.mrrev.2016.07.004",
+    "host": {
+      "title": "Mutation research. Reviews in mutation research",
+      "eissn": "1388-2139",
+      "electronicPublicationDate": "2016-07-19",
+      "publicationDate": "2016",
+      "language": [
+        "English"
+      ],
+      "part": "Pt B",
+      "pages": {
+        "range": "340-348"
+      },
+      "volume": "770",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "",
+      "isbn": "",
+      "specialIssue": "",
+      "issn": "",
+      "supplement": "",
+      "publisher": "",
+      "eisbn": ""
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "DNA damage",
+          "Ionizing radiation",
+          "Spermatogenesis",
+          "Spermatogonial stem cells",
+          "Undifferentiated spermatogonia"
+        ],
+        "mesh": [
+          "Adult",
+          "Apoptosis",
+          "DNA Damage",
+          "DNA Repair",
+          "Discoidin Domain Receptors",
+          "genetics",
+          "Disease Susceptibility",
+          "Humans",
+          "Infertility, Male",
+          "etiology",
+          "Male",
+          "Radiation, Ionizing",
+          "Spermatogenesis",
+          "radiation effects",
+          "Testis",
+          "metabolism",
+          "Tumor Suppressor Protein p53",
+          "physiology"
+        ]
+      }
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "language": [
+      "English"
+    ],
+    "pii": "S1383-5742(16)30069-2",
+    "pmId": "27919340",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1016/j.mrrev.2016.07.004!pubmed$27919340!",
+      "duplicates": [
+        {
+          "sourceUid": "crossref$10.1016/j.mrrev.2016.07.004",
+          "sessionName": "CROSSREF_2021-02-19_2016_1",
+          "rules": [
+            "Article : 1ID:doi+TiC_ENG",
+            "Article : 1ID:doi+TiC"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+TiC",
+        "Article : 1ID:doi+TiC_ENG"
+      ]
+    },
+    "title": {
+      "default": "Consequences of irradiation on adult spermatogenesis: Between infertility and hereditary risk.",
+      "en": "Consequences of irradiation on adult spermatogenesis: Between infertility and hereditary risk."
+    },
+    "sourceUids": [
+      "pubmed$27919340"
+    ],
+    "originalGenre": "Journal Article",
+    "origins": {
+      "abstract": "pubmed",
+      "abstract.en": "pubmed",
+      "abstract.default": "pubmed",
+      "authors": "pubmed",
+      "classifications.enrichments": "pubmed",
+      "doi": "pubmed",
+      "host": "pubmed",
+      "keywords.en.author": [
+        "pubmed"
+      ],
+      "keywords.en.mesh": [
+        "pubmed"
+      ],
+      "enrichments": "pubmed",
+      "language": "pubmed",
+      "pii": "pubmed",
+      "pmId": "pubmed",
+      "business.duplicateGenre": "pubmed",
+      "business.sourceUidChain": "pubmed",
+      "business.duplicates": [
+        "pubmed"
+      ],
+      "business.duplicateRules": "pubmed",
+      "title.default": "pubmed",
+      "title.en": "pubmed",
+      "sourceUid": [
+        "pubmed"
+      ],
+      "originalGenre": "pubmed",
+      "sources": [
+        "pubmed"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "BACKGROUND & AIMS : Acute-on-chronic liver failure (ACLF) is a newly described syndrome, which develops in patients with acute decompensation of cirrhosis, and is characterized by intense systemic inflammation, multiple organ failures and high short-term mortality. The profile of circulating lipid mediators, which are endogenous signaling molecules that play a major role in inflammation and immunity, is poorly characterized in ACLF. METHODS : In the current study, we assessed the profile of lipid mediators by liquid chromatography coupled to tandem mass spectrometry in plasma from patients with acute decompensation of cirrhosis, with (n = 119) and without (n = 127) ACLF, and from healthy controls (n = 18). Measurements were prospectively repeated in 191 patients with acute decompensation of cirrhosis during a 28-day follow-up period. RESULTS : Fifty-nine lipid mediators (out of 100) were detected in plasma from cirrhotic patients, of which 16 were significantly associated with disease status. Among these, 11 lipid mediators distinguished patients at any stage from healthy controls, whereas 2 lipid mediators (LTE4 and 12-HHT, both derived from arachidonic acid) shaped a minimal plasma fingerprint that discriminated patients with ACLF from those without. Levels of LTE4 distinguished ACLF grade 3 from ACLF grades 1 and 2, followed the clinical course of the disease (increased with worsening and decreased with improvement) and positively correlated with markers of inflammation and non-apoptotic cell death. Moreover, LTE4 together with LXA5 (derived from eicosapentaenoic acid) and EKODE (derived from linoleic acid) were associated with short-term mortality. LXA5 and EKODE formed a signature associated with coagulation and liver failures. CONCLUSION : Taken together, these findings uncover specific lipid mediator profiles associated with disease severity and prognosis in patients with acute decompensation of cirrhosis. LAY SUMMARY : Acute-on-chronic liver failure (ACLF) is characterized by intense systemic inflammation, multiple organ failures and high short-term mortality. In the current study, we assessed the plasma lipid profile of 100 bioactive lipid mediators in healthy controls, patients with decompensated cirrhosis, and those who had developed ACLF. We identified lipid mediator signatures associated with inflammation and non-apoptotic cell death that discriminate disease severity and evolution, short-term mortality and organ failures. Copyright © 2020 European Association for the Study of the Liver. Published by Elsevier B.V. All rights reserved.",
+      "default": "BACKGROUND & AIMS : Acute-on-chronic liver failure (ACLF) is a newly described syndrome, which develops in patients with acute decompensation of cirrhosis, and is characterized by intense systemic inflammation, multiple organ failures and high short-term mortality. The profile of circulating lipid mediators, which are endogenous signaling molecules that play a major role in inflammation and immunity, is poorly characterized in ACLF. METHODS : In the current study, we assessed the profile of lipid mediators by liquid chromatography coupled to tandem mass spectrometry in plasma from patients with acute decompensation of cirrhosis, with (n = 119) and without (n = 127) ACLF, and from healthy controls (n = 18). Measurements were prospectively repeated in 191 patients with acute decompensation of cirrhosis during a 28-day follow-up period. RESULTS : Fifty-nine lipid mediators (out of 100) were detected in plasma from cirrhotic patients, of which 16 were significantly associated with disease status. Among these, 11 lipid mediators distinguished patients at any stage from healthy controls, whereas 2 lipid mediators (LTE4 and 12-HHT, both derived from arachidonic acid) shaped a minimal plasma fingerprint that discriminated patients with ACLF from those without. Levels of LTE4 distinguished ACLF grade 3 from ACLF grades 1 and 2, followed the clinical course of the disease (increased with worsening and decreased with improvement) and positively correlated with markers of inflammation and non-apoptotic cell death. Moreover, LTE4 together with LXA5 (derived from eicosapentaenoic acid) and EKODE (derived from linoleic acid) were associated with short-term mortality. LXA5 and EKODE formed a signature associated with coagulation and liver failures. CONCLUSION : Taken together, these findings uncover specific lipid mediator profiles associated with disease severity and prognosis in patients with acute decompensation of cirrhosis. LAY SUMMARY : Acute-on-chronic liver failure (ACLF) is characterized by intense systemic inflammation, multiple organ failures and high short-term mortality. In the current study, we assessed the plasma lipid profile of 100 bioactive lipid mediators in healthy controls, patients with decompensated cirrhosis, and those who had developed ACLF. We identified lipid mediator signatures associated with inflammation and non-apoptotic cell death that discriminate disease severity and evolution, short-term mortality and organ failures. Copyright © 2020 European Association for the Study of the Liver. Published by Elsevier B.V. All rights reserved.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Cristina",
+        "isni": [],
+        "researcherId": [],
+        "surname": "López-Vicario",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain; Biochemistry and Molecular Genetics Service, Hospital Clínic-IDIBAPS and CIBERehd, Barcelona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Cristina López-Vicario",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Antonio",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Checa",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Antonio Checa",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Arantxa",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Urdangarin",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Translational Bioinformatics Unit, NavarraBiomed, Pamplona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Arantxa Urdangarin",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Ferran",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Aguilar",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Ferran Aguilar",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "José",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Alcaraz-Quiles",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Biochemistry and Molecular Genetics Service, Hospital Clínic-IDIBAPS and CIBERehd, Barcelona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "José Alcaraz-Quiles",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Paolo",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Caraceni",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Medical and Surgical Sciences, University of Bologna, Bologna, Italy.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Paolo Caraceni",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Alex",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Amorós",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Alex Amorós",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Marco",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Pavesi",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Marco Pavesi",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "David",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Gómez-Cabrero",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Translational Bioinformatics Unit, NavarraBiomed, Pamplona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "David Gómez-Cabrero",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Jonel",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Trebicka",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain; J.W. Goethe University Hospital, Frankfurt, Germany.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Jonel Trebicka",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Karl",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Oettl",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Institute of Physiological Chemistry, Center of Physiological Medicine, Medical University of Graz, Graz, Austria.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Karl Oettl",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Richard",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Moreau",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain; Inserm, U1149, Centre de Recherche sur l'Inflammation (CRI), UMRS1149; Université Paris Diderot-Paris 7, Paris, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "201420703X"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Richard Moreau",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201420703X"
+        ]
+      },
+      {
+        "forename": "Núria",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Planell",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Translational Bioinformatics Unit, NavarraBiomed, Pamplona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Núria Planell",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Vicente",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Arroyo",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Vicente Arroyo",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Craig E",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Wheelock",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Medical Biochemistry and Biophysics, Karolinska Institutet, Stockholm, Sweden.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Craig E Wheelock",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Joan",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Clària",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "European Foundation for the Study of Chronic Liver Failure (EF-Clif) and Grifols Chair, Barcelona, Spain; Biochemistry and Molecular Genetics Service, Hospital Clínic-IDIBAPS and CIBERehd, Barcelona, Spain; Department of Biomedical Sciences, University of Barcelona, Barcelona, Spain. Electronic address: jclaria@clinic.cat.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Joan Clària",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      }
+    ],
+    "classifications": {
+      "enrichments": {
+        "hal": {
+          "code": "sdv",
+          "en": "Life Sciences [q-bio]",
+          "fr": "Sciences du Vivant [q-bio]"
+        }
+      }
+    },
+    "doi": "10.1016/j.jhep.2020.03.046",
+    "host": {
+      "title": "Journal of hepatology",
+      "eissn": "1600-0641",
+      "electronicPublicationDate": "2020-04-12",
+      "publicationDate": "2020-10",
+      "issue": "4",
+      "language": [
+        "English"
+      ],
+      "pages": {
+        "range": "817-828"
+      },
+      "volume": "73",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "isbn": "",
+      "part": "",
+      "specialIssue": "",
+      "issn": "",
+      "supplement": "",
+      "publisher": "",
+      "eisbn": ""
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Decompensated cirrhosis",
+          "Lipid mediators",
+          "Lipidomics",
+          "Systemic inflammation"
+        ],
+        "mesh": [
+          "Acute-On-Chronic Liver Failure",
+          "blood",
+          "Aged",
+          "Biomarkers",
+          "Female",
+          "Follow-Up Studies",
+          "Humans",
+          "Lipid Metabolism",
+          "Lipidomics",
+          "methods",
+          "Lipids",
+          "Male",
+          "Middle Aged",
+          "Prognosis",
+          "Severity of Illness Index",
+          "Time Factors"
+        ]
+      }
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "language": [
+      "English"
+    ],
+    "pii": "S0168-8278(20)30208-7",
+    "pmId": "32294533",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!pubmed$32294533!"
+    },
+    "title": {
+      "default": "Targeted lipidomics reveals extensive changes in circulating lipid mediators in patients with acutely decompensated cirrhosis.",
+      "en": "Targeted lipidomics reveals extensive changes in circulating lipid mediators in patients with acutely decompensated cirrhosis."
+    },
+    "sourceUids": [
+      "pubmed$32294533"
+    ],
+    "originalGenre": "Journal Article",
+    "origins": {
+      "abstract": "pubmed",
+      "abstract.en": "pubmed",
+      "abstract.default": "pubmed",
+      "authors": "pubmed",
+      "classifications.enrichments": "pubmed",
+      "doi": "pubmed",
+      "host": "pubmed",
+      "keywords.en.author": [
+        "pubmed"
+      ],
+      "keywords.en.mesh": [
+        "pubmed"
+      ],
+      "enrichments": "pubmed",
+      "language": "pubmed",
+      "pii": "pubmed",
+      "pmId": "pubmed",
+      "business.duplicateGenre": "pubmed",
+      "business.sourceUidChain": "pubmed",
+      "title.default": "pubmed",
+      "title.en": "pubmed",
+      "sourceUid": [
+        "pubmed"
+      ],
+      "originalGenre": "pubmed",
+      "sources": [
+        "pubmed"
+      ]
+    }
+  }
+]

@@ -1,0 +1,2316 @@
+[
+  {
+    "abstract": {
+      "default": "",
+      "en": "",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Daian",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Cheng",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160340"
+        ],
+        "orcId": [],
+        "fullname": "Daian Cheng",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Mukta",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Deobagkar-Lele",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160341"
+        ],
+        "orcId": [],
+        "fullname": "Mukta Deobagkar-Lele",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Ekaterina",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Zvezdova",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160342"
+        ],
+        "orcId": [],
+        "fullname": "Ekaterina Zvezdova",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Seeyoung",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Choi",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160343"
+        ],
+        "orcId": [],
+        "fullname": "Seeyoung Choi",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Shoji",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Uehara",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160344"
+        ],
+        "orcId": [],
+        "fullname": "Shoji Uehara",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Delphine",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Baup",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160345"
+        ],
+        "orcId": [],
+        "fullname": "Delphine Baup",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Sophia",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Bennett",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160346"
+        ],
+        "orcId": [],
+        "fullname": "Sophia Bennett",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Katherine",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Bull",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160347"
+        ],
+        "orcId": [],
+        "fullname": "Katherine Bull",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Tanya",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Crockford",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160348"
+        ],
+        "orcId": [],
+        "fullname": "Tanya Crockford",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Helen",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Ferry",
+        "affiliations": [],
+        "halAuthorId": [
+          "11824300"
+        ],
+        "orcId": [],
+        "fullname": "Helen Ferry",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Claude",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Warzecha",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160349"
+        ],
+        "orcId": [],
+        "fullname": "Claude Warzecha",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Marlène",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Marcellin",
+        "affiliations": [],
+        "halAuthorId": [
+          "689362"
+        ],
+        "orcId": [],
+        "fullname": "Marlène Marcellin",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Anne Gonzalez",
+        "isni": [],
+        "researcherId": [],
+        "surname": "De Peredo",
+        "affiliations": [
+          {
+            "ref": "struct-583",
+            "address": "UMR5089, Centre National de la Recherche Scientifique CNRS, Université Toulouse III - Paul Sabatier UT3, Institut de pharmacologie et de biologie structurale IPBS, 205 Route de Narbonne 31077 TOULOUSE CEDEX 4, FR",
+            "isni": "0000 0000 9679 268X",
+            "idRef": "035430109",
+            "rnsr": [
+              "199911775H"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "199911775H"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "505913"
+        ],
+        "orcId": [
+          "https://orcid.org/0000-0001-6152-6311"
+        ],
+        "fullname": "Anne Gonzalez De Peredo",
+        "idHal": [
+          "180820"
+        ],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199911775H"
+        ]
+      },
+      {
+        "forename": "Renaud",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Lesourne",
+        "affiliations": [],
+        "halAuthorId": [
+          "299413"
+        ],
+        "orcId": [],
+        "fullname": "Renaud Lesourne",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Consuelo",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Anzilotti",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160351"
+        ],
+        "orcId": [],
+        "fullname": "Consuelo Anzilotti",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Paul",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Love",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160352"
+        ],
+        "orcId": [],
+        "fullname": "Paul Love",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Richard",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Cornall",
+        "affiliations": [],
+        "halAuthorId": [
+          "12160353"
+        ],
+        "orcId": [],
+        "fullname": "Richard Cornall",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      }
+    ],
+    "doi": "10.1038/ni.3642",
+    "host": {
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "2",
+      "isbn": "",
+      "part": "",
+      "eissn": "1529-2916",
+      "language": [
+        "English"
+      ],
+      "specialIssue": "",
+      "title": "Nature Immunology",
+      "volume": "18",
+      "pages": {
+        "range": "205-213"
+      },
+      "issn": "1529-2908",
+      "supplement": "",
+      "publisher": "Nature Publishing Group",
+      "eisbn": "",
+      "publicationDate": "2017-02"
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [
+            {
+              "license": null,
+              "url_for_landing_page": "https://ora.ox.ac.uk/objects/uuid:2883e509-f441-4bc6-afab-46dd5337fde3",
+              "is_best": true,
+              "url_for_pdf": "https://ora.ox.ac.uk/objects/uuid:2883e509-f441-4bc6-afab-46dd5337fde3/download_file?safe_filename=Cheng%2Bet%2Bal%2BSupplementary%2BMaterial.pdf&file_format=application%2Fpdf&type_of_work=Journal+article",
+              "host_type": "repository",
+              "url": "https://ora.ox.ac.uk/objects/uuid:2883e509-f441-4bc6-afab-46dd5337fde3/download_file?safe_filename=Cheng%2Bet%2Bal%2BSupplementary%2BMaterial.pdf&file_format=application%2Fpdf&type_of_work=Journal+article"
+            }
+          ],
+          "oa_status": "green",
+          "is_oa": true,
+          "has_repository_copy": true
+        }
+      }
+    },
+    "halId": "hal-03080074",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1038/ni.3642!hal$hal-03080074!pubmed$27992403!",
+      "duplicates": [
+        {
+          "sourceUid": "crossref$10.1038/ni.3642",
+          "internalId": "F2J0yXcBHvXxxlnmi2YI",
+          "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+          "rules": [
+            "Article : 1ID:doi+TiC",
+            "Article : 1ID:doi+TiC_ENG"
+          ],
+          "source": "crossref"
+        },
+        {
+          "sourceUid": "pubmed$27992403",
+          "internalId": "I0nhdnYBHvXxxlnmrsm5",
+          "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+          "source": "pubmed"
+        }
+      ]
+    },
+    "title": {
+      "default": "Themis2 lowers the threshold for B cell activation during positive selection",
+      "en": "Themis2 lowers the threshold for B cell activation during positive selection"
+    },
+    "sourceUids": [
+      "hal$hal-03080074"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "enrichments": "hal",
+      "halId": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "<p>Reversible physical interactions between CdSe quantum dots (QDs) and perylenediimide (PDI) derivatives have been investigated. Original processes, dependent on the concentration of the two species, contact time, temperature and pH, were observed. The combining of the two solutions resulted in the formation of an electron transfer complex (ETC) due to the transfer of an electron from CdSe nanoparticles to PDI, followed by the formation of the final particularly stable dianion PDI2− species through another electron transfer process. The anionic species was employed for the polymerization initiation of glycidyl methacrylate (GMA). Some aspects of the anionic polymerization mechanism have been investigated.</p>",
+      "default": "<p>Reversible physical interactions between CdSe quantum dots (QDs) and perylenediimide (PDI) derivatives have been investigated. Original processes, dependent on the concentration of the two species, contact time, temperature and pH, were observed. The combining of the two solutions resulted in the formation of an electron transfer complex (ETC) due to the transfer of an electron from CdSe nanoparticles to PDI, followed by the formation of the final particularly stable dianion PDI2− species through another electron transfer process. The anionic species was employed for the polymerization initiation of glycidyl methacrylate (GMA). Some aspects of the anionic polymerization mechanism have been investigated.</p>",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Edina",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Rusen",
+        "affiliations": [
+          {
+            "ref": "struct-204332",
+            "address": "University Politehnica of Bucharest [Romania] UPB, Splaiul Independentei nr. 313, sector 6, BucurestiCP 060042ROUMANIE, RO",
+            "isni": "",
+            "idRef": "067072089",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "1408772"
+        ],
+        "orcId": [],
+        "fullname": "Edina Rusen",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Alexandra",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Mocanu",
+        "affiliations": [
+          {
+            "ref": "struct-204332",
+            "address": "University Politehnica of Bucharest [Romania] UPB, Splaiul Independentei nr. 313, sector 6, BucurestiCP 060042ROUMANIE, RO",
+            "isni": "",
+            "idRef": "067072089",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "1408773"
+        ],
+        "orcId": [],
+        "fullname": "Alexandra Mocanu",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Leona",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Nistor",
+        "affiliations": [
+          {
+            "ref": "struct-145546",
+            "address": "National Institute of materials Physics, National Institute of Materials Physics, 077125;Bucharest-Magurele, RO",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "1408775"
+        ],
+        "orcId": [],
+        "fullname": "Leona Nistor",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Piétrick",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Hudhomme",
+        "affiliations": [
+          {
+            "ref": "struct-213131",
+            "address": "UMR6200, Université d'Angers UA, Institut de Chimie du CNRS INC, UMR6200, Centre National de la Recherche Scientifique CNRS, MOLTECH-Anjou, MOLTECH-Anjou UMR 6200 CNRS - Université d'Angers, Faculté des Sciences, 2 Boulevard Lavoisier, Bâtiments K et Db - 49045 Angers CEDEX 01, FR",
+            "isni": "0000000122483363",
+            "idRef": "026402920",
+            "rnsr": [
+              "200411667U"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "200411667U"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "1043154"
+        ],
+        "orcId": [
+          "https://orcid.org/0000-0002-7383-9603"
+        ],
+        "fullname": "Piétrick Hudhomme",
+        "idHal": [
+          "185060"
+        ],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "200411667U"
+        ]
+      },
+      {
+        "forename": "Aurel",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Diacon",
+        "affiliations": [
+          {
+            "ref": "struct-204332",
+            "address": "University Politehnica of Bucharest [Romania] UPB, Splaiul Independentei nr. 313, sector 6, BucurestiCP 060042ROUMANIE, RO",
+            "isni": "",
+            "idRef": "067072089",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "1096259"
+        ],
+        "orcId": [],
+        "fullname": "Aurel Diacon",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      }
+    ],
+    "doi": "10.1039/c5ra01865j",
+    "host": {
+      "title": "RSC Advances",
+      "issn": "2046-2069",
+      "publicationDate": "2015",
+      "issue": "36",
+      "language": [
+        "English"
+      ],
+      "publisher": "Royal Society of Chemistry",
+      "pages": {
+        "range": "28228–28232"
+      },
+      "volume": "5",
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "isbn": "",
+      "part": "",
+      "eissn": "",
+      "specialIssue": "",
+      "supplement": "",
+      "eisbn": ""
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "halId": "hal-01390959",
+    "language": [
+      "English"
+    ],
+    "okina": "ua10338",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1039/C5RA01865J!hal$hal-01390959!",
+      "duplicates": [
+        {
+          "sourceUid": "crossref$10.1039/C5RA01865J",
+          "sessionName": "CROSSREF_2021-02-19_2015_1",
+          "rules": [
+            "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+            "Article : 1ID:doi+TiC_ENG",
+            "Article : 2Collation:TiC_ENG+xissn+volume+issue+page+annee",
+            "Article : 2Collation:TiC+xissn+volume+issue+page+annee",
+            "Article : 1ID:doi+TiC",
+            "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+TiC",
+        "Article : 1ID:doi+TiC_ENG",
+        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee",
+        "Article : 2Collation:TiC+xissn+volume+issue+page+annee",
+        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+        "Article : 2Collation:TiC_ENG+xissn+volume+issue+page+annee"
+      ]
+    },
+    "title": {
+      "default": "Anionic polymerization by an electron transfer process from a CdSe quantum dot–perylenediimide (PDI) system",
+      "en": "Anionic polymerization by an electron transfer process from a CdSe quantum dot–perylenediimide (PDI) system"
+    },
+    "sourceUids": [
+      "hal$hal-01390959"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "enrichments": "hal",
+      "halId": "hal",
+      "language": "hal",
+      "okina": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "business.duplicateRules": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "Forest pest damage is expected to increase with global change. Tree diversity could mitigate this impact, but unambiguous demonstration of the diversity–resistance relationship is lacking in semi-natural mature forests. We used a network of 208 forest plots sampled along two orthogonal gradients of increasing tree species richness and latitudes to assess total tree defoliation in Europe. We found a positive relationship between tree species richness and resistance to insect herbivores: overall damage to broadleaved species significantly decreased with the number of tree species in mature forests. This pattern of associational resistance was frequently observed across tree species and countries, irrespective of their climate. These findings confirm the greater potential of mixed forests to face future biotic disturbances in a changing world.",
+      "default": "Forest pest damage is expected to increase with global change. Tree diversity could mitigate this impact, but unambiguous demonstration of the diversity–resistance relationship is lacking in semi-natural mature forests. We used a network of 208 forest plots sampled along two orthogonal gradients of increasing tree species richness and latitudes to assess total tree defoliation in Europe. We found a positive relationship between tree species richness and resistance to insect herbivores: overall damage to broadleaved species significantly decreased with the number of tree species in mature forests. This pattern of associational resistance was frequently observed across tree species and countries, irrespective of their climate. These findings confirm the greater potential of mixed forests to face future biotic disturbances in a changing world.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Virginie",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Guyot",
+        "affiliations": [
+          {
+            "ref": "struct-37920",
+            "address": "UR1201, Institut National de la Recherche Agronomique INRA, École nationale supérieure agronomique de Toulouse [ENSAT], Institut National Polytechnique (Toulouse) Toulouse INP, Dynamiques Forestières dans l'Espace Rural DYNAFOR, FR",
+            "isni": "0000000121766169",
+            "idRef": "026388820",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "1403639"
+        ],
+        "orcId": [],
+        "fullname": "Virginie Guyot",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Bastien",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Castagneyrol",
+        "affiliations": [
+          {
+            "ref": "struct-138898",
+            "address": "UMR1202, Institut National de la Recherche Agronomique INRA, Université de Bordeaux UB, Biodiversité, Gènes & Communautés BioGeCo, Site de recherche Forêt - Bois de Pierroton - 69, route d'Arcachon F-33612 Cestas Cedex FRANCE, FR",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "197517772F",
+                "200017919G",
+                "200317684N"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "1198817"
+        ],
+        "orcId": [
+          "https://orcid.org/0000-0001-8795-7806"
+        ],
+        "fullname": "Bastien Castagneyrol",
+        "idHal": [
+          "747283"
+        ],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "197517772F",
+          "200017919G",
+          "200317684N"
+        ]
+      },
+      {
+        "forename": "Aude",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Vialatte",
+        "affiliations": [
+          {
+            "ref": "struct-37920",
+            "address": "UR1201, Institut National de la Recherche Agronomique INRA, École nationale supérieure agronomique de Toulouse [ENSAT], Institut National Polytechnique (Toulouse) Toulouse INP, Dynamiques Forestières dans l'Espace Rural DYNAFOR, FR",
+            "isni": "0000000121766169",
+            "idRef": "026388820",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "113493"
+        ],
+        "orcId": [],
+        "fullname": "Aude Vialatte",
+        "idHal": [
+          "747120"
+        ],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Marc",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Deconchat",
+        "affiliations": [
+          {
+            "ref": "struct-37920",
+            "address": "UR1201, Institut National de la Recherche Agronomique INRA, École nationale supérieure agronomique de Toulouse [ENSAT], Institut National Polytechnique (Toulouse) Toulouse INP, Dynamiques Forestières dans l'Espace Rural DYNAFOR, FR",
+            "isni": "0000000121766169",
+            "idRef": "026388820",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "311272"
+        ],
+        "orcId": [
+          "https://orcid.org/0000-0002-4638-3858"
+        ],
+        "fullname": "Marc Deconchat",
+        "idHal": [
+          "11961"
+        ],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Hervé",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Jactel",
+        "affiliations": [
+          {
+            "ref": "struct-138898",
+            "address": "UMR1202, Institut National de la Recherche Agronomique INRA, Université de Bordeaux UB, Biodiversité, Gènes & Communautés BioGeCo, Site de recherche Forêt - Bois de Pierroton - 69, route d'Arcachon F-33612 Cestas Cedex FRANCE, FR",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "197517772F",
+                "200017919G",
+                "200317684N"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "911783"
+        ],
+        "orcId": [],
+        "fullname": "Hervé Jactel",
+        "idHal": [
+          "748873"
+        ],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "197517772F",
+          "200017919G",
+          "200317684N"
+        ]
+      }
+    ],
+    "doi": "10.1098/rsbl.2015.1037",
+    "host": {
+      "title": "Biology Letters",
+      "issn": "1744-9561",
+      "publicationDate": "2016-04-27",
+      "issue": "4",
+      "language": [
+        "English"
+      ],
+      "publisher": "Royal Society, The",
+      "pages": {
+        "range": "20151037"
+      },
+      "volume": "12",
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "isbn": "",
+      "part": "",
+      "eissn": "",
+      "specialIssue": "",
+      "supplement": "",
+      "eisbn": ""
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Forest",
+          "Ecosystem functioning",
+          "Pest",
+          "Biodiversity",
+          "Associational resistance"
+        ]
+      }
+    },
+    "enrichments": {
+      "openAcces": {
+        "unpaywall": {
+          "is_oa": true,
+          "oa_status": "n/a",
+          "has_repository_copy": true,
+          "oa_locations": [
+            {
+              "host_type": "repository",
+              "url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2015.1037",
+              "url_for_landing_page": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2015.1037",
+              "url_for_pdf": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2015.1037"
+            },
+            {
+              "host_type": "repository",
+              "url": "http://europepmc.org/articles/pmc4881340?pdf=render",
+              "url_for_landing_page": "http://europepmc.org/articles/pmc4881340?pdf=render",
+              "url_for_pdf": "http://europepmc.org/articles/pmc4881340?pdf=render"
+            },
+            {
+              "host_type": "repository",
+              "url": "http://prodinra.inra.fr/ft/25EA40EA-9C6E-457D-859E-9F689BFD59B6",
+              "url_for_landing_page": "http://prodinra.inra.fr/ft/25EA40EA-9C6E-457D-859E-9F689BFD59B6",
+              "url_for_pdf": "http://prodinra.inra.fr/ft/25EA40EA-9C6E-457D-859E-9F689BFD59B6"
+            },
+            {
+              "host_type": "repository",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881340",
+              "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881340",
+              "url_for_pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881340"
+            },
+            {
+              "host_type": "repository",
+              "url": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
+              "url_for_landing_page": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
+              "url_for_pdf": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf"
+            },
+            {
+              "host_type": "repository",
+              "url": "https://hal.archives-ouvertes.fr/hal-01391249/document",
+              "url_for_landing_page": "https://hal.archives-ouvertes.fr/hal-01391249/document",
+              "url_for_pdf": "https://hal.archives-ouvertes.fr/hal-01391249/document"
+            }
+          ]
+        }
+      },
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [
+            {
+              "license": "cc-by",
+              "url_for_landing_page": "https://doi.org/10.1098/rsbl.2015.1037",
+              "is_best": true,
+              "url_for_pdf": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2015.1037",
+              "host_type": "publisher",
+              "url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsbl.2015.1037"
+            },
+            {
+              "license": "cc-by",
+              "url_for_landing_page": "https://europepmc.org/articles/pmc4881340",
+              "is_best": false,
+              "url_for_pdf": "https://europepmc.org/articles/pmc4881340?pdf=render",
+              "host_type": "repository",
+              "url": "https://europepmc.org/articles/pmc4881340?pdf=render"
+            },
+            {
+              "license": null,
+              "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881340",
+              "is_best": false,
+              "url_for_pdf": null,
+              "host_type": "repository",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881340"
+            },
+            {
+              "license": "cc-by",
+              "url_for_landing_page": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
+              "is_best": false,
+              "url_for_pdf": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
+              "host_type": "repository",
+              "url": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf"
+            },
+            {
+              "license": "cc-by",
+              "url_for_landing_page": "https://hal.archives-ouvertes.fr/hal-01391249/document",
+              "is_best": false,
+              "url_for_pdf": "https://hal.archives-ouvertes.fr/hal-01391249/document",
+              "host_type": "repository",
+              "url": "https://hal.archives-ouvertes.fr/hal-01391249/document"
+            }
+          ],
+          "oa_status": "hybrid",
+          "is_oa": true,
+          "has_repository_copy": true
+        }
+      }
+    },
+    "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
+    "halId": "hal-01391249",
+    "idProdinra": "355659",
+    "language": [
+      "English"
+    ],
+    "oatao": "16265",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1098/rsbl.2015.1037!hal$hal-01391249!pubmed$27122011!",
+      "duplicates": [
+        {
+          "sourceUid": "pubmed$27122011",
+          "sessionName": "PUBMED_2020-12-18_2016",
+          "rules": [
+            "Article : 1ID:doi+TiC",
+            "Article : 1ID:doi+TiC_ENG"
+          ],
+          "source": "pubmed"
+        },
+        {
+          "sourceUid": "crossref$10.1098/rsbl.2015.1037",
+          "sessionName": "CROSSREF_2021-02-19_2016_1",
+          "rules": [
+            "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+            "Article : 1ID:doi+TiC_ENG",
+            "Article : 2Collation:TiC_ENG+xissn+volume+issue+page+annee",
+            "Article : 2Collation:TiC+xissn+volume+issue+page+annee",
+            "Article : 1ID:doi+TiC",
+            "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+TiC",
+        "Article : 1ID:doi+TiC_ENG",
+        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee",
+        "Article : 2Collation:TiC+xissn+volume+issue+page+annee",
+        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+        "Article : 2Collation:TiC_ENG+xissn+volume+issue+page+annee"
+      ]
+    },
+    "title": {
+      "default": "Tree diversity reduces pest damage in mature forests across Europe",
+      "en": "Tree diversity reduces pest damage in mature forests across Europe"
+    },
+    "sourceUids": [
+      "hal$hal-01391249"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "keywords.en.author": [
+        "hal"
+      ],
+      "enrichments": "hal",
+      "fulltextUrl": "hal",
+      "halId": "hal",
+      "idProdinra": "hal",
+      "language": "hal",
+      "oatao": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "business.duplicateRules": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "default": "Understanding the behaviour of liquid phase turbulence near gas-liquid interfaces is of great interest in many fundamental, environmental, or industrial applications. For example, near-surface liquid side turbulence is known to enhance the mass transfers between the two phases. Descriptions of this behaviour for air-water systems exist in the literature, but the case of turbulence in a shearthinning liquid phase below a flat gas-liquid interface has never been considered so far. This paper consists in an experimental characterization of low Reynolds number, oscillating grid generated, near-surface turbulence in shear-thinning dilute polymer solutions, in the surface-influenced and in the viscous sub-layers. The energy transfer mechanism, known in the water case, is evidenced in dilute polymer solutions (DPS). An horizontal damping mechanism, similar to the one introduced by surfactants, is evidenced. The evolution of the viscous sub-layer depth can be explained by both viscous and shear-thinning effects, and it appears that a critical polymer concentration may exist within the dilute regime.",
+      "en": "Understanding the behaviour of liquid phase turbulence near gas-liquid interfaces is of great interest in many fundamental, environmental, or industrial applications. For example, near-surface liquid side turbulence is known to enhance the mass transfers between the two phases. Descriptions of this behaviour for air-water systems exist in the literature, but the case of turbulence in a shearthinning liquid phase below a flat gas-liquid interface has never been considered so far. This paper consists in an experimental characterization of low Reynolds number, oscillating grid generated, near-surface turbulence in shear-thinning dilute polymer solutions, in the surface-influenced and in the viscous sub-layers. The energy transfer mechanism, known in the water case, is evidenced in dilute polymer solutions (DPS). An horizontal damping mechanism, similar to the one introduced by surfactants, is evidenced. The evolution of the viscous sub-layer depth can be explained by both viscous and shear-thinning effects, and it appears that a critical polymer concentration may exist within the dilute regime.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "T.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Lacassagne",
+        "affiliations": [
+          {
+            "ref": "struct-694",
+            "address": "École Centrale de Lyon ECL, Université Claude Bernard Lyon 1 UCBL, Institut National des Sciences Appliquées de Lyon INSA Lyon, UMR5509, Centre National de la Recherche Scientifique CNRS, Laboratoire de Mecanique des Fluides et d'Acoustique LMFA, 36 Av Guy de Collongue 69134 ECULLY CEDEX, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "199511953U"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "12473100"
+        ],
+        "orcId": [
+          "https://orcid.org/0000-0003-3375-9921"
+        ],
+        "fullname": "T. Lacassagne",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199511953U"
+        ]
+      },
+      {
+        "forename": "S",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Simons",
+        "affiliations": [
+          {
+            "ref": "struct-694",
+            "address": "École Centrale de Lyon ECL, Université Claude Bernard Lyon 1 UCBL, Institut National des Sciences Appliquées de Lyon INSA Lyon, UMR5509, Centre National de la Recherche Scientifique CNRS, Laboratoire de Mecanique des Fluides et d'Acoustique LMFA, 36 Av Guy de Collongue 69134 ECULLY CEDEX, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "199511953U"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "12473101"
+        ],
+        "orcId": [],
+        "fullname": "S Simons",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199511953U"
+        ]
+      },
+      {
+        "forename": "M.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "El Hajem",
+        "affiliations": [
+          {
+            "ref": "struct-694",
+            "address": "École Centrale de Lyon ECL, Université Claude Bernard Lyon 1 UCBL, Institut National des Sciences Appliquées de Lyon INSA Lyon, UMR5509, Centre National de la Recherche Scientifique CNRS, Laboratoire de Mecanique des Fluides et d'Acoustique LMFA, 36 Av Guy de Collongue 69134 ECULLY CEDEX, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "199511953U"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "88741"
+        ],
+        "orcId": [],
+        "fullname": "M. El Hajem",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199511953U"
+        ]
+      },
+      {
+        "forename": "J.-Y.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Champagne",
+        "affiliations": [
+          {
+            "ref": "struct-694",
+            "address": "École Centrale de Lyon ECL, Université Claude Bernard Lyon 1 UCBL, Institut National des Sciences Appliquées de Lyon INSA Lyon, UMR5509, Centre National de la Recherche Scientifique CNRS, Laboratoire de Mecanique des Fluides et d'Acoustique LMFA, 36 Av Guy de Collongue 69134 ECULLY CEDEX, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "199511953U"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "11670486"
+        ],
+        "orcId": [],
+        "fullname": "J.-Y. Champagne",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "199511953U"
+        ]
+      }
+    ],
+    "doi": "10.1103/PhysRevFluids.5.033301",
+    "host": {
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "3",
+      "isbn": "",
+      "part": "",
+      "eissn": "",
+      "language": [
+        "English"
+      ],
+      "specialIssue": "",
+      "title": "Physical Review Fluids",
+      "volume": "5",
+      "pages": {
+        "range": ""
+      },
+      "issn": "2469-990X",
+      "supplement": "",
+      "publisher": "American Physical Society",
+      "eisbn": "",
+      "publicationDate": "2020-03-31"
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [
+            {
+              "license": null,
+              "url_for_landing_page": "https://discovery.ucl.ac.uk/id/eprint/10094395/",
+              "is_best": true,
+              "url_for_pdf": "https://discovery.ucl.ac.uk/10094395/1/PhysRevFluids.5.033301.pdf",
+              "host_type": "repository",
+              "url": "https://discovery.ucl.ac.uk/10094395/1/PhysRevFluids.5.033301.pdf"
+            },
+            {
+              "license": null,
+              "url_for_landing_page": "https://discovery.ucl.ac.uk/id/eprint/10094395/1/PhysRevFluids.5.033301.pdf",
+              "is_best": false,
+              "url_for_pdf": "https://discovery.ucl.ac.uk/id/eprint/10094395/1/PhysRevFluids.5.033301.pdf",
+              "host_type": "repository",
+              "url": "https://discovery.ucl.ac.uk/id/eprint/10094395/1/PhysRevFluids.5.033301.pdf"
+            },
+            {
+              "license": null,
+              "url_for_landing_page": "https://hal.archives-ouvertes.fr/hal-03419258/file/PRF-2020-Accepted.pdf",
+              "is_best": false,
+              "url_for_pdf": "https://hal.archives-ouvertes.fr/hal-03419258/file/PRF-2020-Accepted.pdf",
+              "host_type": "repository",
+              "url": "https://hal.archives-ouvertes.fr/hal-03419258/file/PRF-2020-Accepted.pdf"
+            },
+            {
+              "license": null,
+              "url_for_landing_page": "https://hal.archives-ouvertes.fr/hal-03166264",
+              "is_best": false,
+              "url_for_pdf": "https://hal.archives-ouvertes.fr/hal-03419258/document",
+              "host_type": "repository",
+              "url": "https://hal.archives-ouvertes.fr/hal-03419258/document"
+            }
+          ],
+          "oa_status": "green",
+          "is_oa": true,
+          "has_repository_copy": true
+        }
+      }
+    },
+    "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-03419258/file/PRF-2020-Accepted.pdf",
+    "halId": "hal-03419258",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1103/PhysRevFluids.5.033301!hal$hal-03419258!",
+      "duplicates": [
+        {
+          "sourceUid": "crossref$10.1103/PhysRevFluids.5.033301",
+          "internalId": "AAA261A9E3A0D91B06569693761E755422F7C5B6",
+          "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+          "source": "crossref"
+        }
+      ]
+    },
+    "title": {
+      "default": "Oscillating grid generating turbulence near gas-liquid interfaces in shear-thinning dilute polymer solutions",
+      "en": "Oscillating grid generating turbulence near gas-liquid interfaces in shear-thinning dilute polymer solutions"
+    },
+    "sourceUids": [
+      "hal$hal-03419258"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "enrichments": "hal",
+      "fulltextUrl": "hal",
+      "halId": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "An innovative analytical method has been developed to quantify the bioaccumulation in an amphipod crustacean (Gammarus fossarum) of three micropollutants regarded as anthropic-pollution markers: carbamazepine, oxazepam, and testosterone. A liquid-liquid extraction assisted by salts, known as QuEChERS (Quick, Easy, Cheap, Effective, Rugged, and Safe) was miniaturised and optimised, so it could be adapted to the low mass samples (approximatively 5 mg dry weight). For this same reason and in order to obtain good sensitivity, ultra-trace analyses were carried out by means of nanoliquid chromatography. A pre-concentration system by on-column trapping was optimised to increase the injection volume. In order to improve both sensitivity and selectivity, the multiple reaction monitoring cubed mode analyses (MRM3) were carried out, validated and compared to the classic MRM. To the best of our knowledge, this is the first time that MRM3 is coupled to nanoliquid chromatography for the analysis and detection of organic micropollutants <300 Da. The optimised extraction method exhibited recoveries superior to 80%. The limits of quantification of the target compounds were 0.3, 0.7 and 4.7 ng/g (wet weight) for oxazepam, carbamazepine and testosterone, respectively and the limits of detection were 0.1, 0.3 and 2.2 ng/g (wet weight), respectively. The intra- and inter-day precisions were inferior to 7.7% and 10.9%, respectively, for the three levels of concentration tested. The analytical strategy developed allowed to obtain limits of quantification lower than 1 ng/g (wet weight) and to establish the kinetic bioconcentration of contaminants within G. fossarum.",
+      "default": "An innovative analytical method has been developed to quantify the bioaccumulation in an amphipod crustacean (Gammarus fossarum) of three micropollutants regarded as anthropic-pollution markers: carbamazepine, oxazepam, and testosterone. A liquid-liquid extraction assisted by salts, known as QuEChERS (Quick, Easy, Cheap, Effective, Rugged, and Safe) was miniaturised and optimised, so it could be adapted to the low mass samples (approximatively 5 mg dry weight). For this same reason and in order to obtain good sensitivity, ultra-trace analyses were carried out by means of nanoliquid chromatography. A pre-concentration system by on-column trapping was optimised to increase the injection volume. In order to improve both sensitivity and selectivity, the multiple reaction monitoring cubed mode analyses (MRM3) were carried out, validated and compared to the classic MRM. To the best of our knowledge, this is the first time that MRM3 is coupled to nanoliquid chromatography for the analysis and detection of organic micropollutants <300 Da. The optimised extraction method exhibited recoveries superior to 80%. The limits of quantification of the target compounds were 0.3, 0.7 and 4.7 ng/g (wet weight) for oxazepam, carbamazepine and testosterone, respectively and the limits of detection were 0.1, 0.3 and 2.2 ng/g (wet weight), respectively. The intra- and inter-day precisions were inferior to 7.7% and 10.9%, respectively, for the three levels of concentration tested. The analytical strategy developed allowed to obtain limits of quantification lower than 1 ng/g (wet weight) and to establish the kinetic bioconcentration of contaminants within G. fossarum.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Martin",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Sordet",
+        "affiliations": [
+          {
+            "ref": "struct-389689",
+            "address": "Institut des Sciences Analytiques ISA, TRACES - Technologie et Recherche en Analyse Chimique pour l'Environnement et la Santé, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [
+              "201119453B"
+            ]
+          }
+        ],
+        "halAuthorId": [
+          "1373883"
+        ],
+        "orcId": [],
+        "fullname": "Martin Sordet",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201119453B"
+        ]
+      },
+      {
+        "forename": "Alexandra",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Berlioz-Barbier",
+        "affiliations": [
+          {
+            "ref": "struct-389689",
+            "address": "Institut des Sciences Analytiques ISA, TRACES - Technologie et Recherche en Analyse Chimique pour l'Environnement et la Santé, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [
+              "201119453B"
+            ]
+          }
+        ],
+        "halAuthorId": [
+          "993393"
+        ],
+        "orcId": [],
+        "fullname": "Alexandra Berlioz-Barbier",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201119453B"
+        ]
+      },
+      {
+        "forename": "Audrey",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Buleté",
+        "affiliations": [
+          {
+            "ref": "struct-389689",
+            "address": "Institut des Sciences Analytiques ISA, TRACES - Technologie et Recherche en Analyse Chimique pour l'Environnement et la Santé, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [
+              "201119453B"
+            ]
+          }
+        ],
+        "halAuthorId": [
+          "1200192"
+        ],
+        "orcId": [],
+        "fullname": "Audrey Buleté",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201119453B"
+        ]
+      },
+      {
+        "forename": "Jeanne",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Garric",
+        "affiliations": [
+          {
+            "ref": "struct-182258",
+            "address": "Institut national de recherche en sciences et technologies pour l'environnement et l'agriculture IRSTEA, Milieux aquatiques, écologie et pollutions UR MALY, 5 rue de la Doua - BP 32108, F-69616 Villeurbanne Cedex, FR",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [
+              "200918624J"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "200918624J"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "606570"
+        ],
+        "orcId": [],
+        "fullname": "Jeanne Garric",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "200918624J"
+        ]
+      },
+      {
+        "forename": "Emmanuelle",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Vulliet",
+        "affiliations": [
+          {
+            "ref": "struct-389689",
+            "address": "Institut des Sciences Analytiques ISA, TRACES - Technologie et Recherche en Analyse Chimique pour l'Environnement et la Santé, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [
+              "201119453B"
+            ]
+          }
+        ],
+        "halAuthorId": [
+          "1080320"
+        ],
+        "orcId": [],
+        "fullname": "Emmanuelle Vulliet",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201119453B"
+        ]
+      }
+    ],
+    "doi": "10.1016/j.chroma.2016.06.022",
+    "host": {
+      "title": "Journal of Chromatography A",
+      "issn": "0021-9673",
+      "publicationDate": "2016-07",
+      "issue": "1456",
+      "language": [
+        "English"
+      ],
+      "publisher": "Elsevier",
+      "pages": {
+        "range": "217-225"
+      },
+      "volume": "1456",
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "isbn": "",
+      "part": "",
+      "eissn": "1873-3778",
+      "specialIssue": "",
+      "supplement": "",
+      "eisbn": ""
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Nanoliquid chromatography",
+          "MRM3",
+          "Amphipode crustacean",
+          "QuEChERS",
+          "Miniaturisation",
+          "Bioaccumulation",
+          "SOLID-PHASE EXTRACTION",
+          "LINEAR ION-TRAP",
+          "NANO-LIQUID CHROMATOGRAPHY",
+          "FRESH-WATER INVERTEBRATE",
+          "GAMMARUS-PULEX",
+          "ENVIRONMENTAL CONTAMINANTS",
+          "MULTICLASS PHARMACEUTICALS",
+          "ENDOCRINE DISRUPTORS",
+          "QUECHERS EXTRACTION",
+          "RESIDUE ANALYSIS"
+        ]
+      }
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "halId": "hal-01355585",
+    "irstea": "PUB00048574",
+    "language": [
+      "English"
+    ],
+    "pmId": "27324621",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!hal$hal-01355585!pubmed$27324621!",
+      "duplicates": [
+        {
+          "sourceUid": "pubmed$27324621",
+          "sessionName": "PUBMED_2020-12-18_2016",
+          "rules": [
+            "Article : 1ID:doi+pmid"
+          ],
+          "source": "pubmed"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+pmid"
+      ]
+    },
+    "title": {
+      "default": "Quantification of of emerging micropollutants in an amphipod crustacean by nanoliquid chromatography coupled to mass spectrometry using multiple reaction monitoring cubed mode",
+      "en": "Quantification of of emerging micropollutants in an amphipod crustacean by nanoliquid chromatography coupled to mass spectrometry using multiple reaction monitoring cubed mode"
+    },
+    "sourceUids": [
+      "hal$hal-01355585"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "keywords.en.author": [
+        "hal"
+      ],
+      "enrichments": "hal",
+      "halId": "hal",
+      "irstea": "hal",
+      "language": "hal",
+      "pmId": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "business.duplicateRules": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "default": "",
+      "en": "",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Carolin",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Seuring",
+        "affiliations": [],
+        "halAuthorId": [
+          "815979"
+        ],
+        "orcId": [],
+        "fullname": "Carolin Seuring",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Joeri",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Verasdonck",
+        "affiliations": [],
+        "halAuthorId": [
+          "1257860"
+        ],
+        "orcId": [],
+        "fullname": "Joeri Verasdonck",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Philippe",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Ringler",
+        "affiliations": [],
+        "halAuthorId": [
+          "409787"
+        ],
+        "orcId": [],
+        "fullname": "Philippe Ringler",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Riccardo",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Cadalbert",
+        "affiliations": [],
+        "halAuthorId": [
+          "1161960"
+        ],
+        "orcId": [],
+        "fullname": "Riccardo Cadalbert",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Henning",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Stahlberg",
+        "affiliations": [],
+        "halAuthorId": [
+          "909139"
+        ],
+        "orcId": [],
+        "fullname": "Henning Stahlberg",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Anja",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Böckmann",
+        "affiliations": [
+          {
+            "ref": "struct-511411",
+            "address": "Université Claude Bernard Lyon 1 UCBL, UMR5086, Centre National de la Recherche Scientifique CNRS, Microbiologie moléculaire et biochimie structurale / Molecular Microbiology and Structural Biochemistry MMSB, IBCP CNRS/Université de Lyon7 Passage du vercors69367 LYON Cedex 07, FR",
+            "isni": "0000000121686185",
+            "idRef": "026402823",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "201622438Z",
+                "199411772B"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "12317845"
+        ],
+        "orcId": [],
+        "fullname": "Anja Böckmann",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201622438Z",
+          "199411772B"
+        ]
+      },
+      {
+        "forename": "Beat",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Meier",
+        "affiliations": [],
+        "halAuthorId": [
+          "1257911"
+        ],
+        "orcId": [],
+        "fullname": "Beat Meier",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Roland",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Riek",
+        "affiliations": [],
+        "halAuthorId": [
+          "815983"
+        ],
+        "orcId": [],
+        "fullname": "Roland Riek",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      }
+    ],
+    "doi": "10.1021/acs.jpcb.6b10624",
+    "host": {
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "8",
+      "isbn": "",
+      "part": "",
+      "eissn": "1520-5207",
+      "language": [
+        "English"
+      ],
+      "specialIssue": "",
+      "title": "Journal of Physical Chemistry B",
+      "volume": "121",
+      "pages": {
+        "range": "1783-1792"
+      },
+      "issn": "1520-6106",
+      "supplement": "",
+      "publisher": "American Chemical Society",
+      "eisbn": "",
+      "publicationDate": "2017-03-02"
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "halId": "hal-03347505",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!hal$hal-03347505!pubmed$28075583!",
+      "duplicates": [
+        {
+          "sourceUid": "pubmed$28075583",
+          "internalId": "SUngdnYBHvXxxlnmWMIj",
+          "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+          "source": "pubmed"
+        }
+      ]
+    },
+    "title": {
+      "default": "Amyloid Fibril Polymorphism: Almost Identical on the Atomic Level, Mesoscopically Very Different",
+      "en": "Amyloid Fibril Polymorphism: Almost Identical on the Atomic Level, Mesoscopically Very Different"
+    },
+    "sourceUids": [
+      "hal$hal-03347505"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "enrichments": "hal",
+      "halId": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "The aim is to characterize the energy distribution of neutron fluence in the energy range 8 keV–5 MeV based on a primary standard: the LNE-IRSN/MIMAC microTPC. The microTPC is a time projection chamber. Time projection chambers are gaseous detectors able to measure charged particles energy and to reconstruct their track. The gas is used as a (n, p) converter in order to detect neutrons down to few keV. The neutron energy is reconstructed event by event thanks to proton scattering angle and proton ionization energy measurements. The scattering angle is deduced from the 3-D track. The proton energy is obtained by charge collection measurements, knowing the ionization quenching factor. The fluence is reconstructed thanks to the detected events number and the simulation of the detector response. The microTPC is a new reliable detector able to measure energy distribution of the neutron fluence without unfolding procedure or prior neutron calibration contrary to usual gaseous counters. The microTPC is characterized at the AMANDE facility, with neutron energies going from 8 keV to 565 keV. This work shows the first direct reconstruction of neutron energy and fluence, simultaneously, at 27.2 keV in a continuous irradiation mode.",
+      "default": "The aim is to characterize the energy distribution of neutron fluence in the energy range 8 keV–5 MeV based on a primary standard: the LNE-IRSN/MIMAC microTPC. The microTPC is a time projection chamber. Time projection chambers are gaseous detectors able to measure charged particles energy and to reconstruct their track. The gas is used as a (n, p) converter in order to detect neutrons down to few keV. The neutron energy is reconstructed event by event thanks to proton scattering angle and proton ionization energy measurements. The scattering angle is deduced from the 3-D track. The proton energy is obtained by charge collection measurements, knowing the ionization quenching factor. The fluence is reconstructed thanks to the detected events number and the simulation of the detector response. The microTPC is a new reliable detector able to measure energy distribution of the neutron fluence without unfolding procedure or prior neutron calibration contrary to usual gaseous counters. The microTPC is characterized at the AMANDE facility, with neutron energies going from 8 keV to 565 keV. This work shows the first direct reconstruction of neutron energy and fluence, simultaneously, at 27.2 keV in a continuous irradiation mode.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "D.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Maire",
+        "affiliations": [
+          {
+            "ref": "struct-300040",
+            "address": "Institut de Radioprotection et de Sûreté Nucléaire IRSN, FR",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "848491"
+        ],
+        "orcId": [],
+        "fullname": "D. Maire",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "G.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Bosson",
+        "affiliations": [
+          {
+            "ref": "struct-1041808",
+            "address": "Institut polytechnique de Grenoble - Grenoble Institute of Technology Grenoble INP, Institut National de Physique Nucléaire et de Physique des Particules du CNRS IN2P3, UMR5821, Centre National de la Recherche Scientifique CNRS, Université Grenoble Alpes [2016-2019] UGA [2016-2019], Laboratoire de Physique Subatomique et de Cosmologie LPSC, 53 avenue des Martyrs - 38026 Grenoble Cedex, FR",
+            "isni": "0000000122597504",
+            "idRef": "184700590",
+            "rnsr": [
+              "198512095S"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "198512095S"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "15613"
+        ],
+        "orcId": [],
+        "fullname": "G. Bosson",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "198512095S"
+        ]
+      },
+      {
+        "forename": "O.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Guillaudin",
+        "affiliations": [
+          {
+            "ref": "struct-1041808",
+            "address": "Institut polytechnique de Grenoble - Grenoble Institute of Technology Grenoble INP, Institut National de Physique Nucléaire et de Physique des Particules du CNRS IN2P3, UMR5821, Centre National de la Recherche Scientifique CNRS, Université Grenoble Alpes [2016-2019] UGA [2016-2019], Laboratoire de Physique Subatomique et de Cosmologie LPSC, 53 avenue des Martyrs - 38026 Grenoble Cedex, FR",
+            "isni": "0000000122597504",
+            "idRef": "184700590",
+            "rnsr": [
+              "198512095S"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "198512095S"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "14920"
+        ],
+        "orcId": [],
+        "fullname": "O. Guillaudin",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "198512095S"
+        ]
+      },
+      {
+        "forename": "L.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Lebreton",
+        "affiliations": [
+          {
+            "ref": "struct-300040",
+            "address": "Institut de Radioprotection et de Sûreté Nucléaire IRSN, FR",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "7164"
+        ],
+        "orcId": [],
+        "fullname": "L. Lebreton",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "J.F.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Muraz",
+        "affiliations": [
+          {
+            "ref": "struct-1041808",
+            "address": "Institut polytechnique de Grenoble - Grenoble Institute of Technology Grenoble INP, Institut National de Physique Nucléaire et de Physique des Particules du CNRS IN2P3, UMR5821, Centre National de la Recherche Scientifique CNRS, Université Grenoble Alpes [2016-2019] UGA [2016-2019], Laboratoire de Physique Subatomique et de Cosmologie LPSC, 53 avenue des Martyrs - 38026 Grenoble Cedex, FR",
+            "isni": "0000000122597504",
+            "idRef": "184700590",
+            "rnsr": [
+              "198512095S"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "198512095S"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "14495"
+        ],
+        "orcId": [],
+        "fullname": "J.F. Muraz",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "198512095S"
+        ]
+      },
+      {
+        "forename": "Ph.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Querre",
+        "affiliations": [
+          {
+            "ref": "struct-300040",
+            "address": "Institut de Radioprotection et de Sûreté Nucléaire IRSN, FR",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [
+          "1409087"
+        ],
+        "orcId": [],
+        "fullname": "Ph. Querre",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Q.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Riffard",
+        "affiliations": [
+          {
+            "ref": "struct-1041808",
+            "address": "Institut polytechnique de Grenoble - Grenoble Institute of Technology Grenoble INP, Institut National de Physique Nucléaire et de Physique des Particules du CNRS IN2P3, UMR5821, Centre National de la Recherche Scientifique CNRS, Université Grenoble Alpes [2016-2019] UGA [2016-2019], Laboratoire de Physique Subatomique et de Cosmologie LPSC, 53 avenue des Martyrs - 38026 Grenoble Cedex, FR",
+            "isni": "0000000122597504",
+            "idRef": "184700590",
+            "rnsr": [
+              "198512095S"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "198512095S"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "741465"
+        ],
+        "orcId": [],
+        "fullname": "Q. Riffard",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "198512095S"
+        ]
+      },
+      {
+        "forename": "D.",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Santos",
+        "affiliations": [
+          {
+            "ref": "struct-1041808",
+            "address": "Institut polytechnique de Grenoble - Grenoble Institute of Technology Grenoble INP, Institut National de Physique Nucléaire et de Physique des Particules du CNRS IN2P3, UMR5821, Centre National de la Recherche Scientifique CNRS, Université Grenoble Alpes [2016-2019] UGA [2016-2019], Laboratoire de Physique Subatomique et de Cosmologie LPSC, 53 avenue des Martyrs - 38026 Grenoble Cedex, FR",
+            "isni": "0000000122597504",
+            "idRef": "184700590",
+            "rnsr": [
+              "198512095S"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "198512095S"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "7756"
+        ],
+        "orcId": [],
+        "fullname": "D. Santos",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "198512095S"
+        ]
+      }
+    ],
+    "doi": "10.1109/TNS.2016.2527819",
+    "host": {
+      "title": "IEEE Transactions on Nuclear Science",
+      "issn": "0018-9499",
+      "publicationDate": "2016",
+      "issue": "3",
+      "language": [
+        "English"
+      ],
+      "publisher": "Institute of Electrical and Electronics Engineers",
+      "pages": {
+        "range": "1934 - 1941"
+      },
+      "volume": "63",
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "isbn": "",
+      "part": "",
+      "eissn": "",
+      "specialIssue": "",
+      "supplement": "",
+      "eisbn": ""
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "halId": "in2p3-01391230",
+    "language": [
+      "English"
+    ],
+    "localRef": "LPSC16254",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!hal$in2p3-01391230!"
+    },
+    "title": {
+      "default": "Neutron Energy Reconstruction and Fluence Determination at 27 keV With the LNE-IRSN-MIMAC MicroTPC Recoil Detector",
+      "en": "Neutron Energy Reconstruction and Fluence Determination at 27 keV With the LNE-IRSN-MIMAC MicroTPC Recoil Detector"
+    },
+    "sourceUids": [
+      "hal$in2p3-01391230"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "enrichments": "hal",
+      "halId": "hal",
+      "language": "hal",
+      "localRef": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "In 2005-6, the chikungunya virus, transmitted by the Aedes albopictus mosquito, affects 38% of the inhabitants of Reunion Island. This outbreak marks the end of the systematic use of insecticides and the consolidation of health policies. Public authorities enlist citizens and mosquitoes in the development of new frontiers, material and symbolic, between the two species. This thesis aims to examine the effects of these changes in practices on the social relations of power in post-colonial context, and the relationship between humans and mosquitoes.To apprehend the socio-natural dynamics at work, a combinatorial ethnography allowed to observe the co-construction of knowledge and practices in several areas where the distancing mosquitoes gets organized. It was based on the collection of speeches and observing practices in the vector control service, in the heart of a research team on the Sterile insect technique (to release sterile mosquitoes on the island) and from non-control professionals. A collection of articles and archives finalized to constitute the body of data.The aim of this thesis is to show that far from making a simple separation between humans and mosquitoes, new management practices have intensified their interactions. In parallel, it proposes a reflection on the dynamics associated with the coexistence of several interpretive systems, allowing to understand - or not - the collective management of epidemic risk. This is an opportunity to reflect on the relationship between the state, scientists and citizens",
+      "fr": "En 2005-6, le virus du chikungunya, transmis par les moustiques Aedes albopictus, touche 38% des habitants de La Réunion. Cette épidémie marque la fin de l'usage systématique des insecticides et la refonte des politiques de santé. Les pouvoirs publics enrôlent les citoyens et les moustiques dans l'élaboration de nouvelles frontières, matérielles et symboliques, entre les deux espèces. Cette thèse a pour objectif d'interroger les effets de ces changements de pratiques sur les rapports sociaux de pouvoir en contexte post-colonial, et sur les relations entre humains et moustiques. Pour saisir les dynamiques socio-naturelles à l'œuvre, une ethnographie combinatoire a permis d'observer les co-constructions de savoirs et de pratiques dans plusieurs espaces où s'organise la mise à distance des moustiques. Elle s'est appuyée sur le recueil de discours et l'observation de pratiques au sein du service de lutte contre les moustiques, au cœur d'une équipe de recherche sur la Technique de l'insecte stérile (visant à relâcher des moustiques stériles sur l'île) et auprès de non professionnels de la lutte. Une collecte d'articles de presse et d'archives a achevé de constituer le corpus de données. L'enjeu de cette thèse est de montrer que bien loin d'opérer une simple séparation entre humains et moustiques, les nouvelles pratiques de lutte ont intensifié leurs interactions. En parallèle, elle propose une réflexion sur les dynamiques liées à la coexistence de plusieurs systèmes interprétatifs, permettant d'appréhender – ou non – collectivement la prise en charge du risque épidémique. C'est l’occasion de réfléchir aux relations entre l'État, les scientifiques et les citoyens.",
+      "default": "In 2005-6, the chikungunya virus, transmitted by the Aedes albopictus mosquito, affects 38% of the inhabitants of Reunion Island. This outbreak marks the end of the systematic use of insecticides and the consolidation of health policies. Public authorities enlist citizens and mosquitoes in the development of new frontiers, material and symbolic, between the two species. This thesis aims to examine the effects of these changes in practices on the social relations of power in post-colonial context, and the relationship between humans and mosquitoes.To apprehend the socio-natural dynamics at work, a combinatorial ethnography allowed to observe the co-construction of knowledge and practices in several areas where the distancing mosquitoes gets organized. It was based on the collection of speeches and observing practices in the vector control service, in the heart of a research team on the Sterile insect technique (to release sterile mosquitoes on the island) and from non-control professionals. A collection of articles and archives finalized to constitute the body of data.The aim of this thesis is to show that far from making a simple separation between humans and mosquitoes, new management practices have intensified their interactions. In parallel, it proposes a reflection on the dynamics associated with the coexistence of several interpretive systems, allowing to understand - or not - the collective management of epidemic risk. This is an opportunity to reflect on the relationship between the state, scientists and citizens"
+    },
+    "authors": [
+      {
+        "forename": "Sandrine",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Dupé",
+        "affiliations": [
+          {
+            "ref": "struct-205410",
+            "address": "EA7390, Université de La Réunion UR, Laboratoire de recherches sur les espaces créoles et francophones LCF, Université de La Réunion 15 avenue René Cassin CS92003 97744 SAINT DENIS CEDEX 9, FR",
+            "isni": "0000000121112608",
+            "idRef": "026404451",
+            "rnsr": [
+              "201522839P"
+            ]
+          },
+          {
+            "ref": "struct-57002",
+            "address": "Université de La Réunion UR, Centre Interdisciplinaire de Recherche sur la construction Identitaire CIRCI, Université de La Réunion 15 avenue René Cassin CS92003 97744 SAINT DENIS CEDEX 9, RE",
+            "isni": "0000000121112608",
+            "idRef": "026404451",
+            "rnsr": []
+          },
+          {
+            "ref": "struct-117740",
+            "address": "UMS104, Muséum national d'Histoire naturelle MNHN, Université Paris Diderot - Paris 7 UPD7, UMR7206, Centre National de la Recherche Scientifique CNRS, Eco-Anthropologie et Ethnobiologie EAE, Dpt Hommes Natures Sociétés, 57 rue Cuvier 75231 Paris Cedex 05 - Musée de l'Homme, place du Trocadéro 75016 Paris, FR",
+            "isni": "0000000121514068",
+            "idRef": "192039423",
+            "rnsr": [
+              "200311825V"
+            ],
+            "enrichments": {
+              "rnsr": [
+                "200311825V"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [
+          "884038"
+        ],
+        "orcId": [],
+        "fullname": "Sandrine Dupé",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201522839P",
+          "200311825V"
+        ]
+      }
+    ],
+    "host": {
+      "publicationDate": "2015-12-04",
+      "language": [
+        "French"
+      ],
+      "pages": {
+        "range": ""
+      },
+      "electronicPublicationDate": "",
+      "editor": [
+        {
+          "forename": "",
+          "orgName": "",
+          "surname": "",
+          "roles": "thesisAdvisor",
+          "fullname": "",
+          "idRef": ""
+        },
+        {
+          "forename": "",
+          "orgName": "",
+          "surname": "",
+          "roles": "degreeGrantor",
+          "fullname": "",
+          "idRef": ""
+        },
+        {
+          "forename": "",
+          "orgName": "",
+          "surname": "",
+          "roles": "doctoralSchool",
+          "fullname": "",
+          "idRef": ""
+        }
+      ],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "",
+      "isbn": "",
+      "part": "",
+      "eissn": "",
+      "specialIssue": "",
+      "title": "",
+      "volume": "",
+      "issn": "",
+      "supplement": "",
+      "publisher": "",
+      "eisbn": ""
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Vector control",
+          "Reunion Island",
+          "Post-Colonialism",
+          "Biopower",
+          "Risk management",
+          "Co-Production of knowledge",
+          "Biosafety",
+          "Health Democracy"
+        ]
+      },
+      "fr": {
+        "author": [
+          "Biopouvoir",
+          "La Réunion",
+          "Lutte contre les moustiques",
+          "Gestion du risque",
+          "Co-Production de savoirs",
+          "Post-Colonialisme",
+          "Sécurité sanitaire",
+          "Démocratie sanitaire"
+        ]
+      }
+    },
+    "fulltextUrl": "https://tel.archives-ouvertes.fr/tel-01391435/file/2015lare0022_SDupe_pl.pdf",
+    "halId": "tel-01391435",
+    "language": [
+      "French"
+    ],
+    "nnt": "2015LARE0022",
+    "business": {
+      "duplicateGenre": "Thèse",
+      "sourceUidChain": "!hal$tel-01391435!sudoc-theses$196267498!",
+      "duplicates": [
+        {
+          "sourceUid": "sudoc-theses$196267498",
+          "sessionName": "SUDOC-THESES_2021-03-05_2015",
+          "rules": [
+            "Thèse : 1ID:nnt+TiC_FRE",
+            "Thèse : 2Auteurs:TiC_FRE+auteur+annee",
+            "Thèse : 2Auteurs:TiC_ENG+auteur_init+annee",
+            "Thèse : 1ID:nnt+TiC_ENG",
+            "Thèse : 2Auteurs:TiC_FRE+auteur_init+annee",
+            "Thèse : 2Auteurs:TiC_ENG+auteur+annee"
+          ],
+          "source": "sudoc-theses"
+        }
+      ],
+      "duplicateRules": [
+        "Thèse : 1ID:nnt+TiC_FRE",
+        "Thèse : 2Auteurs:TiC_FRE+auteur+annee",
+        "Thèse : 2Auteurs:TiC_ENG+auteur_init+annee",
+        "Thèse : 1ID:nnt+TiC_ENG",
+        "Thèse : 2Auteurs:TiC_FRE+auteur_init+annee",
+        "Thèse : 2Auteurs:TiC_ENG+auteur+annee"
+      ]
+    },
+    "title": {
+      "default": "Separate the mosquito from human. Co-production of a new socio-natural order in post-colonial context.",
+      "en": "Separate the mosquito from human. Co-production of a new socio-natural order in post-colonial context.",
+      "fr": "Séparer les moustiques des humains à La Réunion. Co-production d'un nouvel ordre socio-naturel en contexte post-colonial"
+    },
+    "sourceUids": [
+      "hal$tel-01391435"
+    ],
+    "originalGenre": "THESE",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.fr": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "host": "hal",
+      "keywords.en.author": [
+        "hal"
+      ],
+      "keywords.fr.author": [
+        "hal"
+      ],
+      "fulltextUrl": "hal",
+      "halId": "hal",
+      "language": "hal",
+      "nnt": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "business.duplicateRules": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "title.fr": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  }
+]

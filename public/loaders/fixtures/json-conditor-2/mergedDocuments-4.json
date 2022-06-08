@@ -1,0 +1,227 @@
+[
+  {
+    "abstract": {
+      "default": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas (with between 250,000 and 300,000 inhabitants) was studied. The number of outward and inward daily commuters was extracted from national census databases related to the population and their commuting habits. For urban area A, with the larger number of daily inward commuters (110,000, compared to 53,000 for B), lockdown was observed to have an effect on the monthly load averages of chemical oxygen demand, biochemical oxygen demand, total Kjeldahl nitrogen, total suspended solids and total phosphorus, all of which decreased (confidence level of 95%). This decrease, which varied between 20% and 40% and reached 45% for COD, can be related to the cessation of catering and activities such as hairdressing, which generate large amounts of graywater. The ammonium loads, due to the use of toilets before leaving for work and after returning from work, remained constant. In the case of urban area B, lockdown had no noticeable effect. More data would be necessary in the long term to analyze the effect of changes in the balance between ammonia and carbon sources on the operation of wastewater treatment plants.",
+      "en": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas (with between 250,000 and 300,000 inhabitants) was studied. The number of outward and inward daily commuters was extracted from national census databases related to the population and their commuting habits. For urban area A, with the larger number of daily inward commuters (110,000, compared to 53,000 for B), lockdown was observed to have an effect on the monthly load averages of chemical oxygen demand, biochemical oxygen demand, total Kjeldahl nitrogen, total suspended solids and total phosphorus, all of which decreased (confidence level of 95%). This decrease, which varied between 20% and 40% and reached 45% for COD, can be related to the cessation of catering and activities such as hairdressing, which generate large amounts of graywater. The ammonium loads, due to the use of toilets before leaving for work and after returning from work, remained constant. In the case of urban area B, lockdown had no noticeable effect. More data would be necessary in the long term to analyze the effect of changes in the balance between ammonia and carbon sources on the operation of wastewater treatment plants.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Marie-Noëlle",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Pons",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "201019324R",
+                "201320573K"
+              ]
+            }
+          },
+          {
+            "ref": "",
+            "address": "Laboratoire Réactions et Génie des Procédés, LTSER-Zone Atelier du Bassin de la Moselle, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Marie-Noëlle Pons",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201019324R",
+          "201320573K"
+        ]
+      },
+      {
+        "forename": "Pauline",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Louis",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+            "isni": "",
+            "idRef": "",
+            "rnsr": [],
+            "enrichments": {
+              "rnsr": [
+                "201019324R",
+                "201320573K"
+              ]
+            }
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Pauline Louis",
+        "idHal": [],
+        "idRef": [],
+        "viaf": [],
+        "rnsr": [
+          "201019324R",
+          "201320573K"
+        ]
+      },
+      {
+        "forename": "Davide",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Vignati",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Laboratoire Interdisciplinaire des Environnements Continentaux, Université de Lorraine, CNRS, Campus Bridoux, Rue du Général Delestraint, Metz F-57070, France",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Davide Vignati",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      }
+    ],
+    "classifications": {
+      "enrichments": {
+        "hal": {
+          "code": "sdv",
+          "en": "Life Sciences [q-bio]",
+          "fr": "Sciences du Vivant [q-bio]"
+        }
+      }
+    },
+    "doi": "10.2166/wst.2020.520",
+    "host": {
+      "electronicPublicationDate": "2020-11-2",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "12",
+      "isbn": "",
+      "part": "",
+      "eissn": "1996-9732",
+      "language": [
+        "English"
+      ],
+      "specialIssue": "",
+      "title": "Water Science and Technology",
+      "volume": "82",
+      "pages": {
+        "range": "2813-2822"
+      },
+      "issn": "0273-1223",
+      "supplement": "",
+      "publisher": "IWA Publishing",
+      "eisbn": "",
+      "publicationDate": "2020-12-15"
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [
+            {
+              "license": null,
+              "url_for_landing_page": "https://doi.org/10.2166/wst.2020.520",
+              "is_best": true,
+              "url_for_pdf": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf",
+              "host_type": "publisher",
+              "url": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf"
+            },
+            {
+              "license": null,
+              "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+              "is_best": false,
+              "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+              "host_type": "repository",
+              "url": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf"
+            },
+            {
+              "license": null,
+              "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964",
+              "is_best": false,
+              "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/document",
+              "host_type": "repository",
+              "url": "https://hal.univ-lorraine.fr/hal-03083964/document"
+            }
+          ],
+          "oa_status": "bronze",
+          "is_oa": true,
+          "has_repository_copy": true
+        }
+      }
+    },
+    "funders": [
+      {
+        "name": "Agence Nationale de la Recherche",
+        "grantNumber": "ANR-16-CE34-0012-001",
+        "doi": ""
+      }
+    ],
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
+      "duplicates": [
+        {
+          "sourceUid": "pubmed$33341772",
+          "internalId": "13952F9BE480B1618B1C91E52174700C12304EC7",
+          "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+          "source": "pubmed"
+        }
+      ]
+    },
+    "title": {
+      "default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
+      "en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas"
+    },
+    "sourceUids": [
+      "crossref$10.2166/wst.2020.520"
+    ],
+    "originalGenre": "Journal article",
+    "origins": {
+      "abstract": "crossref",
+      "abstract.en": "crossref",
+      "abstract.default": "crossref",
+      "authors": "crossref",
+      "classifications.enrichments": "crossref",
+      "doi": "crossref",
+      "host": "crossref",
+      "enrichments": "crossref",
+      "funders": "crossref",
+      "business.duplicateGenre": "crossref",
+      "business.sourceUidChain": "crossref",
+      "business.duplicates": [
+        "crossref"
+      ],
+      "title.default": "crossref",
+      "title.en": "crossref",
+      "sourceUid": [
+        "crossref"
+      ],
+      "originalGenre": "crossref",
+      "sources": [
+        "crossref"
+      ]
+    }
+  }
+]

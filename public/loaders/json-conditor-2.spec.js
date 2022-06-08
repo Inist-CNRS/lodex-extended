@@ -1,6 +1,31 @@
 const ezs = require('@ezs/core');
 const from = require('from');
 
+/**
+ * @param {number} n
+ */
+const testMerged = (n) =>
+    /**
+     *
+     * @param {function} done
+     */
+    (done) => {
+        const mergedDocuments = require(`./fixtures/json-conditor-2/mergedDocuments-${n}.json`);
+        const expected = require(`./fixtures/json-conditor-2/expected-${n}.json`)
+            .map((notice, i) => ({ ...notice, uri: i }));
+        const res = [];
+        from([JSON.stringify(mergedDocuments)])
+            .pipe(ezs('delegate', { file: __dirname + '/json-conditor-2.ini' }))
+            .on('data', chunk => {
+                res.push(chunk);
+            })
+            .on('end', () => {
+                const withConstantUri = res.map((notice, i) => ({ ...notice, uri: i }))
+                expect(withConstantUri).toEqual(expected);
+                done();
+            });
+    };
+
 describe('json-conditor-2.ini', () => {
     it('should parse a JSON', done => {
         const res = [];
@@ -894,4 +919,12 @@ describe('json-conditor-2.ini', () => {
                 done();
             });
     });
+
+    it('should parse mergedDocuments-1', testMerged(1));
+
+    it('should parse mergedDocuments-2', testMerged(2));
+
+    it('should parse mergedDocuments3', testMerged(3));
+
+    it('should parse mergedDocuments4', testMerged(4));
 });
