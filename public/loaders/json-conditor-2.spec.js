@@ -27,7 +27,7 @@ const testMerged = (n) =>
     };
 
 describe('json-conditor-2.ini', () => {
-    it('should parse a JSON', done => {
+    it('0 - should parse a JSON', done => {
         const res = [];
         const expected = [
             {
@@ -81,8 +81,8 @@ describe('json-conditor-2.ini', () => {
                 "funders grantNumber": [],
                 "funders name": [],
                 // "halId": "", // + (à la racine)
-                // "hasDoi": true, // + (à déduire de doi ?)
-                // "hasFulltext": "", // + (lié à fulltextPath ?)
+                "hasDoi": true,
+                "hasFulltext": false,
                 // "hasTransDuplicate": "", // -
                 // "idChain": "", // + (business.sourceUidChain)
                 // "idConditor": "", // -
@@ -198,8 +198,8 @@ describe('json-conditor-2.ini', () => {
                 "funders grantNumber": [],
                 "funders name": [],
                 //     "halId": "",
-                //     "hasDoi": "",
-                //     "hasFulltext": "",
+                "hasDoi": true,
+                "hasFulltext": false,
                 //     "hasTransDuplicate": "",
                 //     "idChain": "",
                 //     "idConditor": "",
@@ -318,6 +318,8 @@ describe('json-conditor-2.ini', () => {
                 "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
                 "funders grantNumber": [],
                 "funders name": [],
+                "hasDoi": true,
+                "hasFulltext": true,
                 "keywords en author": [],
                 "keywords en mesh": [
                     "Health Policy",
@@ -424,6 +426,8 @@ describe('json-conditor-2.ini', () => {
                 "fulltextUrl": "",
                 "funders grantNumber": ["ANR-16-CE34-0012-001"],
                 "funders name": ["Agence Nationale de la Recherche"],
+                "hasDoi": true,
+                "hasFulltext": false,
                 "issn": "0273-1223",
                 "issue": "12",
                 "keywords en author": [],
@@ -928,19 +932,19 @@ describe('json-conditor-2.ini', () => {
             });
     });
 
-    it('should parse mergedDocuments-1', testMerged(1));
+    it('1 - should parse mergedDocuments-1', testMerged(1));
 
-    it('should parse mergedDocuments-2', testMerged(2));
+    it('2 - should parse mergedDocuments-2', testMerged(2));
 
-    it('should parse mergedDocuments3', testMerged(3));
+    it('3 - should parse mergedDocuments3', testMerged(3));
 
-    it('should parse mergedDocuments4', testMerged(4));
+    it('4 - should parse mergedDocuments4', testMerged(4));
 
     // WARNING: identifiers are not associated with authors
     // (not always as many identifiers as authors)
-    it('arxiv, authors enrichments identifiers, authors identifiers, classifications, keywords en author', testMerged(5));
+    it('5 - arxiv, authors enrichments identifiers, authors identifiers, classifications, keywords en author', testMerged(5));
 
-    it('authors affiliations ref', testMerged(6));
+    it('6 - authors affiliations ref', testMerged(6));
 
-    it('funders grantNumber / name', testMerged(7));
+    it('7 - funders grantNumber / name', testMerged(7));
 });
