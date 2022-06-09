@@ -1,0 +1,406 @@
+[
+  {
+    "abstract": {
+      "default": "Trees use many mechanisms to adapt and respond to stressful conditions. The phenylpropanoid pathway in particular is known to be associated with a diverse suite of plant stress responses. In this study, we explored the relationship between the phenylpropanoid pathway metabolite production, gene expression, and adaptive trait variation associated with floral bud reactivation during and following dormancy in Prunus armeniaca L. (apricot). Concentrations of eight phenylpropanoid metabolites were measured during chill accumulation and at developmental stages corresponding to the emergence of sepals and petals in floral buds of varieties that differ phenotypically in bloom date (BD). A significant interaction effect of chill hours and BD phenotype on the concentration of each of the compounds was observed (mixed ANOVA, P < 0.05), with the concentration of most phenylpropanoid metabolites dropping precipitously when sepals and petals emerged. While phenylpropanoid biosynthetic gene expression patterns were more variable in general, expression changed over time and was impacted, although to a lesser degree, by BD phenotype. Furthermore, separation of BD phenotypic groups was most pronounced when early and late BD varieties were at different developmental stages, i.e., 800 chill hours. Taken together, these results suggest that the phenylpropanoid pathway is associated with floral bud reactivation in apricot. Furthermore, we show that the phenylpropanoid pathway is also impacted by phenological trait variation associated with dormancy. A better understanding of how apricot and other perennial tree species respond and adapt to environmental perturbations will be critical for improvement programs aimed at identifying and breeding trees more suitable for rapidly changing environments.",
+      "en": "Trees use many mechanisms to adapt and respond to stressful conditions. The phenylpropanoid pathway in particular is known to be associated with a diverse suite of plant stress responses. In this study, we explored the relationship between the phenylpropanoid pathway metabolite production, gene expression, and adaptive trait variation associated with floral bud reactivation during and following dormancy in Prunus armeniaca L. (apricot). Concentrations of eight phenylpropanoid metabolites were measured during chill accumulation and at developmental stages corresponding to the emergence of sepals and petals in floral buds of varieties that differ phenotypically in bloom date (BD). A significant interaction effect of chill hours and BD phenotype on the concentration of each of the compounds was observed (mixed ANOVA, P < 0.05), with the concentration of most phenylpropanoid metabolites dropping precipitously when sepals and petals emerged. While phenylpropanoid biosynthetic gene expression patterns were more variable in general, expression changed over time and was impacted, although to a lesser degree, by BD phenotype. Furthermore, separation of BD phenotypic groups was most pronounced when early and late BD varieties were at different developmental stages, i.e., 800 chill hours. Taken together, these results suggest that the phenylpropanoid pathway is associated with floral bud reactivation in apricot. Furthermore, we show that the phenylpropanoid pathway is also impacted by phenological trait variation associated with dormancy. A better understanding of how apricot and other perennial tree species respond and adapt to environmental perturbations will be critical for improvement programs aimed at identifying and breeding trees more suitable for rapidly changing environments."
+    },
+    "authors": [
+      {
+        "forename": "Anna O",
+        "surname": "Conrad",
+        "halAuthorId": "11855175",
+        "affiliations": [
+          {
+            "ref": "struct-127973",
+            "address": "University of Kentucky, Lexington, KY 40506-0046, USA, US"
+          }
+        ],
+        "fullname": "Conrad Anna O"
+      },
+      {
+        "forename": "Jiali",
+        "surname": "Yu",
+        "halAuthorId": "11435649",
+        "affiliations": [
+          {
+            "ref": "struct-571174",
+            "address": "University of Tennessee, US"
+          }
+        ],
+        "fullname": "Yu Jiali"
+      },
+      {
+        "forename": "Margaret E",
+        "surname": "Staton",
+        "halAuthorId": "11855176",
+        "affiliations": [
+          {
+            "ref": "struct-437594",
+            "address": "The University of Tennessee [Knoxville], Department of Entomology and Plant Pathology, US"
+          }
+        ],
+        "fullname": "Staton Margaret E"
+      },
+      {
+        "forename": "Jean Marc",
+        "surname": "Audergon",
+        "halAuthorId": "1442553",
+        "affiliations": [
+          {
+            "ref": "struct-37751",
+            "address": "UR1052, Institut National de la Recherche Agronomique INRA, Unité de recherche Génétique et amélioration des fruits et légumes GAFL, FR"
+          }
+        ],
+        "fullname": "Audergon Jean Marc"
+      },
+      {
+        "forename": "Guillaume",
+        "surname": "Roch",
+        "halAuthorId": "1214201",
+        "affiliations": [
+          {
+            "ref": "struct-458115",
+            "address": "CEP Innovation, FR"
+          }
+        ],
+        "fullname": "Roch Guillaume"
+      },
+      {
+        "forename": "Veronique",
+        "surname": "Decroocq",
+        "researcherId": "http://www.researcherid.com/rid/C-9980-2019",
+        "halAuthorId": "1634472",
+        "affiliations": [
+          {
+            "ref": "struct-208863",
+            "address": "Université Sciences et Technologies - Bordeaux 1, UMR1332, Institut National de la Recherche Agronomique INRA, Université Bordeaux Segalen - Bordeaux 2, Biologie du fruit et pathologie BFP, Centre INRA Bordeaux-Aquitaine 71 avenue Bourlaux BP81 F-33883 Villenave d'Ornon, FR"
+          }
+        ],
+        "orcId": [
+          "https://orcid.org/0000-0001-6745-6350"
+        ],
+        "fullname": "Decroocq Veronique",
+        "idHal": "739556"
+      },
+      {
+        "forename": "Kevin",
+        "surname": "Knagge",
+        "halAuthorId": "11855177",
+        "affiliations": [
+          {
+            "ref": "struct-1037082",
+            "address": "Partenaires INRAE, David H. Murdock Research Institute, US"
+          }
+        ],
+        "fullname": "Knagge Kevin"
+      },
+      {
+        "forename": "Huadong",
+        "surname": "Chen",
+        "halAuthorId": "11855178",
+        "affiliations": [
+          {
+            "ref": "struct-1037082",
+            "address": "Partenaires INRAE, David H. Murdock Research Institute, US"
+          }
+        ],
+        "fullname": "Chen Huadong"
+      },
+      {
+        "forename": "Tatyana",
+        "surname": "Zhebentyayeva",
+        "halAuthorId": "11855179",
+        "affiliations": [
+          {
+            "ref": "struct-452398",
+            "address": "Penn State System, Pennsylvania State University Penn State, 201 Old Main, University Park, Pennsylvania 16802, US",
+            "isni": [
+              "0000 0004 5907 5867"
+            ]
+          }
+        ],
+        "fullname": "Zhebentyayeva Tatyana"
+      },
+      {
+        "forename": "Zongrang",
+        "surname": "Liu",
+        "halAuthorId": "11793340",
+        "affiliations": [
+          {
+            "ref": "struct-493124",
+            "address": "USDA-ARS : Agricultural Research Service, Appalachian Fruit Research Station, US"
+          }
+        ],
+        "fullname": "Liu Zongrang"
+      },
+      {
+        "forename": "Christopher",
+        "surname": "Dardick",
+        "halAuthorId": "11793339",
+        "affiliations": [
+          {
+            "ref": "struct-493124",
+            "address": "USDA-ARS : Agricultural Research Service, Appalachian Fruit Research Station, US"
+          }
+        ],
+        "fullname": "Dardick Christopher"
+      },
+      {
+        "forename": "C Dana",
+        "surname": "Nelson",
+        "halAuthorId": "11855180",
+        "affiliations": [
+          {
+            "ref": "struct-530780",
+            "address": "United States Department of Agriculture, US"
+          }
+        ],
+        "fullname": "Nelson C Dana"
+      },
+      {
+        "forename": "Albert G",
+        "surname": "Abbott",
+        "halAuthorId": "11850197",
+        "affiliations": [
+          {
+            "ref": "struct-127973",
+            "address": "University of Kentucky, Lexington, KY 40506-0046, USA, US"
+          }
+        ],
+        "fullname": "Abbott Albert G"
+      }
+    ],
+    "doi": "10.1093/treephys/tpz053",
+    "host": {
+      "volume": "39",
+      "pages": [
+        {
+          "total": 0,
+          "range": "1136-1148"
+        }
+      ],
+      "issn": "0829-318X",
+      "publisher": "Oxford University Press (OUP): Policy B - Oxford Open Option B",
+      "eissn": "1758-4469",
+      "language": [
+        "English"
+      ],
+      "title": "Tree Physiology",
+      "publicationDate": "2019"
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Rosaceae",
+          "bloom date",
+          "phenylpropanoid metabolites and genes"
+        ]
+      },
+      "fr": {
+        "author": [
+          "floral bud dormancy",
+          "phenology"
+        ]
+      }
+    },
+    "halId": "hal-02625327",
+    "language": [
+      "English"
+    ],
+    "pmId": "31070767",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1093/treephys/tpz053!hal$hal-02625327!pubmed$31070767!",
+      "duplicates": [
+        {
+          "sourceUid": "pubmed$31070767",
+          "sessionName": "PUBMED_2021-01-05_2019",
+          "rules": [
+            "Article : 1ID:doi+pmid"
+          ],
+          "source": "pubmed"
+        },
+        {
+          "sourceUid": "crossref$10.1093/treephys/tpz053",
+          "sessionName": "CROSSREF_2021-02-23_2019_1",
+          "source": "crossref"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+pmid"
+      ]
+    },
+    "title": {
+      "default": "Association of the phenylpropanoid pathway with dormancy and adaptive trait variation in apricot (<em>Prunus armeniaca</em>).",
+      "en": "Association of the phenylpropanoid pathway with dormancy and adaptive trait variation in apricot (<em>Prunus armeniaca</em>)."
+    },
+    "sourceUids": [
+      "hal$hal-02625327"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "abstract": "hal",
+      "abstract.en": "hal",
+      "abstract.default": "hal",
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "keywords.en.author": [
+        "hal"
+      ],
+      "keywords.fr.author": [
+        "hal"
+      ],
+      "halId": "hal",
+      "language": "hal",
+      "pmId": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "business.duplicateRules": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  },
+  {
+    "abstract": {
+      "en": "The evaporation of a solvent/solute solution is a transient phenomenon which ends when the whole solvent has disappeared. Phase change generates a cooling of the liquid-gas interface, and consequently, it creates thermal and solutal gradients. These homogeneities spread in the core solution and produce, eventually, a fluid flow. This convection can be due to the surface tension and/or buoyancy variations. Experimental works have shown that some coating thicknesses stemming from drying processes are correlated to the size of the convection cells in the fluid region. A thorough understanding of the physical phenomena responsible to fluid convection should contribute to improve the control of deposit quality.Based on numerical and experimental works, we have studied the onset of convection for three kinds of models for the drying process of a Polyisobutylene-Toluène solution: A pure thermal model which is valid for short times, a solutal model devoted to the simulation of long times, only, and a thermal/solutal coupled model which takes into account the heat and mass transfer over a long time period of the evaporation process. The transient nature of the evaporation problem raises the issue of how to define the onset of the convective flow from a diffusive solution. Indeed, this flow motion occurs from a seed which is a small perturbation of the transient diffusive solution. If the perturbation is too weak, the necessary time interval for a significant growing of its magnitude will be greater than the time scale of the transient regime: thus the solution will never be considered as convective. Consequently, the influence of the perturbation is fundamental. In previous numerical works, this perturbation was imposed at the initial state, often through a random spatial distribution applied to the velocity or temperature field. In the present contribution, we have adopted a physical model where the adiabatic lateral walls have been replaced by diathermal walls: The local thermal inhomogeneities create a very weak flow acting as a small disturbance for the transient diffusive solution.In this thesis, we have developed a numerical model to evaluate the thresholds between the diffusive solutions and the convective flows, for the thermal, solutal and thermal/solutal coupled models, for two- and three-dimensional approximations of the Polyisobutylene-Toluène liquid film. Space-time diagrams and convective cell reconstructions at the liquid-gas interface by a Voronoï algorithm allowed us to get a better understanding of the way the disturbances propagate from the lateral walls for finally giving rise to a convective flow in the core fluid",
+      "fr": "L’évaporation d’une solution solvant/soluté est un processus transitoire qui prend fin lorsque le solvant a totalement disparu. Le refroidissement créé par le changement de phase provoque des gradients à la fois thermiques et de concentration en solvant. Ces homogénéités diffusent ensuite dans l’épaisseur de la solution et sont susceptibles d’engendrer un écoulement fluide. L’origine de cette convection peut être liée à des variations de tension de surface ou de densité. Des travaux expérimentaux ont montré que l’épaisseur des dépôts issus de séchages de solutions solvant/soluté semblait pouvoir être corrélée avec les cellules de convection de la zone fluide. Une compréhension approfondie des phénomènes à l’origine de la convection devrait donc participer à un meilleur contrôle de la qualité des dépôts.Sur la base de travaux numériques et expérimentaux publiés, nous avons étudié l’apparition de la convection pour trois types de modèles représentant le processus d’évaporation d’une solution de Polyisobutylène-Toluène : un modèle purement thermique qui s’applique pour les temps courts, un modèle solutal qui est valable sur les temps longs et enfin un modèle couplé thermique/solutal qui représente les transferts sur l’ensemble de la gamme des temps étudiés. Le caractère transitoire de l’évaporation induit une difficulté pour caractériser la naissance de la convection à partir d’un régime de conduction. En effet, cette convection apparaît à partir d’un germe qui est une petite perturbation de la solution diffusive. Si l’amplitude de cette perturbation est trop faible, son amplification à des intensités suffisantes ne pourra pas avoir lieu avant la fin du régime transitoire et l’écoulement ne deviendra donc jamais convectif. Le rôle de la perturbation est donc primordial. Dans des travaux numériques antérieurs, cette perturbation a été imposée à l’état initial, généralement avec une distribution aléatoire du champ thermique ou de vitesse. Lors de cette thèse, nous avons opté pour un modèle plus physique, basé sur l’introduction d’un transfert thermique sur les parois latérales qui joue le rôle de perturbateur de l’écoulement diffusif transitoire.Dans cette thèse, nous avons établi par voie numérique les seuils de transition entre une solution diffusive et un écoulement convectif pour les modèles thermique, solutal et couplé, dans le cas d’une approximation bidimensionnelle du film liquide et des simulations pleinement tridimensionnelles. Des diagrammes spatio-temporels et l’étude des cellules à la surface libre par des reconstructions de Voronoï nous ont permis de mieux comprendre la naissance et la propagation des instabilités dans la solution fluide",
+      "default": "L’évaporation d’une solution solvant/soluté est un processus transitoire qui prend fin lorsque le solvant a totalement disparu. Le refroidissement créé par le changement de phase provoque des gradients à la fois thermiques et de concentration en solvant. Ces homogénéités diffusent ensuite dans l’épaisseur de la solution et sont susceptibles d’engendrer un écoulement fluide. L’origine de cette convection peut être liée à des variations de tension de surface ou de densité. Des travaux expérimentaux ont montré que l’épaisseur des dépôts issus de séchages de solutions solvant/soluté semblait pouvoir être corrélée avec les cellules de convection de la zone fluide. Une compréhension approfondie des phénomènes à l’origine de la convection devrait donc participer à un meilleur contrôle de la qualité des dépôts.Sur la base de travaux numériques et expérimentaux publiés, nous avons étudié l’apparition de la convection pour trois types de modèles représentant le processus d’évaporation d’une solution de Polyisobutylène-Toluène : un modèle purement thermique qui s’applique pour les temps courts, un modèle solutal qui est valable sur les temps longs et enfin un modèle couplé thermique/solutal qui représente les transferts sur l’ensemble de la gamme des temps étudiés. Le caractère transitoire de l’évaporation induit une difficulté pour caractériser la naissance de la convection à partir d’un régime de conduction. En effet, cette convection apparaît à partir d’un germe qui est une petite perturbation de la solution diffusive. Si l’amplitude de cette perturbation est trop faible, son amplification à des intensités suffisantes ne pourra pas avoir lieu avant la fin du régime transitoire et l’écoulement ne deviendra donc jamais convectif. Le rôle de la perturbation est donc primordial. Dans des travaux numériques antérieurs, cette perturbation a été imposée à l’état initial, généralement avec une distribution aléatoire du champ thermique ou de vitesse. Lors de cette thèse, nous avons opté pour un modèle plus physique, basé sur l’introduction d’un transfert thermique sur les parois latérales qui joue le rôle de perturbateur de l’écoulement diffusif transitoire.Dans cette thèse, nous avons établi par voie numérique les seuils de transition entre une solution diffusive et un écoulement convectif pour les modèles thermique, solutal et couplé, dans le cas d’une approximation bidimensionnelle du film liquide et des simulations pleinement tridimensionnelles. Des diagrammes spatio-temporels et l’étude des cellules à la surface libre par des reconstructions de Voronoï nous ont permis de mieux comprendre la naissance et la propagation des instabilités dans la solution fluide"
+    },
+    "authors": [
+      {
+        "forename": "Louis-Henri",
+        "surname": "Baudey-Laubier",
+        "fullname": "Baudey-Laubier Louis-Henri",
+        "idRef": [
+          "201682028"
+        ]
+      }
+    ],
+    "classifications": {
+      "enrichments": {
+        "hal": {
+          "code": "phys",
+          "en": "Physics [physics]",
+          "fr": "Physique [physics]"
+        }
+      }
+    },
+    "host": {
+      "publicationDate": "2016",
+      "language": [
+        "French"
+      ],
+      "pages": [
+        {
+          "total": 0
+        }
+      ]
+    },
+    "keywords": {
+      "fr": {
+        "rameau": [
+          "\n                  Convection de Rayleigh-Bénard\n                  177078138\n                --\n                  Thèses et écrits académiques\n                  027253139\n                ",
+          "\n                  Transfert de masse\n                  027831817\n                --\n                  Thèses et écrits académiques\n                  027253139\n                ",
+          "\n                  Interfaces gaz-liquide\n                  035254467\n                --\n                  Thèses et écrits académiques\n                  027253139\n                "
+        ]
+      },
+      "und": {
+        "author": [
+          "Interface gaz/liquid",
+          "Évaporation",
+          "Convection de Rayleigh-Bénard-Marangoni",
+          "Couplage thermique et massique",
+          "Naissance de la convection"
+        ]
+      }
+    },
+    "fulltextUrl": "http://www.theses.fr/2016PESC1086/document",
+    "language": [
+      "French"
+    ],
+    "nnt": "2016PESC1086",
+    "ppn": "201683458",
+    "business": {
+      "duplicateGenre": "Thèse",
+      "sourceUidChain": "!hal$tel-01535046!sudoc-theses$201683458!",
+      "duplicates": [
+        {
+          "sourceUid": "hal$tel-01535046",
+          "sessionName": "HAL_2020-12-15_2016",
+          "rules": [
+            "Thèse : 2Auteurs:TiC_FRE+auteur_init+annee",
+            "Thèse : 1ID:nnt+TiC_FRE",
+            "Thèse : 2Auteurs:TiC_FRE+auteur+annee",
+            "Thèse : 2Auteurs:TiC_ENG+auteur_init+annee",
+            "Thèse : 1ID:nnt+TiC_ENG",
+            "Thèse : 2Auteurs:TiC_ENG+auteur+annee"
+          ],
+          "source": "hal"
+        }
+      ],
+      "duplicateRules": [
+        "Thèse : 2Auteurs:TiC_FRE+auteur_init+annee",
+        "Thèse : 1ID:nnt+TiC_FRE",
+        "Thèse : 2Auteurs:TiC_FRE+auteur+annee",
+        "Thèse : 2Auteurs:TiC_ENG+auteur_init+annee",
+        "Thèse : 1ID:nnt+TiC_ENG",
+        "Thèse : 2Auteurs:TiC_ENG+auteur+annee"
+      ]
+    },
+    "title": {
+      "default": "Modélisation et simulation numérique des transferts de masse et de chaleur induits par évaporation",
+      "en": "Modelling and numerical simulation of mass and heat transfer induced by evaporation",
+      "fr": "Modélisation et simulation numérique des transferts de masse et de chaleur induits par évaporation"
+    },
+    "sourceUids": [
+      "sudoc-theses$201683458"
+    ],
+    "originalGenre": "Thèse de doctorat",
+    "origins": {
+      "abstract": "sudoc-theses",
+      "abstract.en": "sudoc-theses",
+      "abstract.fr": "sudoc-theses",
+      "abstract.default": "sudoc-theses",
+      "authors": "sudoc-theses",
+      "classifications.enrichments": "sudoc-theses",
+      "host": "sudoc-theses",
+      "keywords.fr.rameau": [
+        "sudoc-theses"
+      ],
+      "keywords.und.author": [
+        "sudoc-theses"
+      ],
+      "fulltextUrl": "sudoc-theses",
+      "language": "sudoc-theses",
+      "nnt": "sudoc-theses",
+      "ppn": "sudoc-theses",
+      "business.duplicateGenre": "sudoc-theses",
+      "business.sourceUidChain": "sudoc-theses",
+      "business.duplicates": [
+        "sudoc-theses"
+      ],
+      "business.duplicateRules": "sudoc-theses",
+      "title.default": "sudoc-theses",
+      "title.en": "sudoc-theses",
+      "title.fr": "sudoc-theses",
+      "sourceUid": [
+        "sudoc-theses"
+      ],
+      "originalGenre": "sudoc-theses",
+      "sources": [
+        "sudoc-theses"
+      ]
+    }
+  }
+]

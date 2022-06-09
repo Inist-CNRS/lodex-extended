@@ -99,10 +99,10 @@ describe('json-conditor-2.ini', () => {
                 "issue": "",
                 "keywords en author": [],
                 "keywords en mesh": [],
-                // "keywords fr author": [], // +
-                // "keywords fr mesh": [], // +
-                // "keywords fr rameau": [], // +
-                // "keywords undetermined author": [], // +
+                "keywords fr author": [],
+                "keywords fr mesh": [],
+                "keywords fr rameau": [],
+                "keywords undetermined author": [],
                 "language": [], // Par défaut dans host, mais dans le futur: à la racine (donc à la racine d'abord)
                 // "localRef": "", // -
                 // "meetingAbstractNumber": "", // +
@@ -216,10 +216,10 @@ describe('json-conditor-2.ini', () => {
                 "issue": "",
                 "keywords en author": [],
                 "keywords en mesh": [],
-                //     "keywords fr author": "",
-                //     "keywords fr mesh": "",
-                //     "keywords fr rameau": "",
-                //     "keywords undetermined author": "",
+                "keywords fr author": [],
+                "keywords fr mesh": [],
+                "keywords fr rameau": [],
+                "keywords undetermined author": [],
                 "language": [],
                 //     "localRef": "",
                 //     "meetingAbstractNumber": "",
@@ -333,6 +333,10 @@ describe('json-conditor-2.ini', () => {
                     "prevention & control",
                     "United States"
                 ],
+                "keywords fr author": [],
+                "keywords fr mesh": [],
+                "keywords fr rameau": [],
+                "keywords undetermined author": [],
                 "issn": "",
                 "issue": "12",
                 "language": ["English"],
@@ -432,6 +436,10 @@ describe('json-conditor-2.ini', () => {
                 "issue": "12",
                 "keywords en author": [],
                 "keywords en mesh": [],
+                "keywords fr author": [],
+                "keywords fr mesh": [],
+                "keywords fr rameau": [],
+                "keywords undetermined author": [],
                 "language": ["English"],
                 "pageRange": ["2813-2822"],
                 "pii": "",
@@ -930,21 +938,23 @@ describe('json-conditor-2.ini', () => {
                 expect(withConstantUri).toEqual(expected);
                 done();
             });
-    });
+    }, 1_000);
 
-    it('1 - should parse mergedDocuments-1', testMerged(1));
+    it('1 - should parse mergedDocuments-1', testMerged(1), 1_000);
 
-    it('2 - should parse mergedDocuments-2', testMerged(2));
+    it('2 - should parse mergedDocuments-2', testMerged(2), 1_000);
 
-    it('3 - should parse mergedDocuments3', testMerged(3));
+    it('3 - should parse mergedDocuments3', testMerged(3), 1_000);
 
-    it('4 - should parse mergedDocuments4', testMerged(4));
+    it('4 - should parse mergedDocuments4', testMerged(4), 1_000);
 
     // WARNING: identifiers are not associated with authors
     // (not always as many identifiers as authors)
-    it('5 - arxiv, authors enrichments identifiers, authors identifiers, classifications, keywords en author', testMerged(5));
+    it('5 - arxiv, authors enrichments identifiers, authors identifiers, classifications', testMerged(5), 1_000);
 
-    it('6 - authors affiliations ref', testMerged(6));
+    it('6 - authors affiliations ref', testMerged(6), 1_000);
 
-    it('7 - funders grantNumber / name', testMerged(7));
+    it('7 - funders grantNumber / name', testMerged(7), 1_000);
+
+    it('8 - keywords *', testMerged(8), 1_000);
 });
