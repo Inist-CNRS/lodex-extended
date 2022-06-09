@@ -139,9 +139,8 @@ describe('json-conditor-2.ini', () => {
                 "title default": "french title of the doc",
                 "title en": "english title",
                 "title fr": "french title of the doc",
-                "title journal": "My favourite journal",
-                // "title meeting": "", // + (host)
-                // "title monography": "", // + (hosy)
+                "title source": "My favourite journal",
+                "title meeting": "",
                 // "typeConditor": "", // + (business.duplicateGenre)
                 "uri": "uid:/RJWprpeBG",
                 // "utKey": "", //+ racine
@@ -256,9 +255,8 @@ describe('json-conditor-2.ini', () => {
                 "title default": "Titre du document en français",
                 "title en": "Titre en anglais",
                 "title fr": "Titre du document en français",
-                "title journal": "Mon journal favori",
-                //     "title meeting": "",
-                //     "title monography": "",
+                "title source": "Mon journal favori",
+                "title meeting": "",
                 //     "typeConditor": "",
                 "uri": "uid:/xKifxAEzY",
                 //     "utKey": "",
@@ -350,7 +348,8 @@ describe('json-conditor-2.ini', () => {
                 "title default": "Prevention of Gastric Cancer",
                 "title en": "Prevention of Gastric Cancer",
                 "title fr": "",
-                "title journal": "JAMA",
+                "title source": "JAMA",
+                "title meeting": "",
                 "volume": "312"
             },
             {
@@ -454,7 +453,8 @@ describe('json-conditor-2.ini', () => {
                 "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title fr": "",
-                "title journal": "Water Science and Technology",
+                "title source": "Water Science and Technology",
+                "title meeting": "",
                 "volume": "82"
             }
         ].map((notice, i) => ({ ...notice, uri: i }));
@@ -967,4 +967,6 @@ describe('json-conditor-2.ini', () => {
     it('9 - specialIssue', testMerged(9), 1_000);
 
     it('10 - supplement', testMerged(10), 1_000);
+
+    it('11 - title source, title meeting', testMerged(11), 1_000);
 });
