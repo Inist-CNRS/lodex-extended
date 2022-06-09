@@ -113,7 +113,7 @@ describe('json-conditor-2.ini', () => {
                 // "nnt": "", // +
                 // "oatao": "", // +
                 // "okina": "", // +
-                // "otherNumber": "", // + (où ?)
+                "otherNumber": "",
                 "pageRange": [],
                 // "part": "", // + racine
                 // "patentNumber": "", // + racine
@@ -230,7 +230,7 @@ describe('json-conditor-2.ini', () => {
                 //     "nnt": "",
                 //     "oatao": "",
                 //     "okina": "",
-                //     "otherNumber": "",
+                "otherNumber": "",
                 "pageRange": [],
                 //     "part": "",
                 //     "patentNumber": "",
@@ -340,6 +340,7 @@ describe('json-conditor-2.ini', () => {
                 "issn": "",
                 "issue": "12",
                 "language": ["English"],
+                "otherNumber": "",
                 "pageRange": ["1197-8"],
                 "pii": "1906623",
                 "pmId": "25247512",
@@ -441,6 +442,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords fr rameau": [],
                 "keywords undetermined author": [],
                 "language": ["English"],
+                "otherNumber": "",
                 "pageRange": ["2813-2822"],
                 "pii": "",
                 "pmId": "",
