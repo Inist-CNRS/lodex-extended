@@ -131,7 +131,7 @@ describe('json-conditor-2.ini', () => {
                 // "source": "", // -
                 // "sourceId": "", // -
                 // "sourceUid": "",// -
-                // "specialIssue": "", // + host
+                "specialIssue": "",
                 // "supplement": "", // + host
                 // "thesisAdvisor forename": [], // ?
                 // "thesisAdvisor idRef": [], // ?
@@ -248,7 +248,7 @@ describe('json-conditor-2.ini', () => {
                 //     "source": "",
                 //     "sourceId": "",
                 //     "sourceUid": "",
-                //     "specialIssue": "",
+                "specialIssue": "",
                 //     "supplement": "",
                 //     "thesisAdvisor forename": [],
                 //     "thesisAdvisor idRef": [],
@@ -345,6 +345,7 @@ describe('json-conditor-2.ini', () => {
                 "pii": "1906623",
                 "pmId": "25247512",
                 "publicationDate": "2014-09-24",
+                "specialIssue": "",
                 "title default": "Prevention of Gastric Cancer",
                 "title en": "Prevention of Gastric Cancer",
                 "title fr": "",
@@ -447,6 +448,7 @@ describe('json-conditor-2.ini', () => {
                 "pii": "",
                 "pmId": "",
                 "publicationDate": "2020-12-15",
+                "specialIssue": "",
                 "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title fr": "",
@@ -959,4 +961,6 @@ describe('json-conditor-2.ini', () => {
     it('7 - funders grantNumber / name', testMerged(7), 1_000);
 
     it('8 - keywords *', testMerged(8), 1_000);
+
+    it('9 - specialIssue', testMerged(9), 1_000);
 });
