@@ -124,7 +124,7 @@ describe('json-conditor-2.ini', () => {
                 // "ppn": "", // +
                 // "provider": "", // ?
                 "publicationDate": "",
-                // "publisher": "", // + (host)
+                "publisher": "",
                 // "reportNumber": "", // + racine
                 // "sciencespo": "", // + racine
                 // "sessionName": "", // -
@@ -240,7 +240,7 @@ describe('json-conditor-2.ini', () => {
                 //     "ppn": "",
                 //     "provider": "doi2",
                 "publicationDate": "",
-                //     "publisher": "",
+                "publisher": "",
                 //     "reportNumber": "",
                 //     "sciencespo": "",
                 //     "sessionName": "",
@@ -343,6 +343,7 @@ describe('json-conditor-2.ini', () => {
                 "pii": "1906623",
                 "pmId": "25247512",
                 "publicationDate": "2014-09-24",
+                "publisher": "",
                 "specialIssue": "",
                 "supplement": "",
                 "title default": "Prevention of Gastric Cancer",
@@ -448,6 +449,7 @@ describe('json-conditor-2.ini', () => {
                 "pii": "",
                 "pmId": "",
                 "publicationDate": "2020-12-15",
+                "publisher": "IWA Publishing",
                 "specialIssue": "",
                 "supplement": "",
                 "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
