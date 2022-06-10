@@ -127,10 +127,7 @@ describe('json-conditor-2.ini', () => {
                 "publisher": "",
                 // "reportNumber": "", // + racine
                 // "sciencespo": "", // + racine
-                // "sessionName": "", // -
-                // "source": "", // -
-                // "sourceId": "", // -
-                // "sourceUid": "",// -
+                "sourceUids identifiers": [],
                 "specialIssue": "",
                 "supplement": "",
                 // "thesisAdvisor forename": [], // ?
@@ -243,10 +240,7 @@ describe('json-conditor-2.ini', () => {
                 "publisher": "",
                 //     "reportNumber": "",
                 //     "sciencespo": "",
-                //     "sessionName": "",
-                //     "source": "",
-                //     "sourceId": "",
-                //     "sourceUid": "",
+                "sourceUids identifiers": [],
                 "specialIssue": "",
                 "supplement": "",
                 //     "thesisAdvisor forename": [],
@@ -346,6 +340,7 @@ describe('json-conditor-2.ini', () => {
                 "publisher": "",
                 "specialIssue": "",
                 "supplement": "",
+                "sourceUids identifiers": ["crossref$10.1001/jama.2014.10498", "pubmed$25247512"],
                 "title default": "Prevention of Gastric Cancer",
                 "title en": "Prevention of Gastric Cancer",
                 "title fr": "",
@@ -450,6 +445,7 @@ describe('json-conditor-2.ini', () => {
                 "pmId": "",
                 "publicationDate": "2020-12-15",
                 "publisher": "IWA Publishing",
+                "sourceUids identifiers": ["crossref$10.2166/wst.2020.520", "pubmed$33341772"],
                 "specialIssue": "",
                 "supplement": "",
                 "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
@@ -952,9 +948,9 @@ describe('json-conditor-2.ini', () => {
 
     it('2 - should parse mergedDocuments-2', testMerged(2), 1_000);
 
-    it('3 - should parse mergedDocuments3', testMerged(3), 1_000);
+    it('3 - should parse mergedDocuments-3', testMerged(3), 1_000);
 
-    it('4 - should parse mergedDocuments4', testMerged(4), 1_000);
+    it('4 - should parse mergedDocuments-4', testMerged(4), 1_000);
 
     // WARNING: identifiers are not associated with authors
     // (not always as many identifiers as authors)
