@@ -368,7 +368,7 @@ describe('json-conditor-2.ini', () => {
                 "authors affiliations isni": [[], [], []],
                 "authors affiliations ref": [[], [], []],
                 "authors affiliations rnsr enrichments": [["201019324R", "201320573K"], ["201019324R", "201320573K"], []],
-                "authors affiliations rnsr initial": [[[], []], [[]], [[]]], // TODO: to be flattened
+                "authors affiliations rnsr initial": [[], [], []],
                 "authors enrichments idHal": [],
                 "authors enrichments idRef": [],
                 "authors enrichments orcId": [],
