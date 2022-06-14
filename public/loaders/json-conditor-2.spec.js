@@ -80,7 +80,10 @@ describe('json-conditor-2.ini', () => {
                 // "enrichments classifications scienceMetrix": [], // +
                 // "enrichments classifications scopus": [], // +
                 // "enrichments oa core": [], // -
-                "enrichments oa unpaywall": {}, // À exploser: is_oa, oa_status, has_repository_copy, oa_locations.host_type
+                "enrichments oa unpaywall is_oa": "n/a",
+                "enrichments oa unpaywall oa_status": "n/a",
+                "enrichments oa unpaywall has_repository_copy": "n/a",
+                "enrichments oa unpaywall host_type": [],
                 // "ensam": "", // + (à la racine)
                 "fulltextUrl": "",
                 "funders grantNumber": [],
@@ -198,7 +201,10 @@ describe('json-conditor-2.ini', () => {
                 //     "enrichments classifications scienceMetrix": "",
                 //     "enrichments classifications scopus": "",
                 //     "enrichments oa core": "",
-                "enrichments oa unpaywall": {},
+                "enrichments oa unpaywall is_oa": "n/a",
+                "enrichments oa unpaywall oa_status": "n/a",
+                "enrichments oa unpaywall has_repository_copy": "n/a",
+                "enrichments oa unpaywall host_type": [],
                 //     "ensam": "",
                 "fulltextUrl": "",
                 "funders grantNumber": [],
@@ -321,7 +327,10 @@ describe('json-conditor-2.ini', () => {
                     "en": "Life Sciences [q-bio]",
                     "fr": "Sciences du Vivant [q-bio]"
                 },
-                "enrichments oa unpaywall": {},
+                "enrichments oa unpaywall is_oa": "n/a",
+                "enrichments oa unpaywall oa_status": "n/a",
+                "enrichments oa unpaywall has_repository_copy": "n/a",
+                "enrichments oa unpaywall host_type": [],
                 "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
                 "funders grantNumber": [],
                 "funders name": [],
@@ -415,37 +424,41 @@ describe('json-conditor-2.ini', () => {
                     "en": "Life Sciences [q-bio]",
                     "fr": "Sciences du Vivant [q-bio]"
                 },
-                "enrichments oa unpaywall": {
-                    "oa_locations": [
-                        {
-                            "license": null,
-                            "url_for_landing_page": "https://doi.org/10.2166/wst.2020.520",
-                            "is_best": true,
-                            "url_for_pdf": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf",
-                            "host_type": "publisher",
-                            "url": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf"
-                        },
-                        {
-                            "license": null,
-                            "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
-                            "is_best": false,
-                            "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
-                            "host_type": "repository",
-                            "url": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf"
-                        },
-                        {
-                            "license": null,
-                            "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964",
-                            "is_best": false,
-                            "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/document",
-                            "host_type": "repository",
-                            "url": "https://hal.univ-lorraine.fr/hal-03083964/document"
-                        }
-                    ],
-                    "oa_status": "bronze",
-                    "is_oa": true,
-                    "has_repository_copy": true
-                },
+                "enrichments oa unpaywall is_oa": true,
+                "enrichments oa unpaywall oa_status": "bronze",
+                "enrichments oa unpaywall has_repository_copy": true,
+                "enrichments oa unpaywall host_type": ["publisher", "repository"],
+                // "enrichments oa unpaywall": {
+                //     "oa_locations": [
+                //         {
+                //             "license": null,
+                //             "url_for_landing_page": "https://doi.org/10.2166/wst.2020.520",
+                //             "is_best": true,
+                //             "url_for_pdf": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf",
+                //             "host_type": "publisher",
+                //             "url": "https://iwaponline.com/wst/article-pdf/82/12/2813/803022/wst082122813.pdf"
+                //         },
+                //         {
+                //             "license": null,
+                //             "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+                //             "is_best": false,
+                //             "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf",
+                //             "host_type": "repository",
+                //             "url": "https://hal.univ-lorraine.fr/hal-03083964/file/HALL_version_WST%2082-12-2020-pp2813-2822.pdf"
+                //         },
+                //         {
+                //             "license": null,
+                //             "url_for_landing_page": "https://hal.univ-lorraine.fr/hal-03083964",
+                //             "is_best": false,
+                //             "url_for_pdf": "https://hal.univ-lorraine.fr/hal-03083964/document",
+                //             "host_type": "repository",
+                //             "url": "https://hal.univ-lorraine.fr/hal-03083964/document"
+                //         }
+                //     ],
+                //     "oa_status": "bronze",
+                //     "is_oa": true,
+                //     "has_repository_copy": true
+                // },
                 "fulltextUrl": "",
                 "funders grantNumber": ["ANR-16-CE34-0012-001"],
                 "funders name": ["Agence Nationale de la Recherche"],
