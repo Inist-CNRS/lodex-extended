@@ -96,8 +96,7 @@ describe('json-conditor-2.ini', () => {
                 // "inspire": "", // +
                 // "ird": "", // +
                 "irstea": "", // +
-                // "isDeduplicable": "", // -
-                // "isDuplicate": "", // + (déduit de la taille de duplicates sourceUid)
+                "isDuplicate": false, // + (déduit de la taille de "duplicates sourceUid", voire de "sourceUids identifiers", plus fiable)
                 // "isNearDuplicate": "", // -
                 // "isbn": "", // +
                 "issn": "1234-1234",
@@ -214,8 +213,7 @@ describe('json-conditor-2.ini', () => {
                 //     "inspire": "",
                 //     "ird": "",
                 "irstea": "",
-                //     "isDeduplicable": "",
-                //     "isDuplicate": "",
+                "isDuplicate": false,
                 //     "isNearDuplicate": "",
                 //     "isbn": "",
                 "issn": "4321-1234",
@@ -334,6 +332,7 @@ describe('json-conditor-2.ini', () => {
                 "idChain": "!crossref$10.1001/jama.2014.10498!pubmed$25247512!",
                 "idProdinra": "",
                 "irstea": "",
+                "isDuplicate": true,
                 "keywords en author": [],
                 "keywords en mesh": [
                     "Health Policy",
@@ -435,6 +434,7 @@ describe('json-conditor-2.ini', () => {
                 "idChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
                 "idProdinra": "",
                 "irstea": "",
+                "isDuplicate": true,
                 "issn": "0273-1223",
                 "issue": "12",
                 "keywords en author": [],
@@ -959,6 +959,7 @@ describe('json-conditor-2.ini', () => {
 
     // WARNING: identifiers are not associated with authors
     // (not always as many identifiers as authors)
+    // IS IT STILL TRUE ?
     it('5 - arxiv, authors enrichments identifiers, authors identifiers, classifications', testMerged(5), 1_000);
 
     it('6 - authors affiliations ref', testMerged(6), 1_000);
