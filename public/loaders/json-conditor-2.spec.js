@@ -97,8 +97,7 @@ describe('json-conditor-2.ini', () => {
                 // "ird": "", // +
                 "irstea": "", // +
                 "isDuplicate": false, // + (déduit de la taille de "duplicates sourceUid", voire de "sourceUids identifiers", plus fiable)
-                // "isNearDuplicate": "", // -
-                // "isbn": "", // +
+                "isbn": "",
                 "issn": "1234-1234",
                 "issue": "",
                 "keywords en author": [],
@@ -214,8 +213,7 @@ describe('json-conditor-2.ini', () => {
                 //     "ird": "",
                 "irstea": "",
                 "isDuplicate": false,
-                //     "isNearDuplicate": "",
-                //     "isbn": "",
+                "isbn": "",
                 "issn": "4321-1234",
                 "issue": "",
                 "keywords en author": [],
@@ -332,6 +330,7 @@ describe('json-conditor-2.ini', () => {
                 "idChain": "!crossref$10.1001/jama.2014.10498!pubmed$25247512!",
                 "idProdinra": "",
                 "irstea": "",
+                "isbn": "",
                 "isDuplicate": true,
                 "keywords en author": [],
                 "keywords en mesh": [
@@ -434,6 +433,7 @@ describe('json-conditor-2.ini', () => {
                 "idChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
                 "idProdinra": "",
                 "irstea": "",
+                "isbn": "",
                 "isDuplicate": true,
                 "issn": "0273-1223",
                 "issue": "12",
