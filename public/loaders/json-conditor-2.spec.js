@@ -57,7 +57,9 @@ describe('json-conditor-2.ini', () => {
                 "bibCode": "",
                 "cern": "",
                 // "classification dewey": "",
-                // "classification hal": {},
+                "classification hal code": "",
+                "classification hal en": "",
+                "classification hal fr": "",
                 // "classification tef": "",
                 // "classification thesisDomain": "",
                 // "defenseOrganisms associatedLaboratory": [], // À réorganiser
@@ -173,7 +175,9 @@ describe('json-conditor-2.ini', () => {
                 "bibCode": "",
                 "cern": "",
                 //     "classification dewey": "",
-                // "classification hal": {},
+                "classification hal code": "",
+                "classification hal en": "",
+                "classification hal fr": "",
                 //     "classification tef": "",
                 //     "classification thesisDomain": "",
                 //     "defenseOrganisms associatedLaboratory": [],
@@ -296,7 +300,9 @@ describe('json-conditor-2.ini', () => {
                 "authors viaf": [],
                 "bibCode": "",
                 "cern": "",
-                // "classification hal": {},
+                "classification hal code": "sdv",
+                "classification hal en": "Life Sciences [q-bio]",
+                "classification hal fr": "Sciences du Vivant [q-bio]",
                 "documentType": "Journal Article",
                 "doi": "10.1001/jama.2014.10498",
                 "duplicates source": [
@@ -394,6 +400,9 @@ describe('json-conditor-2.ini', () => {
                 "authors viaf": [],
                 "bibCode": "",
                 "cern": "",
+                "classification hal code": "sdv",
+                "classification hal en": "Life Sciences [q-bio]",
+                "classification hal fr": "Sciences du Vivant [q-bio]",
                 "documentType": "Journal article",
                 "doi": "10.2166/wst.2020.520",
                 "duplicates source": ["crossref"],
@@ -956,7 +965,7 @@ describe('json-conditor-2.ini', () => {
             });
     }, 1_000);
 
-    it('1 - should parse mergedDocuments-1', testMerged(1), 1_000);
+    it('1 - classifications hal, ... (10 notices)', testMerged(1), 1_000);
 
     it('2 - should parse mergedDocuments-2', testMerged(2), 1_000);
 
