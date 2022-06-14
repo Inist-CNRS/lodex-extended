@@ -91,8 +91,7 @@ describe('json-conditor-2.ini', () => {
                 "hasDoi": true,
                 "hasFulltext": false,
                 "idChain": "",
-                // "idConditor": "", // -
-                // "idProdinra": "", // + (à la racine)
+                "idProdinra": "",
                 // "ineris": "", // +
                 // "inspire": "", // +
                 // "ird": "", // +
@@ -210,8 +209,7 @@ describe('json-conditor-2.ini', () => {
                 "hasDoi": true,
                 "hasFulltext": false,
                 "idChain": "",
-                //     "idConditor": "",
-                //     "idProdinra": "",
+                "idProdinra": "",
                 //     "ineris": "",
                 //     "inspire": "",
                 //     "ird": "",
@@ -334,6 +332,7 @@ describe('json-conditor-2.ini', () => {
                 "hasDoi": true,
                 "hasFulltext": true,
                 "idChain": "!crossref$10.1001/jama.2014.10498!pubmed$25247512!",
+                "idProdinra": "",
                 "keywords en author": [],
                 "keywords en mesh": [
                     "Health Policy",
@@ -433,6 +432,7 @@ describe('json-conditor-2.ini', () => {
                 "hasDoi": true,
                 "hasFulltext": false,
                 "idChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
+                "idProdinra": "",
                 "issn": "0273-1223",
                 "issue": "12",
                 "keywords en author": [],
@@ -949,7 +949,7 @@ describe('json-conditor-2.ini', () => {
 
     it('1 - classifications hal, ... (10 notices)', testMerged(1), 1_000);
 
-    it('2 - should parse mergedDocuments-2', testMerged(2), 1_000);
+    it('2 - idProdinra, ... (8 notices)', testMerged(2), 1_000);
 
     it('3 - should parse mergedDocuments-3', testMerged(3), 1_000);
 
