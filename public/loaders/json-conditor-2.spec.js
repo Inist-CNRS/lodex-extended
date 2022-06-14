@@ -76,7 +76,7 @@ describe('json-conditor-2.ini', () => {
                 "eissn": "",
                 "electronicPublicationDate": "",
                 // "enrichments classifications bso": [], // +
-                "enrichments classifications hal": {}, // À exploser en trois: * code, en, fr
+                "enrichments classifications hal": {},
                 // "enrichments classifications scienceMetrix": [], // +
                 // "enrichments classifications scopus": [], // +
                 // "enrichments oa core": [], // -
@@ -88,7 +88,7 @@ describe('json-conditor-2.ini', () => {
                 "fulltextUrl": "",
                 "funders grantNumber": [],
                 "funders name": [],
-                // "halId": "", // + (à la racine)
+                "halId": "",
                 "hasDoi": true,
                 "hasFulltext": false,
                 // "hasTransDuplicate": "", // -
@@ -209,7 +209,7 @@ describe('json-conditor-2.ini', () => {
                 "fulltextUrl": "",
                 "funders grantNumber": [],
                 "funders name": [],
-                //     "halId": "",
+                "halId": "",
                 "hasDoi": true,
                 "hasFulltext": false,
                 //     "hasTransDuplicate": "",
@@ -334,6 +334,7 @@ describe('json-conditor-2.ini', () => {
                 "fulltextUrl": "https://hal.archives-ouvertes.fr/hal-01391249/file/Guyot_16265.pdf",
                 "funders grantNumber": [],
                 "funders name": [],
+                "halId": "",
                 "hasDoi": true,
                 "hasFulltext": true,
                 "keywords en author": [],
@@ -431,6 +432,7 @@ describe('json-conditor-2.ini', () => {
                 "fulltextUrl": "",
                 "funders grantNumber": ["ANR-16-CE34-0012-001"],
                 "funders name": ["Agence Nationale de la Recherche"],
+                "halId": "",
                 "hasDoi": true,
                 "hasFulltext": false,
                 "issn": "0273-1223",
