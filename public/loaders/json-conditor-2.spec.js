@@ -95,7 +95,7 @@ describe('json-conditor-2.ini', () => {
                 // "ineris": "", // +
                 // "inspire": "", // +
                 // "ird": "", // +
-                // "irstea": "", // +
+                "irstea": "", // +
                 // "isDeduplicable": "", // -
                 // "isDuplicate": "", // + (déduit de la taille de duplicates sourceUid)
                 // "isNearDuplicate": "", // -
@@ -213,7 +213,7 @@ describe('json-conditor-2.ini', () => {
                 //     "ineris": "",
                 //     "inspire": "",
                 //     "ird": "",
-                //     "irstea": "",
+                "irstea": "",
                 //     "isDeduplicable": "",
                 //     "isDuplicate": "",
                 //     "isNearDuplicate": "",
@@ -333,6 +333,7 @@ describe('json-conditor-2.ini', () => {
                 "hasFulltext": true,
                 "idChain": "!crossref$10.1001/jama.2014.10498!pubmed$25247512!",
                 "idProdinra": "",
+                "irstea": "",
                 "keywords en author": [],
                 "keywords en mesh": [
                     "Health Policy",
@@ -433,6 +434,7 @@ describe('json-conditor-2.ini', () => {
                 "hasFulltext": false,
                 "idChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
                 "idProdinra": "",
+                "irstea": "",
                 "issn": "0273-1223",
                 "issue": "12",
                 "keywords en author": [],
@@ -947,7 +949,7 @@ describe('json-conditor-2.ini', () => {
             });
     }, 1_000);
 
-    it('1 - classifications hal, ... (10 notices)', testMerged(1), 1_000);
+    it('1 - classifications hal, irstea, ... (10 notices)', testMerged(1), 1_000);
 
     it('2 - idProdinra, ... (8 notices)', testMerged(2), 1_000);
 
