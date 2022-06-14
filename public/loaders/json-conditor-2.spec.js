@@ -61,7 +61,7 @@ describe('json-conditor-2.ini', () => {
                 "classification hal en": "",
                 "classification hal fr": "",
                 // "classification tef": "",
-                // "classification thesisDomain": "",
+                // "classification thesisDomain": "", // Voir mergedDocuments-8
                 // "defenseOrganisms associatedLaboratory": [], // À réorganiser
                 // "defenseOrganisms associatedLaboratoryIdRef": [], // À réorganiser
                 // "defenseOrganisms degreeGrantor": [], // À réorganiser
@@ -79,7 +79,6 @@ describe('json-conditor-2.ini', () => {
                 "enrichments classifications hal": {},
                 // "enrichments classifications scienceMetrix": [], // +
                 // "enrichments classifications scopus": [], // +
-                // "enrichments oa core": [], // -
                 "enrichments oa unpaywall is_oa": "n/a",
                 "enrichments oa unpaywall oa_status": "n/a",
                 "enrichments oa unpaywall has_repository_copy": "n/a",
@@ -91,8 +90,7 @@ describe('json-conditor-2.ini', () => {
                 "halId": "",
                 "hasDoi": true,
                 "hasFulltext": false,
-                // "hasTransDuplicate": "", // -
-                // "idChain": "", // + (business.sourceUidChain)
+                "idChain": "",
                 // "idConditor": "", // -
                 // "idProdinra": "", // + (à la racine)
                 // "ineris": "", // +
@@ -138,7 +136,7 @@ describe('json-conditor-2.ini', () => {
                 "sourceUids identifiers": [],
                 "specialIssue": "",
                 "supplement": "",
-                // "thesisAdvisor forename": [], // ?
+                // "thesisAdvisor forename": [], // ? // Voir mergedDocuments-8 / 2
                 // "thesisAdvisor idRef": [], // ?
                 // "thesisAdvisor surname": [], // ?
                 "title default": "french title of the doc",
@@ -200,7 +198,6 @@ describe('json-conditor-2.ini', () => {
                 "enrichments classifications hal": {},
                 //     "enrichments classifications scienceMetrix": "",
                 //     "enrichments classifications scopus": "",
-                //     "enrichments oa core": "",
                 "enrichments oa unpaywall is_oa": "n/a",
                 "enrichments oa unpaywall oa_status": "n/a",
                 "enrichments oa unpaywall has_repository_copy": "n/a",
@@ -212,8 +209,7 @@ describe('json-conditor-2.ini', () => {
                 "halId": "",
                 "hasDoi": true,
                 "hasFulltext": false,
-                //     "hasTransDuplicate": "",
-                //     "idChain": "",
+                "idChain": "",
                 //     "idConditor": "",
                 //     "idProdinra": "",
                 //     "ineris": "",
@@ -337,6 +333,7 @@ describe('json-conditor-2.ini', () => {
                 "halId": "",
                 "hasDoi": true,
                 "hasFulltext": true,
+                "idChain": "!crossref$10.1001/jama.2014.10498!pubmed$25247512!",
                 "keywords en author": [],
                 "keywords en mesh": [
                     "Health Policy",
@@ -435,6 +432,7 @@ describe('json-conditor-2.ini', () => {
                 "halId": "",
                 "hasDoi": true,
                 "hasFulltext": false,
+                "idChain": "!crossref$10.2166/wst.2020.520!pubmed$33341772!",
                 "issn": "0273-1223",
                 "issue": "12",
                 "keywords en author": [],
