@@ -107,13 +107,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords fr rameau": [],
                 "keywords undetermined author": [],
                 "language": [], // Par défaut dans host, mais dans le futur: à la racine (donc à la racine d'abord)
-                // "localRef": "", // -
-                // "meetingAbstractNumber": "", // +
-                // "nearDuplicates source": [], // -
-                // "nearDuplicates sourceUid": [], // -
-                // "nearDuplicatesDetectedBySimilarity source": [], // -
-                // "nearDuplicatesDetectedBySimilarity sourceUid": [], // -
-                // "nnt": "", // +
+                "nnt": "",
                 // "oatao": "", // +
                 // "okina": "", // +
                 "otherNumber": "",
@@ -223,13 +217,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords fr rameau": [],
                 "keywords undetermined author": [],
                 "language": [],
-                //     "localRef": "",
-                //     "meetingAbstractNumber": "",
-                //     "nearDuplicates source": [],
-                //     "nearDuplicates sourceUid": [],
-                //     "nearDuplicatesDetectedBySimilarity source": [],
-                //     "nearDuplicatesDetectedBySimilarity sourceUid": [],
-                //     "nnt": "",
+                "nnt": "",
                 //     "oatao": "",
                 //     "okina": "",
                 "otherNumber": "",
@@ -352,6 +340,7 @@ describe('json-conditor-2.ini', () => {
                 "issn": "",
                 "issue": "12",
                 "language": ["English"],
+                "nnt": "",
                 "otherNumber": "",
                 "pageRange": ["1197-8"],
                 "pii": "1906623",
@@ -444,6 +433,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords fr rameau": [],
                 "keywords undetermined author": [],
                 "language": ["English"],
+                "nnt": "",
                 "otherNumber": "",
                 "pageRange": ["2813-2822"],
                 "pii": "",
