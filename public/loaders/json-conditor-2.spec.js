@@ -109,7 +109,7 @@ describe('json-conditor-2.ini', () => {
                 "language": [], // Par défaut dans host, mais dans le futur: à la racine (donc à la racine d'abord)
                 "nnt": "",
                 "oatao": "",
-                // "okina": "", // +
+                "okina": "",
                 "otherNumber": "",
                 "pageRange": [],
                 // "part": "", // + racine
@@ -219,7 +219,7 @@ describe('json-conditor-2.ini', () => {
                 "language": [],
                 "nnt": "",
                 "oatao": "",
-                //     "okina": "",
+                "okina": "",
                 "otherNumber": "",
                 "pageRange": [],
                 //     "part": "",
@@ -342,6 +342,7 @@ describe('json-conditor-2.ini', () => {
                 "language": ["English"],
                 "nnt": "",
                 "oatao": "",
+                "okina": "",
                 "otherNumber": "",
                 "pageRange": ["1197-8"],
                 "pii": "1906623",
@@ -436,6 +437,7 @@ describe('json-conditor-2.ini', () => {
                 "language": ["English"],
                 "nnt": "",
                 "oatao": "",
+                "okina": "",
                 "otherNumber": "",
                 "pageRange": ["2813-2822"],
                 "pii": "",
@@ -943,7 +945,7 @@ describe('json-conditor-2.ini', () => {
 
     it('1 - classifications hal, irstea, ... (10 notices)', testMerged(1), 1_000);
 
-    it('2 - idProdinra, ... (8 notices)', testMerged(2), 1_000);
+    it('2 - idProdinra, okina, ... (8 notices)', testMerged(2), 1_000);
 
     it('3 - should parse mergedDocuments-3', testMerged(3), 1_000);
 
