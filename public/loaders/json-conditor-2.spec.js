@@ -108,7 +108,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords undetermined author": [],
                 "language": [], // Par défaut dans host, mais dans le futur: à la racine (donc à la racine d'abord)
                 "nnt": "",
-                // "oatao": "", // +
+                "oatao": "",
                 // "okina": "", // +
                 "otherNumber": "",
                 "pageRange": [],
@@ -218,7 +218,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords undetermined author": [],
                 "language": [],
                 "nnt": "",
-                //     "oatao": "",
+                "oatao": "",
                 //     "okina": "",
                 "otherNumber": "",
                 "pageRange": [],
@@ -341,6 +341,7 @@ describe('json-conditor-2.ini', () => {
                 "issue": "12",
                 "language": ["English"],
                 "nnt": "",
+                "oatao": "",
                 "otherNumber": "",
                 "pageRange": ["1197-8"],
                 "pii": "1906623",
@@ -434,6 +435,7 @@ describe('json-conditor-2.ini', () => {
                 "keywords undetermined author": [],
                 "language": ["English"],
                 "nnt": "",
+                "oatao": "",
                 "otherNumber": "",
                 "pageRange": ["2813-2822"],
                 "pii": "",
