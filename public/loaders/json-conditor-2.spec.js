@@ -112,7 +112,7 @@ describe('json-conditor-2.ini', () => {
                 "okina": "",
                 "otherNumber": "",
                 "pageRange": [],
-                // "part": "", // + racine
+                "part": "", // + racine (trouvé dans host)
                 // "patentNumber": "", // + racine
                 // "path": "", // -
                 "pii": "",
@@ -222,7 +222,7 @@ describe('json-conditor-2.ini', () => {
                 "okina": "",
                 "otherNumber": "",
                 "pageRange": [],
-                //     "part": "",
+                "part": "",
                 //     "patentNumber": "",
                 //     "path": "",
                 "pii": "",
@@ -345,6 +345,7 @@ describe('json-conditor-2.ini', () => {
                 "okina": "",
                 "otherNumber": "",
                 "pageRange": ["1197-8"],
+                "part": "",
                 "pii": "1906623",
                 "pmId": "25247512",
                 "publicationDate": "2014-09-24",
@@ -440,6 +441,7 @@ describe('json-conditor-2.ini', () => {
                 "okina": "",
                 "otherNumber": "",
                 "pageRange": ["2813-2822"],
+                "part": "",
                 "pii": "",
                 "pmId": "",
                 "publicationDate": "2020-12-15",
