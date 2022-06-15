@@ -126,7 +126,7 @@ describe('json-conditor-2.ini', () => {
                 "sourceUids identifiers": [],
                 "specialIssue": "",
                 "supplement": "",
-                // "thesisAdvisor forename": [], // ? // Voir mergedDocuments-8 / 2
+                "thesisAdvisor forename": [], // ? // Voir mergedDocuments-8 / 2
                 // "thesisAdvisor idRef": [], // ?
                 // "thesisAdvisor surname": [], // ?
                 "title default": "french title of the doc",
@@ -235,7 +235,7 @@ describe('json-conditor-2.ini', () => {
                 "sourceUids identifiers": [],
                 "specialIssue": "",
                 "supplement": "",
-                //     "thesisAdvisor forename": [],
+                "thesisAdvisor forename": [],
                 //     "thesisAdvisor idRef": [],
                 //     "thesisAdvisor surname": [],
                 "title default": "Titre du document en français",
@@ -352,6 +352,7 @@ describe('json-conditor-2.ini', () => {
                 "specialIssue": "",
                 "supplement": "",
                 "sourceUids identifiers": ["crossref$10.1001/jama.2014.10498", "pubmed$25247512"],
+                "thesisAdvisor forename": [],
                 "title default": "Prevention of Gastric Cancer",
                 "title en": "Prevention of Gastric Cancer",
                 "title fr": "",
@@ -450,6 +451,7 @@ describe('json-conditor-2.ini', () => {
                 "sourceUids identifiers": ["crossref$10.2166/wst.2020.520", "pubmed$33341772"],
                 "specialIssue": "",
                 "supplement": "",
+                "thesisAdvisor forename": [],
                 "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title fr": "",
