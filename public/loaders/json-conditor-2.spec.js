@@ -126,9 +126,9 @@ describe('json-conditor-2.ini', () => {
                 "sourceUids identifiers": [],
                 "specialIssue": "",
                 "supplement": "",
-                "thesisAdvisor forename": [], // ? // Voir mergedDocuments-8 / 2
-                // "thesisAdvisor idRef": [], // ?
-                // "thesisAdvisor surname": [], // ?
+                "thesisAdvisor forename": [], // Voir mergedDocuments-8 / 2
+                "thesisAdvisor idRef": [],
+                // "thesisAdvisor surname": [],
                 "title default": "french title of the doc",
                 "title en": "english title",
                 "title fr": "french title of the doc",
@@ -236,7 +236,7 @@ describe('json-conditor-2.ini', () => {
                 "specialIssue": "",
                 "supplement": "",
                 "thesisAdvisor forename": [],
-                //     "thesisAdvisor idRef": [],
+                "thesisAdvisor idRef": [],
                 //     "thesisAdvisor surname": [],
                 "title default": "Titre du document en français",
                 "title en": "Titre en anglais",
@@ -353,6 +353,7 @@ describe('json-conditor-2.ini', () => {
                 "supplement": "",
                 "sourceUids identifiers": ["crossref$10.1001/jama.2014.10498", "pubmed$25247512"],
                 "thesisAdvisor forename": [],
+                "thesisAdvisor idRef": [],
                 "title default": "Prevention of Gastric Cancer",
                 "title en": "Prevention of Gastric Cancer",
                 "title fr": "",
@@ -452,6 +453,7 @@ describe('json-conditor-2.ini', () => {
                 "specialIssue": "",
                 "supplement": "",
                 "thesisAdvisor forename": [],
+                "thesisAdvisor idRef": [],
                 "title default": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title en": "Effect of lockdown on wastewater characteristics: a comparison of two large urban areas",
                 "title fr": "",
