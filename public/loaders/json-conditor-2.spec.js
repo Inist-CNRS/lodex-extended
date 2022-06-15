@@ -114,11 +114,10 @@ describe('json-conditor-2.ini', () => {
                 "pageRange": [],
                 "part": "", // + racine (trouvé dans host)
                 // "patentNumber": "", // + racine
-                // "path": "", // -
                 "pii": "",
                 "pmId": "",
                 // "pmc": "", // +
-                // "ppn": "", // +
+                "ppn": "", // +
                 // "provider": "", // ?
                 "publicationDate": "",
                 "publisher": "",
@@ -224,11 +223,10 @@ describe('json-conditor-2.ini', () => {
                 "pageRange": [],
                 "part": "",
                 //     "patentNumber": "",
-                //     "path": "",
                 "pii": "",
                 "pmId": "",
                 //     "pmc": "",
-                //     "ppn": "",
+                "ppn": "",
                 //     "provider": "doi2",
                 "publicationDate": "",
                 "publisher": "",
@@ -348,6 +346,7 @@ describe('json-conditor-2.ini', () => {
                 "part": "",
                 "pii": "1906623",
                 "pmId": "25247512",
+                "ppn": "",
                 "publicationDate": "2014-09-24",
                 "publisher": "",
                 "specialIssue": "",
@@ -444,6 +443,7 @@ describe('json-conditor-2.ini', () => {
                 "part": "",
                 "pii": "",
                 "pmId": "",
+                "ppn": "",
                 "publicationDate": "2020-12-15",
                 "publisher": "IWA Publishing",
                 "sourceUids identifiers": ["crossref$10.2166/wst.2020.520", "pubmed$33341772"],
