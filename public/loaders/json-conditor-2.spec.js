@@ -61,7 +61,7 @@ describe('json-conditor-2.ini', () => {
                 "classification hal en": "",
                 "classification hal fr": "",
                 // "classification tef": "",
-                // "classification thesisDomain": "", // Voir mergedDocuments-8
+                // "classification thesisDomain": "", // Voir mergedDocuments-8 & 2
                 // "defenseOrganisms associatedLaboratory": [], // À réorganiser
                 // "defenseOrganisms associatedLaboratoryIdRef": [], // À réorganiser
                 // "defenseOrganisms degreeGrantor": [], // À réorganiser
@@ -134,7 +134,7 @@ describe('json-conditor-2.ini', () => {
                 "title fr": "french title of the doc",
                 "title source": "My favourite journal",
                 "title meeting": "",
-                // "typeConditor": "", // + (business.duplicateGenre)
+                "typeConditor": "", // + (business.duplicateGenre)
                 "uri": "uid:/RJWprpeBG",
                 // "utKey": "", //+ racine
                 "volume": ""
@@ -243,7 +243,7 @@ describe('json-conditor-2.ini', () => {
                 "title fr": "Titre du document en français",
                 "title source": "Mon journal favori",
                 "title meeting": "",
-                //     "typeConditor": "",
+                "typeConditor": "",
                 "uri": "uid:/xKifxAEzY",
                 //     "utKey": "",
                 "volume": ""
@@ -357,6 +357,7 @@ describe('json-conditor-2.ini', () => {
                 "title fr": "",
                 "title source": "JAMA",
                 "title meeting": "",
+                "typeConditor": "Article",
                 "volume": "312"
             },
             {
@@ -454,6 +455,7 @@ describe('json-conditor-2.ini', () => {
                 "title fr": "",
                 "title source": "Water Science and Technology",
                 "title meeting": "",
+                "typeConditor": "Article",
                 "volume": "82"
             }
         ].map((notice, i) => ({ ...notice, uri: i }));
