@@ -22,6 +22,7 @@ const testMerged = (n) =>
             .on('end', () => {
                 const withConstantUri = res.map((notice, i) => ({ ...notice, uri: i }))
                 expect(withConstantUri).toEqual(expected);
+                expect(res).toHaveLength(mergedDocuments.length);
                 done();
             });
     };
@@ -33,6 +34,10 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "English abstract",
                 "abstract fr": "French abstract",
+                "affiliations address": ["Some Laboratory of science", "Some University"],
+                "affiliations idRef": [],
+                "affiliations isni": ["0000000123456789"],
+                "affiliations ref": [],
                 "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [["Some Laboratory of science", "Some University"]],
@@ -56,12 +61,15 @@ describe('json-conditor-2.ini', () => {
                 "authors viaf": [],
                 "bibCode": "",
                 "cern": "",
-                // "classification dewey": "",
+                "classification enrichments hal code": "",
+                "classification enrichments hal en": "",
+                "classification enrichments hal fr": "",
                 "classification hal code": "",
                 "classification hal en": "",
                 "classification hal fr": "",
-                // "classification tef": "",
-                // "classification thesisDomain": "", // Voir mergedDocuments-8 & 2
+                "classifications dewey": "", //+
+                "classifications tef": "", //+
+                "classifications thesisDomain": "", //+ Voir mergedDocuments-8 & 2
                 // "defenseOrganisms associatedLaboratory": [], // À réorganiser
                 // "defenseOrganisms associatedLaboratoryIdRef": [], // À réorganiser
                 // "defenseOrganisms degreeGrantor": [], // À réorganiser
@@ -143,6 +151,10 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "2. abstract.en",
                 "abstract fr": "",
+                "affiliations address": ["Un labo scientifique", "Une université"],
+                "affiliations idRef": [],
+                "affiliations isni": ["0000000987654321"],
+                "affiliations ref": [],
                 "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [["Un labo scientifique", "Une université"]],
@@ -166,12 +178,15 @@ describe('json-conditor-2.ini', () => {
                 "authors viaf": [],
                 "bibCode": "",
                 "cern": "",
-                //     "classification dewey": "",
+                "classification enrichments hal code": "",
+                "classification enrichments hal en": "",
+                "classification enrichments hal fr": "",
                 "classification hal code": "",
                 "classification hal en": "",
                 "classification hal fr": "",
-                //     "classification tef": "",
-                //     "classification thesisDomain": "",
+                "classifications dewey": "",
+                "classifications tef": "",
+                "classifications thesisDomain": "",
                 //     "defenseOrganisms associatedLaboratory": [],
                 //     "defenseOrganisms associatedLaboratoryIdRef": [],
                 //     "defenseOrganisms degreeGrantor": [],
@@ -253,6 +268,14 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "",
                 "abstract fr": "",
+                "affiliations address": [
+                    "Section of Early Detection and Prevention, International Agency for Research on Cancer, Lyon, France.",
+                    "Department of Medicine, Stanford University Medical Center, Stanford, California.",
+                    "Division of Public Health Sciences, Fred Hutchinson Cancer Research Center, Seattle, Washington."
+                ],
+                "affiliations idRef": [],
+                "affiliations isni": [],
+                "affiliations ref": [],
                 "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [
@@ -284,9 +307,15 @@ describe('json-conditor-2.ini', () => {
                 "authors viaf": [],
                 "bibCode": "",
                 "cern": "",
-                "classification hal code": "sdv",
-                "classification hal en": "Life Sciences [q-bio]",
-                "classification hal fr": "Sciences du Vivant [q-bio]",
+                "classification enrichments hal code": "sdv",
+                "classification enrichments hal en": "Life Sciences [q-bio]",
+                "classification enrichments hal fr": "Sciences du Vivant [q-bio]",
+                "classification hal code": "",
+                "classification hal en": "",
+                "classification hal fr": "",
+                "classifications dewey": "",
+                "classifications tef": "",
+                "classifications thesisDomain": "",
                 "documentType": "Journal Article",
                 "doi": "10.1001/jama.2014.10498",
                 "duplicates source": [
@@ -369,6 +398,14 @@ describe('json-conditor-2.ini', () => {
             {
                 "abstract en": "Abstract The effect of the lockdown imposed to limit the spread of SARS-CoV-2 in France between March 14 and May 11, 2020 on the wastewater characteristics of two large urban areas...",
                 "abstract fr": "",
+                "affiliations address": [
+                    "Laboratoire Réactions et Génie des Procédés, Université de Lorraine, CNRS, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+                    "Laboratoire Réactions et Génie des Procédés, LTSER-Zone Atelier du Bassin de la Moselle, 1 rue Grandville, BP 20451, Nancy cedex F-54001, France",
+                    "Laboratoire Interdisciplinaire des Environnements Continentaux, Université de Lorraine, CNRS, Campus Bridoux, Rue du Général Delestraint, Metz F-57070, France"
+                ],
+                "affiliations idRef": [],
+                "affiliations isni": [],
+                "affiliations ref": [],
                 "articleNumber": "",
                 "arxiv": "",
                 "authors affiliations address": [
@@ -403,9 +440,15 @@ describe('json-conditor-2.ini', () => {
                 "authors viaf": [],
                 "bibCode": "",
                 "cern": "",
-                "classification hal code": "sdv",
-                "classification hal en": "Life Sciences [q-bio]",
-                "classification hal fr": "Sciences du Vivant [q-bio]",
+                "classification enrichments hal code": "sdv",
+                "classification enrichments hal en": "Life Sciences [q-bio]",
+                "classification enrichments hal fr": "Sciences du Vivant [q-bio]",
+                "classification hal code": "",
+                "classification hal en": "",
+                "classification hal fr": "",
+                "classifications dewey": "",
+                "classifications tef": "",
+                "classifications thesisDomain": "",
                 "documentType": "Journal article",
                 "doi": "10.2166/wst.2020.520",
                 "duplicates source": ["crossref"],
@@ -981,4 +1024,6 @@ describe('json-conditor-2.ini', () => {
     it('10 - supplement', testMerged(10), 1_000);
 
     it('11 - title source, title meeting', testMerged(11), 1_000);
+
+    it('12 - thesis', testMerged(12), 1_000);
 });
