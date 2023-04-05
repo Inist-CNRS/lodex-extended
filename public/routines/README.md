@@ -292,6 +292,27 @@ Elle doit alors être déclarée dans Value (Valeur) selon :
 où GeKM représente les scores de qualité, valeurs décimales uniques pour chaque
 document du corpus
 
+## [filter.ini]()
+
+Cette routine sert à identifier, pour une sous-ressource donnée, toutes les ressources dans lesquelles cette sous-ressource est présente (par exemple, tous les documents dans lesquels un nom d’espèce a été détecté).
+
+Elle filtre les ressources en fonction d'un prédicat basé sur un nom de champ et une valeur.
+Ce prédicat est passé dans les paramètres d'URL sous la forme : `/api/run/filter/{nom du champ}/{valeur}`
+ex: `/api/run/filter/aHOZ/Cancer magister`
+Si la ressource possède un champ "aHOZ" qui contient la valeur "Cancer magister" (document contenant le nom d’espèce "Cancer magister"), alors elle est retournée, sinon elle est filtrée.
+
+Cette routine est utilisée de manière optimale avec les formats :
+- [Resources Grid](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Grille_de_ressources)(Grille de ressources)
+- [Paginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Tableau_Pagine)(Tableau paginé)
+- [Unpaginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#autre-tableau-non-pagin%C3%A9)(Tableau non paginé)
+
+Actuellement, elle doit être déclarée dans une Opération de Transformation, en utilisant **PREFIX** avec l'argument suivant :
+`/api/run/filter/identifiant1`
+`identifiant1 étant le champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources.
+
+> **Version minimale de lodex : 12** (versions permettant la création de pages de sous-ressources)
+
+
 ## [get-fields.ini](https://user-doc.lodex.inist.fr/configuration/routines/getfields.html)
 
 pour utiliser des nombres affectés à des champs des ressources (pas de comptage,
@@ -484,6 +505,49 @@ Cette routine doit être déclarée dans `Value` (Valeur) selon :
                            /api/run/sparql-query/**identifiant**/
 où **identifiant** représente le champ contenant la requête copier depuis le yasgui de data.istex.fr
 
+## [sub-resources-asterplot.ini]()
+
+Cette routine est une adaptation de la routine "sub-resources-co-occurrences". 
+Elle est destinée à afficher dans un graphique Aster-Plot les sous-ressources les plus fréquemment co-occurrentes avec une sous-ressource donnée.
+
+Elle fournit la liste des sous ressources associées à un document par le passage de 2 paramètres :
+- le champ contenant la liste des sous-ressources contenues dans le document
+- le champ contenant le titre (champ lié au document) de la sous-ressource
+
+Cette routine est utilisée de manière optimale avec le format :
+- [Aster-Plot](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#GRAPHIQUE-Aster_Plot)
+
+Actuellement, elle doit être déclarée dans une Opération de Transformation, en utilisant **PREFIX**
+avec l'argument suivant : `/api/run/sub-resources-asterplot/identifiant1/identifiant2`
+- `identifiant1` étant l’identifiant du champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources
+- `identifiant2` étant l’identifiant du champ, dans la page de sous-ressources, listant tous les noms de sous-ressources sur lequel porte les calculs de co-occurrences.
+
+> **Version minimale de lodex : 12** (versions permettant la création de pages de sous-ressources)
+
+## [sub-resources-co-occurrences.ini]()
+
+Cette routine est destinée à identifier les sous-ressources co-occurrentes avec une sous-ressource donnée et à calculer le nombre de ces co-occurrences.
+
+Elle fournit la liste des sous-ressources associées à une sous-ressource donnée par le passage de 3 paramètres :
+- le champ contenant la liste des sous-ressources contenues dans le document
+- le champ contenant le titre (champ lié au document) de la sous-ressource
+- la valeur du champ titre de la sous-ressource
+
+Cette routine est utilisée de manière optimale avec les formats :
+- [Paginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Tableau_Pagine)(Tableau paginé)
+- [Unpaginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#autre-tableau-non-pagin%C3%A9)(Tableau non paginé)
+
+Elle peut aussi être utilisée avec le format :
+- [Resources Grid](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Grille_de_ressources)(Grille de ressources)
+Dans ce cas, réserver cet usage à l’affichage aléatoire des noms de sous-ressources
+
+Actuellement, elle doit être déclarée dans une Opération de Transformation, en utilisant **PREFIX** avec l'argument suivant :
+`/api/run/sub-resources-co-occurrences/identifiant1/identifiant2`
+- `identifiant1` étant l’identifiant du champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources
+- `identifiant2` étant l’identifiant du champ, dans la page de sous-ressources, listant tous les noms de sous-ressources sur lequel porte les calculs de co-occurrences.
+
+> **Version minimale de lodex : 12** (versions permettant la création de pages de sous-ressources)
+
 ## [syndication-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/syndicationfrom.html)
 
 Fait référence à une autre ressource **du même jeu de données** en liant les valeurs entre elles et non leurs arks. Il affiche ainsi les informations que l'on souhaite via les identifiants de la ressource.
@@ -517,18 +581,6 @@ Elle doit alors être déclarée dans `Value` (Valeur) selon :
 `/api/run/syndication`
 
 [exemple](http://lodex-cop21.dpi.inist.fr/api/run/syndication/)
-
-## [filter.ini]()
-
-Récupère les champs paramétrés dans les sous-resource permettent de récupérais les relation avec les resource principale.
-
-Elle est, en particulier, utilisée avec le format
-[Resources Grid](https://user-doc.lodex.inist.fr/administration/modele/format/resourcesgrid.html)
-pour représenter sur la page de sous resource, ça prensence dans d'autre resource.
-
-Elle doit alors être déclarée dans une `Tranformation` selon :
-
-- Prefix : `/api/run/filter/aHOZ/`, `aHOZ` étant l'element de la resource principal a mettre en relation avec l'element courant.
 
 ## [total-of.ini](https://user-doc.lodex.inist.fr/configuration/routines/totalof.html)
 
