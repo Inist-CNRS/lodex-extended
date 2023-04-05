@@ -298,19 +298,20 @@ Cette routine sert à identifier, pour une sous-ressource donnée, toutes les re
 
 Elle filtre les ressources en fonction d'un prédicat basé sur un nom de champ et une valeur.
 Ce prédicat est passé dans les paramètres d'URL sous la forme : `/api/run/filter/{nom du champ}/{valeur}`
-ex: `/api/run/filter/aHOZ/Cancer magister`
-Si la ressource possède un champ "aHOZ" qui contient la valeur "Cancer magister" (document contenant le nom d’espèce "Cancer magister"), alors elle est retournée, sinon elle est filtrée.
+
+  Exemple : `/api/run/filter/aHOZ/Cancer magister`
+  Si la ressource possède un champ "aHOZ" qui contient la valeur "Cancer magister" (document contenant le nom d’espèce "Cancer magister"), alors elle est retournée,  sinon elle est filtrée.
 
 Cette routine est utilisée de manière optimale avec les formats :
-- [Resources Grid](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Grille_de_ressources)(Grille de ressources)
-- [Paginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Tableau_Pagine)(Tableau paginé)
-- [Unpaginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#autre-tableau-non-pagin%C3%A9)(Tableau non paginé)
+- [Resources Grid](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Grille_de_ressources) (Grille de ressources)
+- [Paginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Tableau_Pagine) (Tableau paginé)
+- [Unpaginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#autre-tableau-non-pagin%C3%A9) (Tableau non paginé)
 
-Actuellement, elle doit être déclarée dans une Opération de Transformation, en utilisant **PREFIX** avec l'argument suivant :
+Elle doit être déclarée dans une opération de transformation en utilisant **PREFIX** avec l'argument suivant :
 `/api/run/filter/identifiant1`
-`identifiant1 étant le champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources.
+- `identifiant1` étant l'identifiant du champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources.
 
-> **Version minimale de lodex : 12** (versions permettant la création de pages de sous-ressources)
+> **Version minimale de lodex : 12** (version permettant la création de pages de sous-ressources)
 
 
 ## [get-fields.ini](https://user-doc.lodex.inist.fr/configuration/routines/getfields.html)
@@ -517,12 +518,12 @@ Elle fournit la liste des sous ressources associées à un document par le passa
 Cette routine est utilisée de manière optimale avec le format :
 - [Aster-Plot](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#GRAPHIQUE-Aster_Plot)
 
-Actuellement, elle doit être déclarée dans une Opération de Transformation, en utilisant **PREFIX**
+Elle doit être déclarée dans une opération de transformation en utilisant **PREFIX**
 avec l'argument suivant : `/api/run/sub-resources-asterplot/identifiant1/identifiant2`
 - `identifiant1` étant l’identifiant du champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources
 - `identifiant2` étant l’identifiant du champ, dans la page de sous-ressources, listant tous les noms de sous-ressources sur lequel porte les calculs de co-occurrences.
 
-> **Version minimale de lodex : 12** (versions permettant la création de pages de sous-ressources)
+> **Version minimale de lodex : 12** (version permettant la création de pages de sous-ressources)
 
 ## [sub-resources-co-occurrences.ini]()
 
@@ -534,19 +535,18 @@ Elle fournit la liste des sous-ressources associées à une sous-ressource donn�
 - la valeur du champ titre de la sous-ressource
 
 Cette routine est utilisée de manière optimale avec les formats :
-- [Paginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Tableau_Pagine)(Tableau paginé)
-- [Unpaginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#autre-tableau-non-pagin%C3%A9)(Tableau non paginé)
+- [Paginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Tableau_Pagine) (Tableau paginé)
+- [Unpaginated Table](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#autre-tableau-non-pagin%C3%A9) (Tableau non paginé)
 
 Elle peut aussi être utilisée avec le format :
-- [Resources Grid](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Grille_de_ressources)(Grille de ressources)
-Dans ce cas, réserver cet usage à l’affichage aléatoire des noms de sous-ressources
+- [Resources Grid](https://lodex.inist.fr/docs/partie-2-2/appliquer-un-format/#AUTRE-Grille_de_ressources) (Grille de ressources). Dans ce cas, réserver cet usage à l’affichage aléatoire des noms de sous-ressources
 
-Actuellement, elle doit être déclarée dans une Opération de Transformation, en utilisant **PREFIX** avec l'argument suivant :
+Elle doit être déclarée dans une opération de transformation en utilisant **PREFIX** avec l'argument suivant :
 `/api/run/sub-resources-co-occurrences/identifiant1/identifiant2`
 - `identifiant1` étant l’identifiant du champ, dans la page de ressources principales, paramétré pour faire le lien avec la page de sous-ressources
 - `identifiant2` étant l’identifiant du champ, dans la page de sous-ressources, listant tous les noms de sous-ressources sur lequel porte les calculs de co-occurrences.
 
-> **Version minimale de lodex : 12** (versions permettant la création de pages de sous-ressources)
+> **Version minimale de lodex : 12** (version permettant la création de pages de sous-ressources)
 
 ## [syndication-from.ini](https://user-doc.lodex.inist.fr/configuration/routines/syndicationfrom.html)
 
