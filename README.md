@@ -1,3 +1,9 @@
+### WARNING !
+**Le code ici présent est maintenant directement intégré dans lodex.**
+https://github.com/Inist-CNRS/lodex/tree/master/scripts
+
+----
+
 # lodex-extended
 
 Ce dépôt permet d’étendre les fonctionnalités de l’outil LODEX à l’aide de fichiers de configuration au format .ini
