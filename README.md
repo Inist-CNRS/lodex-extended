@@ -1,6 +1,6 @@
 ### WARNING !
 **Le code ici présent est maintenant directement intégré dans lodex.**
-https://github.com/Inist-CNRS/lodex/tree/master/scripts
+https://github.com/Inist-CNRS/lodex/tree/master/workers
 
 ----
 
