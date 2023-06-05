@@ -1,0 +1,191 @@
+[
+  {
+    "authors": [
+      {
+        "forename": "Meriem",
+        "surname": "Zghal",
+        "halAuthorId": "851040",
+        "affiliations": [
+          {
+            "ref": "struct-118032",
+            "address": "Département Composants et Systèmes IFSTTAR/COSYS, Inria Rennes – Bretagne Atlantique, Statistical Inference for Structural Health Monitoring I4S, Campus de Beaulieu 35042 Rennes cedex, FR",
+            "idRef": [
+              "187401039"
+            ],
+            "rnsr": [
+              "200920933U",
+              "198018249C"
+            ]
+          }
+        ],
+        "fullname": "Zghal Meriem",
+        "rnsr": [
+          "200920933U",
+          "198018249C"
+        ]
+      },
+      {
+        "forename": "Laurent",
+        "surname": "Mevel",
+        "halAuthorId": "721542",
+        "affiliations": [
+          {
+            "ref": "struct-118032",
+            "address": "Département Composants et Systèmes IFSTTAR/COSYS, Inria Rennes – Bretagne Atlantique, Statistical Inference for Structural Health Monitoring I4S, Campus de Beaulieu 35042 Rennes cedex, FR",
+            "idRef": [
+              "187401039"
+            ],
+            "rnsr": [
+              "200920933U",
+              "198018249C"
+            ]
+          }
+        ],
+        "idHal": "14387",
+        "enrichments": {
+          "idRef": [
+            "https://www.idref.fr/093658907",
+            "093658907"
+          ]
+        },
+        "fullname": "Mevel Laurent",
+        "rnsr": [
+          "200920933U",
+          "198018249C"
+        ]
+      },
+      {
+        "forename": "Pierre",
+        "surname": "Del Moral",
+        "halAuthorId": "90624",
+        "affiliations": [
+          {
+            "ref": "struct-27730",
+            "address": "Université Bordeaux Segalen - Bordeaux 2, Université Sciences et Technologies - Bordeaux 1, Université de Bordeaux UB, Institut Polytechnique de Bordeaux Bordeaux INP, UMR5251, Centre National de la Recherche Scientifique CNRS, Institut de Mathématiques de Bordeaux IMB, 351 cours de la Libération 33405 TALENCE CEDEX, FR",
+            "isni": [
+              "0000 0001 2302 4783",
+              "0000000122597504"
+            ],
+            "idRef": [
+              "155051342",
+              "02636817X"
+            ],
+            "rnsr": [
+              "200711916B"
+            ]
+          },
+          {
+            "ref": "struct-55994",
+            "address": "Institut de Mathématiques de Bordeaux IMB, Inria Bordeaux - Sud-Ouest, Quality control and dynamic reliability CQFD, 200, avenue de la Vieille Tour 33405 Talence cedex, FR",
+            "isni": [
+              "0000 0001 2302 4783",
+              "0000000122597504"
+            ],
+            "idRef": [
+              "155051342",
+              "02636817X"
+            ],
+            "rnsr": [
+              "200718997Y",
+              "200711916B",
+              "200818243Z"
+            ]
+          }
+        ],
+        "fullname": "Del Moral Pierre",
+        "rnsr": [
+          "200711916B",
+          "200718997Y",
+          "200818243Z"
+        ]
+      }
+    ],
+    "doi": "10.1016/j.ymssp.2012.11.005",
+    "host": {
+      "title": "Mechanical Systems and Signal Processing",
+      "eissn": "1096-1216",
+      "issn": "0888-3270",
+      "publicationDate": "2014-02-03",
+      "issue": "1-2",
+      "language": [
+        "English"
+      ],
+      "publisher": "Elsevier",
+      "pages": [
+        {
+          "range": "139-150",
+          "total": 0
+        }
+      ],
+      "volume": "47"
+    },
+    "funders": [
+      {
+        "name": "ERC",
+        "grantNumber": "FP7-PEOPLE-2009-IAPP-251515"
+      }
+    ],
+    "halId": "hal-00824108",
+    "language": [
+      "English"
+    ],
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1016/j.ymssp.2012.11.005!hal$hal-00824108!",
+      "duplicates": [
+        {
+          "sourceUid": "crossref$10.1016/j.ymssp.2012.11.005",
+          "sessionName": "CROSSREF_2021-01-05_2014_1",
+          "rules": [
+            "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+            "Article : 1ID:doi+TiC_ENG",
+            "Article : 2Collation:TiC_ENG+xissn+volume+issue+page+annee",
+            "Article : 2Collation:TiC+xissn+volume+issue+page+annee",
+            "Article : 1ID:doi+TiC",
+            "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee"
+          ],
+          "source": "crossref"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+TiC",
+        "Article : 1ID:doi+TiC_ENG",
+        "Article : 2Collation:TiC+Ti_Source+volume+issue+page+annee",
+        "Article : 2Collation:TiC+xissn+volume+issue+page+annee",
+        "Article : 2Collation:TiC_ENG+Ti_Source+volume+issue+page+annee",
+        "Article : 2Collation:TiC_ENG+xissn+volume+issue+page+annee"
+      ]
+    },
+    "title": {
+      "default": "Modal parameter estimation using interacting Kalman filter",
+      "en": "Modal parameter estimation using interacting Kalman filter"
+    },
+    "sourceUids": [
+      "hal$hal-00824108"
+    ],
+    "originalGenre": "ART",
+    "origins": {
+      "authors": "hal",
+      "doi": "hal",
+      "host": "hal",
+      "funders": "hal",
+      "halId": "hal",
+      "language": "hal",
+      "business.duplicateGenre": "hal",
+      "business.sourceUidChain": "hal",
+      "business.duplicates": [
+        "hal"
+      ],
+      "business.duplicateRules": "hal",
+      "title.default": "hal",
+      "title.en": "hal",
+      "sourceUid": [
+        "hal"
+      ],
+      "originalGenre": "hal",
+      "sources": [
+        "hal"
+      ]
+    }
+  }
+]

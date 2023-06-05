@@ -1,0 +1,81 @@
+[
+  {
+    "authors": [
+      {
+        "forename": "G.",
+        "surname": "Lorette",
+        "fullname": "Lorette G."
+      }
+    ],
+    "doi": "10.1016/S0151-9638(18)31301-2",
+    "host": {
+      "title": "Annales de Dermatologie et de Vénéréologie",
+      "issn": "01519638",
+      "publicationDate": "2018-12",
+      "language": [
+        "French"
+      ],
+      "specialIssue": "S6",
+      "pages": [
+        {
+          "range": "VIS139-VIS149",
+          "total": 0
+        }
+      ],
+      "volume": "145"
+    },
+    "language": [
+      "French"
+    ],
+    "pii": "S0151963818313012",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!crossref$10.1016/S0151-9638(18)31301-2!pubmed$30598129!",
+      "duplicates": [
+        {
+          "sourceUid": "pubmed$30598129",
+          "sessionName": "PUBMED_2020-12-19_2018",
+          "rules": [
+            "Article : 2Collation:TiC_FRE+xissn+volume+page+annee",
+            "Article : 1ID:doi+TiC_FRE"
+          ],
+          "source": "pubmed"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 2Collation:TiC_FRE+xissn+volume+page+annee",
+        "Article : 1ID:doi+TiC_FRE"
+      ]
+    },
+    "title": {
+      "default": "Les Annales de dermatologie : 1997-2003",
+      "fr": "Les Annales de dermatologie : 1997-2003"
+    },
+    "sourceUids": [
+      "crossref$10.1016/S0151-9638(18)31301-2"
+    ],
+    "originalGenre": "Journal article",
+    "origins": {
+      "authors": "crossref",
+      "doi": "crossref",
+      "host": "crossref",
+      "language": "crossref",
+      "pii": "crossref",
+      "business.duplicateGenre": "crossref",
+      "business.sourceUidChain": "crossref",
+      "business.duplicates": [
+        "crossref"
+      ],
+      "business.duplicateRules": "crossref",
+      "title.default": "crossref",
+      "title.fr": "crossref",
+      "sourceUid": [
+        "crossref"
+      ],
+      "originalGenre": "crossref",
+      "sources": [
+        "crossref"
+      ]
+    }
+  }
+]

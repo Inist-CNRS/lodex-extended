@@ -1,0 +1,283 @@
+[
+  {
+    "abstract": {
+      "default": "Normal pregnancy is associated with an increasing state of activation of the haemostatic system. This activation state is excessive in women with placenta-mediated pregnancy complications (PMPCs), including preeclampsia (PE). Platelet activation plays a crucial pathophysiological role in PE. The very early activation of coagulation in the intervillous space is mandatory for placental growth and morphogenesis but its excesses and/or inadequate control may participate to the emergence of the trophoblastic phenotype of PE. Extracellular vesicles, of endothelial but also of trophoblastic origin, can favour key cellular reactions of preeclampsia, acting as proactive cofactors. The understanding of this intricate relationship between haemostasis activation and PMPCs may provide interesting keys for new pathophysiological therapeutic developments. © 2019 Elsevier Ltd. All rights reserved.",
+      "en": "Normal pregnancy is associated with an increasing state of activation of the haemostatic system. This activation state is excessive in women with placenta-mediated pregnancy complications (PMPCs), including preeclampsia (PE). Platelet activation plays a crucial pathophysiological role in PE. The very early activation of coagulation in the intervillous space is mandatory for placental growth and morphogenesis but its excesses and/or inadequate control may participate to the emergence of the trophoblastic phenotype of PE. Extracellular vesicles, of endothelial but also of trophoblastic origin, can favour key cellular reactions of preeclampsia, acting as proactive cofactors. The understanding of this intricate relationship between haemostasis activation and PMPCs may provide interesting keys for new pathophysiological therapeutic developments. © 2019 Elsevier Ltd. All rights reserved.",
+      "fr": ""
+    },
+    "authors": [
+      {
+        "forename": "Jean-Christophe",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Gris",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Haematology, Nîmes University Hospital, France; University of Montpellier, France; The First I.M. Sechenov Moscow State Medical University, Russian Federation. Electronic address: jean.christophe.gris@chu-nimes.fr.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Jean-Christophe Gris",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Sylvie",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Bouvier",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Haematology, Nîmes University Hospital, France; University of Montpellier, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Sylvie Bouvier",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Éva",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Cochery-Nouvellon",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Haematology, Nîmes University Hospital, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Éva Cochery-Nouvellon",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Éric",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Mercier",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Haematology, Nîmes University Hospital, France; University of Montpellier, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Éric Mercier",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Ève",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Mousty",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "Department of Gynaecology and Obstetrics, Nîmes University Hospital, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Ève Mousty",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      },
+      {
+        "forename": "Antonia",
+        "isni": [],
+        "researcherId": [],
+        "surname": "Pérez-Martin",
+        "affiliations": [
+          {
+            "ref": "",
+            "address": "University of Montpellier, France; Department of Vascular Imaging and Vascular Medicine, Nîmes University Hospital, France.",
+            "isni": "",
+            "idRef": "",
+            "rnsr": []
+          }
+        ],
+        "halAuthorId": [],
+        "orcId": [],
+        "fullname": "Antonia Pérez-Martin",
+        "idHal": [],
+        "idRef": [],
+        "viaf": []
+      }
+    ],
+    "classifications": {
+      "enrichments": {
+        "hal": {
+          "code": "sdv",
+          "en": "Life Sciences [q-bio]",
+          "fr": "Sciences du Vivant [q-bio]"
+        }
+      }
+    },
+    "doi": "10.1016/S0049-3848(19)30359-7",
+    "host": {
+      "electronicPublicationDate": "",
+      "editor": [],
+      "otherNumber": "",
+      "conference": {
+        "date": "",
+        "country": "",
+        "name": "",
+        "place": ""
+      },
+      "issue": "",
+      "isbn": "",
+      "part": "",
+      "eissn": "1879-2472",
+      "language": [
+        "English"
+      ],
+      "specialIssue": "",
+      "title": "Thrombosis research",
+      "volume": "181",
+      "pages": {
+        "range": "S10-S14"
+      },
+      "issn": "",
+      "supplement": "Suppl 1",
+      "publisher": "",
+      "eisbn": "",
+      "publicationDate": "2019-09"
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Angiogenesis",
+          "Extracellular vesicles",
+          "Haemostasis",
+          "Platelets",
+          "Preeclampsia",
+          "Thrombin",
+          "Tissue factor"
+        ],
+        "mesh": [
+          "Female",
+          "Hemostasis",
+          "physiology",
+          "Humans",
+          "Placenta",
+          "pathology",
+          "Pre-Eclampsia",
+          "blood",
+          "Pregnancy"
+        ]
+      }
+    },
+    "enrichments": {
+      "openAccess": {
+        "unpaywall": {
+          "oa_locations": [],
+          "oa_status": "closed",
+          "is_oa": false,
+          "has_repository_copy": false
+        }
+      }
+    },
+    "language": [
+      "English"
+    ],
+    "pii": "S0049-3848(19)30359-7",
+    "pmId": "31477220",
+    "business": {
+      "duplicateGenre": "Article",
+      "sourceUidChain": "!hal$hal-02859858!pubmed$31477220!",
+      "duplicates": [
+        {
+          "sourceUid": "hal$hal-02859858",
+          "internalId": "IkNScXYBHvXxxlnmijyn",
+          "sessionName": "CROSSREF-PUBMED_2022-05-27_ADD-CLASSIF-HAL",
+          "rules": [
+            "Article : 1ID:doi+TiC",
+            "Article : 1ID:doi+TiC_ENG",
+            "Article : 1ID:doi+pmid",
+            "Article : 1ID:pmid+TiC",
+            "Article : 1ID:pmid+TiC_ENG"
+          ],
+          "source": "hal"
+        }
+      ],
+      "duplicateRules": [
+        "Article : 1ID:doi+TiC",
+        "Article : 1ID:doi+TiC_ENG",
+        "Article : 1ID:doi+pmid",
+        "Article : 1ID:pmid+TiC",
+        "Article : 1ID:pmid+TiC_ENG"
+      ]
+    },
+    "title": {
+      "default": "The role of haemostasis in placenta-mediated complications.",
+      "en": "The role of haemostasis in placenta-mediated complications."
+    },
+    "sourceUids": [
+      "pubmed$31477220"
+    ],
+    "originalGenre": "Journal Article",
+    "origins": {
+      "abstract": "pubmed",
+      "abstract.en": "pubmed",
+      "abstract.default": "pubmed",
+      "authors": "pubmed",
+      "classifications.enrichments": "pubmed",
+      "doi": "pubmed",
+      "host": "pubmed",
+      "keywords.en.author": [
+        "pubmed"
+      ],
+      "keywords.en.mesh": [
+        "pubmed"
+      ],
+      "enrichments": "pubmed",
+      "language": "pubmed",
+      "pii": "pubmed",
+      "pmId": "pubmed",
+      "business.duplicateGenre": "pubmed",
+      "business.sourceUidChain": "pubmed",
+      "business.duplicates": [
+        "pubmed"
+      ],
+      "business.duplicateRules": "pubmed",
+      "title.default": "pubmed",
+      "title.en": "pubmed",
+      "sourceUid": [
+        "pubmed"
+      ],
+      "originalGenre": "pubmed",
+      "sources": [
+        "pubmed"
+      ]
+    }
+  }
+]

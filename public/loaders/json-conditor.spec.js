@@ -10,20 +10,20 @@ describe('json-conditor.ini', () => {
                 "abstract fr": "",
                 "articleNumber": "",
                 "arxiv": "",
-                "authors affiliations address": "[[\"address A1\"],[\"address B1\",\"address B2\"]]",
-                "authors affiliations idRef": "[[null],[null,null]]",
-                "authors affiliations isni": "[[null],[null,null]]",
-                "authors affiliations ref": "[[null],[null,null]]",
-                "authors affiliations rnsr": "[[null],[null,null]]",
-                "authors enrichments idHal": "[null,null]",
-                "authors enrichments idRef": "[null,null]",
-                "authors enrichments orcId": "[null,null]",
-                "authors forename & authors surname": "[\"forename A surname A\",\"forename B surname B\"]",
-                "authors halAuthorId": "[null,null]",
-                "authors idHal": "[null,null]",
-                "authors idRef": "[null,null]",
-                "authors isni": "[null,null]",
-                "authors orcId": "[null,null]",
+                "authors affiliations address": [["address A1"], ["address B1", "address B2"]],
+                "authors affiliations idRef": [[null], [null, null]],
+                "authors affiliations isni": [[null], [null, null]],
+                "authors affiliations ref": [[null], [null, null]],
+                "authors affiliations rnsr": [[null], [null, null]],
+                "authors enrichments idHal": [null, null],
+                "authors enrichments idRef": [null, null],
+                "authors enrichments orcId": [null, null],
+                "authors forename & authors surname": ["forename A surname A", "forename B surname B"],
+                "authors halAuthorId": [null, null],
+                "authors idHal": [null, null],
+                "authors idRef": [null, null],
+                "authors isni": [null, null],
+                "authors orcId": [null, null],
                 "authors researcherId": "",
                 "authors viaf": "",
                 "bibCode": "",
@@ -33,31 +33,29 @@ describe('json-conditor.ini', () => {
                 "classification tef": "",
                 "classification thesisDomain": "",
                 "creationDate": "",
-                "defenseOrganisms associatedLaboratory": "[]",
-                "defenseOrganisms associatedLaboratoryIdRef": "[]",
-                "defenseOrganisms degreeGrantor": "[]",
-                "defenseOrganisms degreeGrantorIdRef": "[]",
-                "defenseOrganisms doctoralSchool": "[]",
-                "defenseOrganisms doctoralSchoolIdRef": "[]",
+                "defenseOrganisms associatedLaboratory": [],
+                "defenseOrganisms associatedLaboratoryIdRef": [],
+                "defenseOrganisms degreeGrantor": [],
+                "defenseOrganisms degreeGrantorIdRef": [],
+                "defenseOrganisms doctoralSchool": [],
+                "defenseOrganisms doctoralSchoolIdRef": [],
                 "documentType": "",
-                "doi": "[\"doi1\"]",
+                "doi": ["doi1"],
                 "duplicateRules": "",
-                "duplicates source": "[null,null]",
-                "duplicates sourceUid": "[\"sourceUid1\",\"sourceUid2\"]",
+                "duplicates source": [null, null],
+                "duplicates sourceUid": ["sourceUid1", "sourceUid2"],
                 "eisbn": "",
                 "eissn": "",
                 "electronicPublicationDate": "",
                 "enrichments classifications bso": "",
-                "enrichments classifications scienceMetrix level": "[1,2]",
-                "enrichments classifications scienceMetrix value": "[\"value1\",\"value2\"]",
-                "enrichments classifications scopus level": "[]",
-                "enrichments classifications scopus value": "[]",
+                "enrichments classifications scienceMetrix": [{ level: 1, value: "value1" }, { level: 2, value: "value2" }],
+                "enrichments classifications scopus": "",
                 "enrichments oa core": "",
                 "enrichments oa unpaywall": "",
                 "ensam": "",
                 "fulltextPath": "",
-                "funders grantNumber": "[]",
-                "funders name": "[]",
+                "funders grantNumber": [],
+                "funders name": [],
                 "halId": "",
                 "hasDoi": "",
                 "hasFulltext": "",
@@ -80,13 +78,14 @@ describe('json-conditor.ini', () => {
                 "keywords fr author": "",
                 "keywords fr mesh": "",
                 "keywords fr rameau": "",
+                "keywords undetermined author": "",
                 "language": "",
                 "localRef": "",
                 "meetingAbstractNumber": "",
-                "nearDuplicates source": "[]",
-                "nearDuplicates sourceUid": "[]",
-                "nearDuplicatesDetectedBySimilarity source": "[]",
-                "nearDuplicatesDetectedBySimilarity sourceUid": "[]",
+                "nearDuplicates source": [],
+                "nearDuplicates sourceUid": [],
+                "nearDuplicatesDetectedBySimilarity source": [],
+                "nearDuplicatesDetectedBySimilarity sourceUid": [],
                 "nnt": "",
                 "oatao": "",
                 "okina": "",
@@ -99,6 +98,7 @@ describe('json-conditor.ini', () => {
                 "pmId": "",
                 "pmc": "",
                 "ppn": "",
+                "provider": "doi1",
                 "publicationDate": "",
                 "publisher": "",
                 "reportNumber": "",
@@ -109,9 +109,9 @@ describe('json-conditor.ini', () => {
                 "sourceUid": "",
                 "specialIssue": "",
                 "supplement": "",
-                "thesisAdvisor forename": "[]",
-                "thesisAdvisor idRef": "[]",
-                "thesisAdvisor surname": "[]",
+                "thesisAdvisor forename": [],
+                "thesisAdvisor idRef": [],
+                "thesisAdvisor surname": [],
                 "title default": "",
                 "title en": "",
                 "title fr": "",
@@ -119,6 +119,7 @@ describe('json-conditor.ini', () => {
                 "title meeting": "",
                 "title monography": "",
                 "typeConditor": "",
+                "uri": "uid:/RJWprpeBG",
                 "utKey": "",
                 "volume": ""
             },
@@ -127,20 +128,20 @@ describe('json-conditor.ini', () => {
                 "abstract fr": "",
                 "articleNumber": "",
                 "arxiv": "",
-                "authors affiliations address": "[[\"address C1\"],[\"address D1\",\"address D2\"]]",
-                "authors affiliations idRef": "[[null],[null,null]]",
-                "authors affiliations isni": "[[null],[null,null]]",
-                "authors affiliations ref": "[[null],[null,null]]",
-                "authors affiliations rnsr": "[[null],[null,null]]",
-                "authors enrichments idHal": "[null,null]",
-                "authors enrichments idRef": "[null,null]",
-                "authors enrichments orcId": "[null,null]",
-                "authors forename & authors surname": "[\"forename C surname C\",\"forename D surname D\"]",
-                "authors halAuthorId": "[null,null]",
-                "authors idHal": "[null,null]",
-                "authors idRef": "[null,null]",
-                "authors isni": "[null,null]",
-                "authors orcId": "[null,null]",
+                "authors affiliations address": [["address C1"], ["address D1", "address D2"]],
+                "authors affiliations idRef": [[null], [null, null]],
+                "authors affiliations isni": [[null], [null, null]],
+                "authors affiliations ref": [[null], [null, null]],
+                "authors affiliations rnsr": [[null], [null, null]],
+                "authors enrichments idHal": [null, null],
+                "authors enrichments idRef": [null, null],
+                "authors enrichments orcId": [null, null],
+                "authors forename & authors surname": ["forename C surname C", "forename D surname D"],
+                "authors halAuthorId": [null, null],
+                "authors idHal": [null, null],
+                "authors idRef": [null, null],
+                "authors isni": [null, null],
+                "authors orcId": [null, null],
                 "authors researcherId": "",
                 "authors viaf": "",
                 "bibCode": "",
@@ -150,31 +151,29 @@ describe('json-conditor.ini', () => {
                 "classification tef": "",
                 "classification thesisDomain": "",
                 "creationDate": "",
-                "defenseOrganisms associatedLaboratory": "[]",
-                "defenseOrganisms associatedLaboratoryIdRef": "[]",
-                "defenseOrganisms degreeGrantor": "[]",
-                "defenseOrganisms degreeGrantorIdRef": "[]",
-                "defenseOrganisms doctoralSchool": "[]",
-                "defenseOrganisms doctoralSchoolIdRef": "[]",
+                "defenseOrganisms associatedLaboratory": [],
+                "defenseOrganisms associatedLaboratoryIdRef": [],
+                "defenseOrganisms degreeGrantor": [],
+                "defenseOrganisms degreeGrantorIdRef": [],
+                "defenseOrganisms doctoralSchool": [],
+                "defenseOrganisms doctoralSchoolIdRef": [],
                 "documentType": "",
-                "doi": "[\"doi2\"]",
+                "doi": ["doi2"],
                 "duplicateRules": "",
-                "duplicates source": "[null,null]",
-                "duplicates sourceUid": "[\"sourceUid1\",\"sourceUid2\"]",
+                "duplicates source": [null, null],
+                "duplicates sourceUid": ["sourceUid1", "sourceUid2"],
                 "eisbn": "",
                 "eissn": "",
                 "electronicPublicationDate": "",
                 "enrichments classifications bso": "",
-                "enrichments classifications scienceMetrix level": "[]",
-                "enrichments classifications scienceMetrix value": "[]",
-                "enrichments classifications scopus level": "[]",
-                "enrichments classifications scopus value": "[]",
+                "enrichments classifications scienceMetrix": "",
+                "enrichments classifications scopus": "",
                 "enrichments oa core": "",
                 "enrichments oa unpaywall": "",
                 "ensam": "",
                 "fulltextPath": "",
-                "funders grantNumber": "[]",
-                "funders name": "[]",
+                "funders grantNumber": [],
+                "funders name": [],
                 "halId": "",
                 "hasDoi": "",
                 "hasFulltext": "",
@@ -197,13 +196,14 @@ describe('json-conditor.ini', () => {
                 "keywords fr author": "",
                 "keywords fr mesh": "",
                 "keywords fr rameau": "",
+                "keywords undetermined author": "",
                 "language": "",
                 "localRef": "",
                 "meetingAbstractNumber": "",
-                "nearDuplicates source": "[]",
-                "nearDuplicates sourceUid": "[]",
-                "nearDuplicatesDetectedBySimilarity source": "[]",
-                "nearDuplicatesDetectedBySimilarity sourceUid": "[]",
+                "nearDuplicates source": [],
+                "nearDuplicates sourceUid": [],
+                "nearDuplicatesDetectedBySimilarity source": [],
+                "nearDuplicatesDetectedBySimilarity sourceUid": [],
                 "nnt": "",
                 "oatao": "",
                 "okina": "",
@@ -216,6 +216,7 @@ describe('json-conditor.ini', () => {
                 "pmId": "",
                 "pmc": "",
                 "ppn": "",
+                "provider": "doi2",
                 "publicationDate": "",
                 "publisher": "",
                 "reportNumber": "",
@@ -226,9 +227,9 @@ describe('json-conditor.ini', () => {
                 "sourceUid": "",
                 "specialIssue": "",
                 "supplement": "",
-                "thesisAdvisor forename": "[]",
-                "thesisAdvisor idRef": "[]",
-                "thesisAdvisor surname": "[]",
+                "thesisAdvisor forename": [],
+                "thesisAdvisor idRef": [],
+                "thesisAdvisor surname": [],
                 "title default": "",
                 "title en": "",
                 "title fr": "",
@@ -236,57 +237,58 @@ describe('json-conditor.ini', () => {
                 "title meeting": "",
                 "title monography": "",
                 "typeConditor": "",
+                "uri": "uid:/xKifxAEzY",
                 "utKey": "",
                 "volume": ""
             }
-        ];
+        ].map((notice, i) => ({ ...notice, uri: i }));
         const input = [
             {
-                "abstract":{"en": "1. abstract.en"},
-                "authors":[
+                "abstract": { "en": "1. abstract.en" },
+                "authors": [
                     {
                         "forename": "forename A",
                         "surname": "surname A",
-                        "affiliations": [{"address": "address A1"}]
+                        "affiliations": [{ "address": "address A1" }]
                     },
                     {
                         "forename": "forename B",
                         "surname": "surname B",
-                        "affiliations": [{"address": "address B1"}, {"address": "address B2"}]
+                        "affiliations": [{ "address": "address B1" }, { "address": "address B2" }]
                     }
                 ],
-                "doi":["doi1"],
-                "duplicates":[
-                    {"sourceUid": "sourceUid1"},
-                    {"sourceUid": "sourceUid2"}
+                "doi": ["doi1"],
+                "duplicates": [
+                    { "sourceUid": "sourceUid1" },
+                    { "sourceUid": "sourceUid2" }
                 ],
-                "enrichments":{
-                    "classifications":{
-                        "scienceMetrix":[
-                        {"level": 1, "value": "value1"},
-                        {"level": 2, "value": "value2"}
+                "enrichments": {
+                    "classifications": {
+                        "scienceMetrix": [
+                            { "level": 1, "value": "value1" },
+                            { "level": 2, "value": "value2" }
                         ]
                     }
                 }
             },
             {
-                "abstract":{"en": "2. abstract.en"},
-                "authors":[
+                "abstract": { "en": "2. abstract.en" },
+                "authors": [
                     {
                         "forename": "forename C",
                         "surname": "surname C",
-                        "affiliations": [{"address": "address C1"}]
+                        "affiliations": [{ "address": "address C1" }]
                     },
                     {
                         "forename": "forename D",
                         "surname": "surname D",
-                        "affiliations": [{"address": "address D1"}, {"address": "address D2"}]
+                        "affiliations": [{ "address": "address D1" }, { "address": "address D2" }]
                     }
                 ],
-                "doi":["doi2"],
-                "duplicates":[
-                    {"sourceUid": "sourceUid1"},
-                    {"sourceUid": "sourceUid2"}
+                "doi": ["doi2"],
+                "duplicates": [
+                    { "sourceUid": "sourceUid1" },
+                    { "sourceUid": "sourceUid2" }
                 ]
             }
         ];
@@ -296,7 +298,8 @@ describe('json-conditor.ini', () => {
                 res.push(chunk);
             })
             .on('end', () => {
-                expect(res).toEqual(expected);
+                const withConstantUri = res.map((notice, i) => ({ ...notice, uri: i }))
+                expect(withConstantUri).toEqual(expected);
                 done();
             });
     });

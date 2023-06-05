@@ -1,0 +1,269 @@
+[
+  {
+    "abstract": {
+      "en": "Movements are evoked by muscles contractions whose spatial organization is mediated by both spinal and cortical components. It is important to investigate the underlying circuitry of movements to extend our knowledge on how voluntary movement are controlled and to better understand the pathophysiology of movements disorders. The spinal alpha motoneurons innervating distal muscles are controlled at least in parts by corticomotoneuronal neurons located in the motor cortical areas. Among them, the primary motor cortex is considered as a key structure, performing a complex integration of multi-regional influences leading to appropriate motor behaviors. Axons from corticomotoneuronal (CM) cells of the primary motor cortex reach the spinal cord via descending motor pathway. CM neurons are influenced by local or distant, inhibitory and excitatory components which determine the balance of excitability. The aim of this thesis was to explore changes of some of the excitatory and inhibitory mechanisms of motor cortex as a function of the task being performed. We assessed the time course of Long-interval Intracortical Inhibition (LICI), Late Cortical Disinhibition (LCD) and Long interval Intracortical Facilitation (LICF), which are mechanisms that potentially act to modulate the output of CM controlling the first dorsal interosseus (FDI) muscle. We compared three conditions : index finger abduction (a simple but not natural task), precision grip between index and thumb ( amore natural and complex task), and rest. We also evaluated the effect of task on interaction between LICI and Short Interval Intracortical Inhibition (SICI). Finally, we assessed the time course of LICI in patients suffering from writer’s cramp. For this purpose, we used surface electromyography to record motor potentials evoked by Transcranial Magnetic Stimulation.We showed a task-dependent change in late inhibitory and disinhibitory components. Compared with abduction task, the LICI induced during precision grip was shorter, suggesting an early disinhibition in more complex task. The disinhibition was followed by a period of facilitation only during the active tasks, i.e. facilitation was not observed when all muscles were at restat rest. However, long interval intracortical facilitation can be observed in a muscle at rest not engaged in an active task if a neighboring muscle is activated. It is therefore likely that mechanisms underlying facilitation are associated with voluntary contraction albeit with lack of topographic specificity. Interaction between LICI and SICI was not modified between tasks, suggesting that it was not involved in task-dependent changes of cortical excitability. Lastly, disinhibition was shown to be delayed in dystonic patients when the FDI was actively engaged in a precision grip but not in index abduction, compared with control subjects. An explanation might be that mechanisms underlying disinhibition are impaired in thumb-index precision grip (a task similar to that inducing unwanted contractions in writer’s cramp). Task-specidic disruption of LICI and late cortical disinhibition may therefore be at least in part responsible for pathophysiology of dystonia. It is likely that during complex task, the efficacy of LICI, and more generally of motor cortex inhibitory mechanisms, is modified to allow adaptation of CM neurons activity to the functional requirements of the motor task being performed.",
+      "fr": "Les mouvements sont le résultat de contractions musculaires dont l’organisation spatio-temporelle est régie par des structures cérébrales et médullaires. Etudier les circuits qui les sous-tendent est une étape indispensable pour renforcer nos connaissances des mécanismes à l’origine de la commande des mouvements volontaires et pour mieux comprendre la pathophysiologie des mouvements anormaux. Les muscles squelettiques sont innervés par les motoneurones alpha de la moelle épinière qui à leur out sont influencés par des neurones des aires corticales motrices. Cette voie descendante constitue la voie corticomotoneuronale (CM) et est responsable de l’exécution des mouvements volontaires. Le cortex moteur primaire est considéré comme une structure clé, au cœur du système, permettant l’intégration complexe de nombreuses influences multi-régions pour conduire aux comportements moteurs adéquats. Les interactions qui existent entre les différents groupes de neurones au sein de M1 influent en dernier lieu sur la sortie motrice. De la balance complexe entre ces influences inhibitrices et excitatrices, locales ou à distance va dépendre l’état d’excitabilité des cellules CM contrôlant les différents muscles. L'objectif de ce travail de thèse était d'étudier comment évoluent certains de ces mécanismes excitateurs ou inhibiteurs du cortex moteur primaire lorsque la commande motrice volontaire d’un muscle de l’index est modifiée. Nous avons étudié le rôle de ces mécanismes dans les changements d’excitabilité de la voie CM qui accompagnent la contraction tonique volontaire du muscle premier interosseus dorsalis (FDI) en comparant une tâche simple mais peu naturelle : l’abduction de l'index, une tâche naturelle plus complexe: la pince pouce-index et la condition de repos musculaire. Nous avons également étudié l’effet de la commande motrice sur l’interaction entre deux de ces mécanismes inhibiteurs l’un à longue latence, la LICI, l’autre à courte latence, la SICI. Enfin nous avons souhaité évaluer le décours temporel de ces mécanismes dans un cadre pathologique tâche-dépendant: la crampe de l’écrivain. Pour cela, nous avons utilisé la technique d’electromyographie de surface pour enregistrer les potentiels moteurs évoqués par la Stimulation Magnétique Transcrânienne. Nous avons mis en évidence une modulation tâche-dépendante de la LICI. Par rapport à la tâche d’abduction simple, la LICI s’estompait plus tôt lors de la tâche de pince pouce-index, traduisant une désinhibition plus précoce lors d’un mouvement plus complexe. Nous avons observé, et ce pour la première fois dans la littérature, une phase de facilitation nette qui suivait cette désinhibition, et qui était absente lorsque le muscle était au repos. Ces résultats sont également visibles dans un muscle voisin du FDI, non engagé dans la tâche; cela suggère que les mécanismes à l’origine de la facilitation sont impliqués dans l’activité volontaire sans spécificité topographique. L’interaction entre la LICI et la SICI n’a pas été modifiée par la tâche effectuée, laissant penser qu’elle n’est pas impliquée dans les changements d’excitabilité tâche-dépendants. Enfin, il apparaît que la désinhibition est retardée chez les sujets dystoniques quand le muscle est engagé dans un mouvement complexe de pince pouce-index mais pas dans une tâche simple d’abduction de l’index en comparaison à des sujets contrôles. Ces résultats illustrent le fait que lors d’un mouvement plus complexe, l’efficacité des circuits inhibiteurs du cortex moteur primaire est modifiée, ce qui permet de réguler l’activité des cellules CM, afin d’adapter la commande motrice au mouvement souhaité. Le fait que cette désinhibition soit retardée dans une tâche complexe (proche de la tâche affectée) mais pas dans une tâche simple chez les patients atteints d’une crampe de l’écrivain suggère que les mécanismes à l’origine de la désinhibition pourraient participer aux troubles moteurs qui caractérisent la maladie.",
+      "default": "Les mouvements sont le résultat de contractions musculaires dont l’organisation spatio-temporelle est régie par des structures cérébrales et médullaires. Etudier les circuits qui les sous-tendent est une étape indispensable pour renforcer nos connaissances des mécanismes à l’origine de la commande des mouvements volontaires et pour mieux comprendre la pathophysiologie des mouvements anormaux. Les muscles squelettiques sont innervés par les motoneurones alpha de la moelle épinière qui à leur out sont influencés par des neurones des aires corticales motrices. Cette voie descendante constitue la voie corticomotoneuronale (CM) et est responsable de l’exécution des mouvements volontaires. Le cortex moteur primaire est considéré comme une structure clé, au cœur du système, permettant l’intégration complexe de nombreuses influences multi-régions pour conduire aux comportements moteurs adéquats. Les interactions qui existent entre les différents groupes de neurones au sein de M1 influent en dernier lieu sur la sortie motrice. De la balance complexe entre ces influences inhibitrices et excitatrices, locales ou à distance va dépendre l’état d’excitabilité des cellules CM contrôlant les différents muscles. L'objectif de ce travail de thèse était d'étudier comment évoluent certains de ces mécanismes excitateurs ou inhibiteurs du cortex moteur primaire lorsque la commande motrice volontaire d’un muscle de l’index est modifiée. Nous avons étudié le rôle de ces mécanismes dans les changements d’excitabilité de la voie CM qui accompagnent la contraction tonique volontaire du muscle premier interosseus dorsalis (FDI) en comparant une tâche simple mais peu naturelle : l’abduction de l'index, une tâche naturelle plus complexe: la pince pouce-index et la condition de repos musculaire. Nous avons également étudié l’effet de la commande motrice sur l’interaction entre deux de ces mécanismes inhibiteurs l’un à longue latence, la LICI, l’autre à courte latence, la SICI. Enfin nous avons souhaité évaluer le décours temporel de ces mécanismes dans un cadre pathologique tâche-dépendant: la crampe de l’écrivain. Pour cela, nous avons utilisé la technique d’electromyographie de surface pour enregistrer les potentiels moteurs évoqués par la Stimulation Magnétique Transcrânienne. Nous avons mis en évidence une modulation tâche-dépendante de la LICI. Par rapport à la tâche d’abduction simple, la LICI s’estompait plus tôt lors de la tâche de pince pouce-index, traduisant une désinhibition plus précoce lors d’un mouvement plus complexe. Nous avons observé, et ce pour la première fois dans la littérature, une phase de facilitation nette qui suivait cette désinhibition, et qui était absente lorsque le muscle était au repos. Ces résultats sont également visibles dans un muscle voisin du FDI, non engagé dans la tâche; cela suggère que les mécanismes à l’origine de la facilitation sont impliqués dans l’activité volontaire sans spécificité topographique. L’interaction entre la LICI et la SICI n’a pas été modifiée par la tâche effectuée, laissant penser qu’elle n’est pas impliquée dans les changements d’excitabilité tâche-dépendants. Enfin, il apparaît que la désinhibition est retardée chez les sujets dystoniques quand le muscle est engagé dans un mouvement complexe de pince pouce-index mais pas dans une tâche simple d’abduction de l’index en comparaison à des sujets contrôles. Ces résultats illustrent le fait que lors d’un mouvement plus complexe, l’efficacité des circuits inhibiteurs du cortex moteur primaire est modifiée, ce qui permet de réguler l’activité des cellules CM, afin d’adapter la commande motrice au mouvement souhaité. Le fait que cette désinhibition soit retardée dans une tâche complexe (proche de la tâche affectée) mais pas dans une tâche simple chez les patients atteints d’une crampe de l’écrivain suggère que les mécanismes à l’origine de la désinhibition pourraient participer aux troubles moteurs qui caractérisent la maladie."
+    },
+    "authors": [
+      {
+        "forename": "Alexandre",
+        "surname": "Caux-Dedeystère",
+        "fullname": "Caux-Dedeystère Alexandre",
+        "idRef": [
+          "19823287X"
+        ]
+      }
+    ],
+    "classifications": {
+      "enrichments": {
+        "hal": {
+          "code": "sdv",
+          "en": "Life Sciences [q-bio]",
+          "fr": "Sciences du Vivant [q-bio]"
+        }
+      }
+    },
+    "host": {
+      "publicationDate": "2016",
+      "language": [
+        "French"
+      ],
+      "pages": [
+        {
+          "total": 0
+        }
+      ]
+    },
+    "keywords": {
+      "en": {
+        "author": [
+          "Long interval intracortical facilitation",
+          "Late cortical disinhibition",
+          "Motor cortex",
+          "Voluntary activity",
+          "Index abduction",
+          "Precision grip",
+          "Transcranial magnetic stimulation"
+        ]
+      },
+      "fr": {
+        "author": [
+          "Mouvement",
+          "Dystonie",
+          "Crampe de l'écrivain",
+          "Désinhibition corticale",
+          "Contôle moteur"
+        ],
+        "mesh": [
+          "\n                  Stimulation magnétique transcrânienne\n                  114601496\n                --\n                  Dissertations universitaires\n                  040839486\n                ",
+          "\n                  Troubles dystoniques\n                  050851802\n                --\n                  Dissertations universitaires\n                  040839486\n                ",
+          "\n                  Mouvement\n                  040742970\n                --\n                  physiologie\n                  038961628\n                "
+        ],
+        "rameau": [
+          "\n                  Stimulation magnétique transcrânienne\n                  136992129\n                --\n                  Thèses et écrits académiques\n                  027253139\n                ",
+          "\n                  Crampe de l'écrivain\n                  17735822X\n                --\n                  Thèses et écrits académiques\n                  027253139\n                ",
+          "\n                  Mouvement\n                  027844838\n                --\n                  Aspect physiologique\n                  027790363\n                "
+        ]
+      },
+      "und": {
+        "author": [
+          "Contôle moteur",
+          "Désinhibition corticale",
+          "Dystonie"
+        ]
+      }
+    },
+    "fulltextUrl": "http://www.theses.fr/2016LIL2S015/document",
+    "language": [
+      "French"
+    ],
+    "nnt": "2016LIL2S015",
+    "ppn": "198358849",
+    "business": {
+      "duplicateGenre": "Thèse",
+      "sourceUidChain": "!hal$tel-01466718!sudoc-theses$198358849!",
+      "duplicates": [
+        {
+          "sourceUid": "sudoc-theses$198358849",
+          "sessionName": "SUDOC-THESES_2021-03-05_2016",
+          "rules": [
+            "Thèse : 1ID:nnt+TiC_FRE",
+            "Thèse : 1ID:nnt+TiC_ENG"
+          ],
+          "source": "sudoc-theses"
+        },
+        {
+          "sourceUid": "hal$tel-01466718",
+          "sessionName": "HAL_2020-12-15_2016",
+          "rules": [
+            "Thèse : 1ID:nnt+TiC_FRE",
+            "Thèse : 1ID:nnt+TiC_ENG"
+          ],
+          "source": "hal"
+        }
+      ],
+      "duplicateRules": [
+        "Thèse : 1ID:nnt+TiC_FRE",
+        "Thèse : 1ID:nnt+TiC_ENG"
+      ]
+    },
+    "title": {
+      "default": "Modulation tâche-dépendante des mécanismes inhibiteurs et désinhibiteurs du cortex moteur primaire chez l'homme",
+      "en": "Task-dependent change in inhibitory and disinhibitory mechanisms within the primary motor cortex in humans",
+      "fr": "Modulation tâche-dépendante des mécanismes inhibiteurs et désinhibiteurs du cortex moteur primaire chez l'homme"
+    },
+    "sourceUids": [
+      "hal$tel-01466718",
+      "sudoc-theses$198358849"
+    ],
+    "originalGenre": "Thèse de doctorat",
+    "halId": "tel-01466718",
+    "origins": {
+      "abstract": "sudoc-theses",
+      "abstract.en": "sudoc-theses",
+      "abstract.fr": "sudoc-theses",
+      "abstract.default": "sudoc-theses",
+      "authors": "sudoc-theses",
+      "classifications.enrichments": "sudoc-theses",
+      "host": "sudoc-theses",
+      "keywords.en.author": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "keywords.fr.author": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "keywords.fr.mesh": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "keywords.fr.rameau": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "keywords.und.author": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "fulltextUrl": "sudoc-theses",
+      "language": "sudoc-theses",
+      "nnt": "sudoc-theses",
+      "ppn": "sudoc-theses",
+      "business.duplicateGenre": "sudoc-theses",
+      "business.sourceUidChain": "sudoc-theses",
+      "business.duplicates": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "business.duplicateRules": "sudoc-theses",
+      "title.default": "sudoc-theses",
+      "title.en": "sudoc-theses",
+      "title.fr": "sudoc-theses",
+      "sourceUid": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "originalGenre": "sudoc-theses",
+      "sources": [
+        "hal",
+        "sudoc-theses"
+      ],
+      "halId": "hal"
+    }
+  },
+  {
+    "abstract": {
+      "fr": "Le lymphoedème est l'une des complications les plus fréquentes du cancer du sein. Sa prise en charge est complexe, personnalisée et multidisciplinaire. Elle nécessite la coordination des divers professionnels de santé. Elle est basée sur la physiothérapie décongestive complexe comprenant le drainage lymphatique manuel, la contention, la compression, les soins de peau… associée à diverses thérapeutiques. Le pharmacien a un rôle prépondérant dans l'accompagnement des patientes au long cours face à cette pathologie chronique évolutive.",
+      "default": "Le lymphoedème est l'une des complications les plus fréquentes du cancer du sein. Sa prise en charge est complexe, personnalisée et multidisciplinaire. Elle nécessite la coordination des divers professionnels de santé. Elle est basée sur la physiothérapie décongestive complexe comprenant le drainage lymphatique manuel, la contention, la compression, les soins de peau… associée à diverses thérapeutiques. Le pharmacien a un rôle prépondérant dans l'accompagnement des patientes au long cours face à cette pathologie chronique évolutive."
+    },
+    "authors": [
+      {
+        "surname": "Meunier",
+        "forename": "Chloé",
+        "idRef": [
+          "236531417"
+        ],
+        "fullname": "Meunier Chloé"
+      }
+    ],
+    "host": {
+      "publicationDate": "2019",
+      "language": [
+        "French"
+      ],
+      "pages": [
+        {
+          "total": 0
+        }
+      ]
+    },
+    "keywords": {
+      "fr": {
+        "mesh": [
+          "\n                  Lymphoedème après cancer du sein\n                  199619484\n                --\n                  Dissertation universitaire\n                  040839486\n                ",
+          "\n                  Tumeurs du sein\n                  040673499\n                --\n                  complications\n                  038961245\n                "
+        ],
+        "rameau": [
+          "\n                  Lymphœdème\n                  032315929\n                --",
+          "\n                  Sein\n                  027248585\n                --\n                  Cancer\n                  027248585\n                "
+        ]
+      },
+      "und": {
+        "author": [
+          "Lymphoedème; physiothérapie décongestive complexe; compression; contention; bandage; drainage lymphatique manuel; cancer du sein"
+        ]
+      }
+    },
+    "fulltextUrl": "http://pepite-depot.univ-lille2.fr/nuxeo/site/esupversions/33436ae4-5fb1-482c-8a86-8bc0eb1e7cdd",
+    "language": [
+      "French"
+    ],
+    "nnt": "2019LILUE029",
+    "ppn": "236532111",
+    "business": {
+      "duplicateGenre": "Thèse",
+      "sourceUidChain": "!sudoc-theses$236532111!"
+    },
+    "title": {
+      "default": "Prise en charge du lymphoedème du membre supérieur post cancer du sein",
+      "fr": "Prise en charge du lymphoedème du membre supérieur post cancer du sein"
+    },
+    "sourceUids": [
+      "sudoc-theses$236532111"
+    ],
+    "originalGenre": "Thèse d'exercice",
+    "origins": {
+      "abstract": "sudoc-theses",
+      "abstract.fr": "sudoc-theses",
+      "abstract.default": "sudoc-theses",
+      "authors": "sudoc-theses",
+      "host": "sudoc-theses",
+      "keywords.fr.mesh": [
+        "sudoc-theses"
+      ],
+      "keywords.fr.rameau": [
+        "sudoc-theses"
+      ],
+      "keywords.und.author": [
+        "sudoc-theses"
+      ],
+      "fulltextUrl": "sudoc-theses",
+      "language": "sudoc-theses",
+      "nnt": "sudoc-theses",
+      "ppn": "sudoc-theses",
+      "business.duplicateGenre": "sudoc-theses",
+      "business.sourceUidChain": "sudoc-theses",
+      "title.default": "sudoc-theses",
+      "title.fr": "sudoc-theses",
+      "sourceUid": [
+        "sudoc-theses"
+      ],
+      "originalGenre": "sudoc-theses",
+      "sources": [
+        "sudoc-theses"
+      ]
+    }
+  }
+]
